@@ -7,34 +7,30 @@ Curso de introducción a la plataforma y a términos básicos dentro del mundo I
 
 ## Onboarding en Ciberseguridad
 ### Introducción y terminología
-   1. **Vulnerabilidad**
-
-	Debilidad ante la posibilidad de sufrir un daño.
-   Es lo que buscan los atacantes.
-   Todo dispositivo tiene sus vulnerabilidades. Un dispositivo puede ser 100% seguro un día y que se descubran nuevas vulnerabilidades al día siguiente, es decir, *no existen los dispositivos 100% seguros*.
+2. **Vulnerabilidad**
+Debilidad ante la posibilidad de sufrir un daño.
+Es lo que buscan los atacantes.
+Todo dispositivo tiene sus vulnerabilidades. Un dispositivo puede ser 100% seguro un día y que se descubran nuevas vulnerabilidades al día siguiente, es decir, *no existen los dispositivos 100% seguros*.
 	
 
 
-   2. **Amenaza**
-   
-	Posibilidad de que se produzca una vulnerabilidad.
-		Que una vulnerabilidad pueda llegar a explotarse.
-       1. Amenazas **internas** o *insiders*:
-       
-      	Proceden desde dentro de la organización
-	   2. Amenazas **externas** o *ciberdelicuencia*:
+1. **Amenaza**
+Posibilidad de que se produzca una vulnerabilidad.
+Que una vulnerabilidad pueda llegar a explotarse.
+   1. Amenazas **internas** o *insiders*:
+   Proceden desde dentro de la organización
 
-		Proceden desde fuera de la organización
+   1. Amenazas **externas** o *ciberdelicuencia*:
+   Proceden desde fuera de la organización
 
-   3. **Ingeniería social**
-
-	Manipulación para la obtención de información confidencial.
-   Se basa en el "*eslabón débil*" de la cadena, es decir: el ser humano.
-   	- **Funcionamiento**:
-	   	1. Llamada telefónica o conexión a internet.
-	   	2. Falsas identidades, por ejemplo hacerse pasar por una compañía.
-	   	3. Manipulación de la persona.
-	   	4. Obtención de la información.
+2. **Ingeniería social**
+Manipulación para la obtención de información confidencial.
+Se basa en el "*eslabón débil*" de la cadena, es decir: el ser humano.
+- **Funcionamiento**:
+	1. Llamada telefónica o conexión a internet.
+	2. Falsas identidades, por ejemplo hacerse pasar por una compañía.
+	3. Manipulación de la persona.
+	4. Obtención de la información.
 		   	
 ----------
 
