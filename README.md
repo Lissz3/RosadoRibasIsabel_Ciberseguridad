@@ -20,7 +20,7 @@ Que una vulnerabilidad pueda llegar a explotarse.
    1. Amenazas **internas** o *insiders*:
    Proceden desde dentro de la organización
 
-   1. Amenazas **externas** o *ciberdelicuencia*:
+   2. Amenazas **externas** o *ciberdelicuencia*:
    Proceden desde fuera de la organización
 
 2. **Ingeniería social**
