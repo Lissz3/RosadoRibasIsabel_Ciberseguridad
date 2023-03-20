@@ -41,9 +41,11 @@ Dentro de estos paratos electrónicos los más conocidos son orenadores, tablets
    
    1. **Sistemas operativos**
 	Existen diferencias entre los software y las app's pero son similares:
-	- **Software**
+	
+- **Software**
 	Aplicación o herramienta desarrollada para realizar una función o funciones en un dispositivo como ordenadores
-	- **App**
+	
+- **App**
 	Se pueden definir de manera similar a software, pero para realizar su función o funciones suelen estar en dispositivos móviles o tablets.
 	Ambos pueden sufrir problemas de seguridad, por tanto ambos se deben utilizar de manera segura.
 	
