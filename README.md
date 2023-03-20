@@ -7,7 +7,7 @@ Curso de introducción a la plataforma y a términos básicos dentro del mundo I
 
 ## Onboarding en Ciberseguridad
 ### Introducción y terminología
-2. **Vulnerabilidad**
+1. **Vulnerabilidad**
 
 Debilidad ante la posibilidad de sufrir un daño.
 Es lo que buscan los atacantes.
@@ -15,7 +15,8 @@ Todo dispositivo tiene sus vulnerabilidades. Un dispositivo puede ser 100% segur
 	
 
 
-1. **Amenaza**
+2. **Amenaza**
+
 Posibilidad de que se produzca una vulnerabilidad.
 Que una vulnerabilidad pueda llegar a explotarse.
    1. Amenazas **internas** o *insiders*:
@@ -24,7 +25,8 @@ Que una vulnerabilidad pueda llegar a explotarse.
    2. Amenazas **externas** o *ciberdelicuencia*:
    Proceden desde fuera de la organización
 
-2. **Ingeniería social**
+3. **Ingeniería social**
+
 Manipulación para la obtención de información confidencial.
 Se basa en el "*eslabón débil*" de la cadena, es decir: el ser humano.
 - **Funcionamiento**:
