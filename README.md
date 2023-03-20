@@ -8,6 +8,7 @@ Curso de introducción a la plataforma y a términos básicos dentro del mundo I
 ## Onboarding en Ciberseguridad
 ### Introducción y terminología
 2. **Vulnerabilidad**
+
 Debilidad ante la posibilidad de sufrir un daño.
 Es lo que buscan los atacantes.
 Todo dispositivo tiene sus vulnerabilidades. Un dispositivo puede ser 100% seguro un día y que se descubran nuevas vulnerabilidades al día siguiente, es decir, *no existen los dispositivos 100% seguros*.
