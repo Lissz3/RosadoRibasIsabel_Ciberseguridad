@@ -40,10 +40,11 @@ Un dispositivo es **cualquier** aparato que tenga una conexión a internet y que
 Dentro de estos paratos electrónicos los más conocidos son orenadores, tablets o smartphones, pero otros como cámaras de fotos (*reflex*), cajeros automáticos(*ATMS*) o GPS's independientes también son vulnerables ante ataques dado que están conectados a internet, a pesar de que su seguridad no dependa de nuestras acciones.
    
    1. **Sistemas operativos**
-	- Existen diferencias entre los software y las app's pero son similares.
-		- **Software**
+	Existen diferencias entre los software y las app's pero son similares.
+	- **Software**
 		Aplicación o herramienta desarrollada para realizar una función o funciones en un dispositivo como ordenadores
-		- **App**
+
+	- **App**
 		Se pueden definir de manera similar a software, pero para realizar su función o funciones suelen estar en dispositivos móviles o tablets.
 		Ambos pueden sufrir problemas de seguridad, por tanto ambos se deben utilizar de manera segura.
 	
