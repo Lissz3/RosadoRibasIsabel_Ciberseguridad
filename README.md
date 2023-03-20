@@ -27,8 +27,8 @@ Curso de introducción a la plataforma y a términos básicos dentro del mundo I
 
 3. **Ingeniería social**
 
-Manipulación para la obtención de información confidencial.
-Se basa en el "*eslabón débil*" de la cadena, es decir: el ser humano.
+	Manipulación para la obtención de información confidencial.
+	Se basa en el "*eslabón débil*" de la cadena, es decir: el ser humano.
 - **Funcionamiento**:
 	1. Llamada telefónica o conexión a internet.
 	2. Falsas identidades, por ejemplo hacerse pasar por una compañía.
@@ -38,46 +38,33 @@ Se basa en el "*eslabón débil*" de la cadena, es decir: el ser humano.
 ----------
 
 ### Dispositivos - *qué conocer sobre ellos*
-   Un dispositivo es **cualquier** aparato que tenga una conexión a internet y que nos permite interactuar con personas.
-   Dentro de estos paratos electrónicos los más conocidos son orenadores, tablets o smartphones, pero otros como cámaras de fotos (*reflex*), cajeros automáticos(*ATMS*) o GPS's independientes también son vulnerables ante ataques dado que están conectados a internet, a pesar de que su seguridad no dependa de nuestras acciones.
+Un dispositivo es **cualquier** aparato que tenga una conexión a internet y que nos permite interactuar con personas.
+Dentro de estos paratos electrónicos los más conocidos son orenadores, tablets o smartphones, pero otros como cámaras de fotos (*reflex*), cajeros automáticos(*ATMS*) o GPS's independientes también son vulnerables ante ataques dado que están conectados a internet, a pesar de que su seguridad no dependa de nuestras acciones.
    
    1. **Sistemas operativos**
-
 	- Existen diferencias entre los software y las app's pero son similares.
 		- **Software**
-			
 			Aplicación o herramienta desarrollada para realizar una función o funciones en un dispositivo como ordenadores
-		-	**App**
-	
-			Se pueden definir de manera similar a software, pero para realizar su función o funciones suelen estar en dispositivos móviles o tablets
-	Ambos pueden sufrir problemas de seguridad, por tanto ambos se deben utilizar de manera segura.
+		-**App**
+			Se pueden definir de manera similar a software, pero para realizar su función o funciones suelen estar en dispositivos móviles o tablets.
+			Ambos pueden sufrir problemas de seguridad, por tanto ambos se deben utilizar de manera segura.
 	
    2. **Contraseña**
-	
 	Las contraseñas no se pueden definir como fuertes a simple vista.
-	
 	Cosas a tener en cuenta para definir contraseñas fuertes:
 	- Longitud de caracteres largas (12 a 14 caracteres).
 	- Mezcla entre mayúsculas y minúsculas.
 	- Incluir números.
 	- Incluir caracteres especiales.
-	
 	Las contraseñas de cuentas y usuarios tienen que cambiarse habitualmente (cada 1-2 meses).
 	
    3. **Dispositivos corporativos**
- 
 	Cualquier dispositivo electrónico que nos facilite la empresa.
-	
 	La empresa marcará normas de uso correcto y unos límites de uso.
-
 	Existen medidas de protección, dado que no son 100% seguros.
-	
 	- ¿Por qué no son 100% seguros?
-
 		Apesar de que puedan llevar instalados sistemas de protección y sistemas antivirus, *la seguridad depende en gran medida del uso que le demos*.
-
 		Para evitar brechas de seguridad debemos mantener un aprendizaje continuo, no utilizarlo de manera personal, no usarlos para ocio o en RRSS.
-
 		Por defecto no acceder ni pulsar enlaces desconocidos.
 
 ----------
@@ -93,7 +80,6 @@ Permiso para usar dispositivos personales como ordenadores o smartphones para el
 		- Menor control sobre los dispositivos.
 		- En caso de brecha, es más difícil de identificar ya que es complicado saber de qué dispositivo procede la brecha sin herramientas de monitorización.
 		- Se utiliza también de manera personal.
-
 	   2. **Personales**
 		- Es el dispositivo personal, y entregamos información privada nuestra cuando accedemos al sistema de la empresa.
 		- En caso de avería puede necesitar una inversión por parte de la persona.
@@ -104,18 +90,18 @@ Permiso para usar dispositivos personales como ordenadores o smartphones para el
 
 ### Usuarios y contraseñas
 
-Un usuario es un alias o seudónimo utilizado para identificarse en un sistema
-Debe ir acompañado de una contraseña
-La unión usuario+contraseña corresponde a las credenciales de acceso --> aporta seguridad
+Un usuario es un **alias o seudónimo** utilizado para identificarse en un sistema.
+Debe ir acompañado de una contraseña-
+La unión usuario+contraseña corresponde a las credenciales de acceso, es decir, aporta seguridad-
 
-Qué función realiza
-Acreditación virtual de acceso, identificación de usuarios y autenticación de usuarios, es decir, una identificación de una persona física en un sistema virtual
+1. **Qué función realiza**
+	Acreditación virtual de acceso, identificación de usuarios y autenticación de usuarios, es decir, una identificación de una persona física en un sistema virtual
 
-Gestores de contraseñas
-Nos permite guardar usuarios y contraseñas de forma segura
+2. **Gestores de contraseñas**
+	Nos permite guardar usuarios y contraseñas de forma segura
 
-Cambios de contraseña
-Se deben cambiar las contraseñas cada 30-90 días tiempo sin repetir contraseñas que hemos puesto anteriormente
+3. **Cambios de contraseña**
+	Se deben cambiar las contraseñas cada 30-90 días tiempo sin repetir contraseñas que hemos puesto anteriormente
 
 
 ### Backups o copias de seguridad
