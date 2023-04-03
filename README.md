@@ -316,4 +316,114 @@ Que se ha aprendido:
 - Uso correcto del correo electrónico
 - Actualización continua de los sistemas y aplicacion
 
-- **Examen** realizado: Certificado curso de Onboarding en Ciberseguridad : Bienvenid@ a bordo.
+- **Examen** realizado: Certificado curso de Onboarding en Ciberseguridad : Bienvenid@ a bordo.  
+
+## Curso de análisis y gestión del riesgo
+### Introducción y terminología
+1. **Análisis de riesgos informáticos**
+
+	Proceso por el cual se identifican todos los activos de la organización, qué cosas tienen valor comenzando por la información y siguiendo por todo aquello que da soporte a la información (instalaciones, sistemas de información, personas, etc) y sus vulnerabilidades y qué amenazas podrían impactarle, con el objetivo de establecer los controles y estrategias para gestionarlo.  
+	Estas amenazas se relacionan con el riesgo, que es el impacto que podría tendría dicha amenaza sobre el activo junto con la probabilidad de que eso ocurra.
+	
+2. **Riesgos de seguridad de información**
+	
+	Éstos deben ser considerados en el contexto de negocio, y las interrelaciones con otras funciones de negocios. Todos los sistemas de información, todas las sedes de la organización y las personas están para darle valor al negocio. La función de análisis de riesgo no es una función a parte del negocio si no para facilitar el negocio.
+	
+3. **Activo**
+
+	Cualquier cosa que tenga valor para nuestra organización, puede ser desde información, una aplicación de negocio o la más importante: las personas.
+	
+3. **Impacto**
+
+	Degradación sobre un activo. Cuánto valor perderíamos, qué daño causaria (reputacional, perdida de clientes, etc).
+
+3. **Probabilidad**
+
+	Cuán a menudo puede ocurrir una amenaza.
+
+3. **Riesgo**
+
+	La fórmula clásica de calcular el riesgo es el **impacto** multiplicado por la **probabilidad**.
+
+###Una **amenaza** explota una **vulnerabilidad**, la cual afecta a un **activo** y provoca un **impacto**.  
+
+4. **Análisis del riesgo**
+	
+	Proceso por el cual identificamos las amenazas, vulnerabilidades y activos, y le damos esa valoración de impacto y probabilidad y logramos un mapa del riesgo de nuestra organización.
+	
+5. **Gestión o tratamiento del riesgo**
+	
+	Continuación del análisis del riesgo, es decir, una vez tenemos nuestro mapa trazado, qué debemos hacer para tratarlo.
+
+5. **Informe de estado de riesgo**
+	
+	Informe que recoge cómo está la organización en un momento dado con los controles establecidos.
+	
+5. **Informe de evaluación de salvaguardas**
+	
+	Informe que recoge cómo están funcionando los controles establecidos.
+	
+6. **Impacto residual**
+	
+	Impacto que queda después de implementar los controles que tenemos actualmente.
+
+6. **Riesgo acumulado**
+	
+	Cuanto riesgo se ha acumulado respecto a nuestra situación actual.
+
+7. **Riesgo potencial o inherente**
+	
+	Riesgo si no tenemos en cuenta las salvaguardas.
+	
+8. **Riesgo residual**
+	
+	Riesgos que quedan después de implementar las salvaguardas.
+	
+9. **Apetito, Tolerancia y Capacida del riesgo**
+	
+	Cuánto riesgo está dispuesto a asumir una organización de cara a hacer su negocio.
+	
+10. **Salvaguarda (Control, medida de seguriad o contramedida)**
+	
+	Qué estamos poniendo para prevenir que un riesgo suceda, para detectar que un riesgo ha sucedido y para recuperarnos de esa amenaza.
+	
+11. **Valor de un activo**
+	
+	Un activo puede tener valor persé o valor agregado por otra serie de cosas. También se tiene en cuenta qué daño causaria (reputacional, perdida de clientes, costes de recuperarse de la amenaza, etc).
+
+12. **Gestión de riesgos TI**
+	
+	Proceso contínuo o cíclico que busca proteger todos los activos de la organización, especialmente la información, en su proceso o tratamiento en los sistemas de información.
+	
+13. **Gestión en proyectos TI**
+	
+	En la introducción de nuevos paradigmas o nuevas tecnologías podemos tener nuevas amenazas y vulnerabilidade y es necesario poder lidiar con ellas. En este caso como los proyectos son a corto plazo, se tiene que aplicar una gestión de riesgo cada pocos meses.
+
+### Gobierno, Riesgo y Cumplimiento.  
+Es una estrategia para administrar el gobierno general de una organización, la administración de riesgos empresariales y el cumplimiento de las regulaciones. Una estrategia bien planitifacada mejora la toma de decisiones, se optimizan las inversiones en TI, se eliminal los silos y se reduce la fragmentación entre las divisiones y departamentos.  
+
+1. **Gobierno**
+	
+	Garantiza que las actividades de la organización como la gestión de operaciones de TI, estén alineadas de manera que apoyen los objetivos empresariales de la organización.
+	
+2. **Riesgo**
+
+	Asegurar que cualquier riesgo u *oportunidad* asociados con las actividades de la organización se identifican y abordan de manera que apoyen los objetivos de negocio de la organización.
+
+3. **Cumplimiento**
+	
+	Cumplimiento generalmente regulatorio, legal y normativo pero también puede ser de normas o cumplimiento de condiciones contractuales con nuestros clientes.  
+
+Las organizaciones desarrollan este marco para el liderazgo, organización y operación de las áreas de TI de la organización para asegurar que apoyan y permiten los objetivos estratégicos de la organización.  
+
+4. **Gobierno de riesgo**
+
+	Framweork que introduce los artefactos de gobiernos requeridos para la gestión (políticas, procedimientos, procesos, etc), así como otros elementos requeridos (p. ej, apetito del riesgo). Da soporte a la **gestión del riesgo**. Esta parte define qué hacer y como hacerlo y la gestión del riesgo es la que lo hace.
+
+5. **Gestión del riesgo**
+
+	Mecanismo que identifica, cualifica y evalúa el riesgo para determinar dónde se requiere mayor o menor gobierno. Retroalimenta a la organización con el mapa de riesgos actual de forma que se pueda decidir sobre la mejor estrategia de tratamiento del riesgo en base a las reglas establecidas.  
+	
+El gobierno y la gestión del riesgo deben estar alineadas con los objetivos corporativos como los financieros, estratégicos, de reputación, etc con la finalida de convertirse en un facilitador del negocio en lugar de un centro de coste.
+
+- **Test repaso** realizado: Análisis y gestión del riesgo - Introducción.  
