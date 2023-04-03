@@ -345,7 +345,7 @@ Que se ha aprendido:
 
 	La fórmula clásica de calcular el riesgo es el **impacto** multiplicado por la **probabilidad**.
 
-###Una **amenaza** explota una **vulnerabilidad**, la cual afecta a un **activo** y provoca un **impacto**.  
+### Una **amenaza** explota una **vulnerabilidad**, la cual afecta a un **activo** y provoca un **impacto**.  
 
 4. **Análisis del riesgo**
 	
@@ -427,3 +427,4 @@ Las organizaciones desarrollan este marco para el liderazgo, organización y ope
 El gobierno y la gestión del riesgo deben estar alineadas con los objetivos corporativos como los financieros, estratégicos, de reputación, etc con la finalida de convertirse en un facilitador del negocio en lugar de un centro de coste.
 
 - **Test repaso** realizado: Análisis y gestión del riesgo - Introducción.  
+![image](https://user-images.githubusercontent.com/93931447/229547404-9c357b18-2ebc-4dbd-83d1-b9c18f843181.png)
