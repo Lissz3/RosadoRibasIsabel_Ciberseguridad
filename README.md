@@ -460,6 +460,7 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 	
 	Su propósito es proporcionar una guía para la organización de riesgos de seguridad de la información. Otro factor importante es proporcionar orientación para desplegar un sistema integrado para toda la organización del programa para la gestión de riesgos de seguridad de información.
 
-	
+![image](https://user-images.githubusercontent.com/93931447/230739851-cea6d180-e9aa-423b-9455-60bb10580212.png)
+
 
 
