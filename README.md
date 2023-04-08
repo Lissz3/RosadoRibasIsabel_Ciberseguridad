@@ -431,9 +431,7 @@ El gobierno y la gestión del riesgo deben estar alineadas con los objetivos cor
 
 ### Introducción a la gestión del riesgo
 
-	Para poder gestionar el riego primero se necesita contar con un "framework" o marco para el mismo dentro de la organización, que define los roles y responsabilidades, qué politicas y procedimientos vamos a tener, que recuersos, el apetito o tolerancia al riesgo, etc. 
-	La principal salida es la estrategia de gestión del riesgo que permite dirigir cómo las organizaciones pretenden valorar el riesgo, responder a este y monitorizar el mismo.
-	La estrategia también incluye cualquier decisión a nivel estratégico y las consideraciones sobre cómo los riesgos a las operaciones y activos serán gestionadas por el comité de dirección y la gerencia senior.
+	Para poder gestionar el riego primero se necesita contar con un "framework" o marco para el mismo dentro de la organización, que define los roles y responsabilidades, qué politicas y procedimientos vamos a tener, que recuersos, el apetito o tolerancia al riesgo, etc.  La principal salida es la estrategia de gestión del riesgo que permite dirigir cómo las organizaciones pretenden valorar el riesgo, responder a este y monitorizar el mismo.  La estrategia también incluye cualquier decisión a nivel estratégico y las consideraciones sobre cómo los riesgos a las operaciones y activos serán gestionadas por el comité de dirección y la gerencia senior.
 
 1. **Marco de gestión ISO 27005**
 
