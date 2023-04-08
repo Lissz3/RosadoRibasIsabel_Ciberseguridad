@@ -39,8 +39,8 @@ Curso de introducción a la plataforma y a términos básicos dentro del mundo I
 Un dispositivo es **cualquier** aparato que tenga una conexión a internet y que nos permite interactuar con personas.
 Dentro de estos paratos electrónicos los más conocidos son orenadores, tablets o smartphones, pero otros como cámaras de fotos (*reflex*), cajeros automáticos(*ATMS*) o GPS's independientes también son vulnerables ante ataques dado que están conectados a internet, a pesar de que su seguridad no dependa de nuestras acciones.
 	
-	1. **Sistemas operativos**  
-		Existen diferencias entre los software y las app's pero son similares:
+1. **Sistemas operativos**  
+	Existen diferencias entre los software y las app's pero son similares:
 	
 	- **Software**  
 	 Aplicación o herramienta desarrollada para realizar una función o funciones en un dispositivo como ordenadores
@@ -49,7 +49,7 @@ Dentro de estos paratos electrónicos los más conocidos son orenadores, tablets
 	 Se pueden definir de manera similar a software, pero para realizar su función o funciones suelen estar en dispositivos móviles o tablets.
 	 Ambos pueden sufrir problemas de seguridad, por tanto ambos se deben utilizar de manera segura.
 	
-	2. **Contraseñas**  
+2. **Contraseñas**  
 	Las contraseñas no se pueden definir como fuertes a simple vista.  
 	Cosas a tener en cuenta para definir contraseñas fuertes:  
 		- Longitud de caracteres largas (12 a 14 caracteres).
@@ -62,10 +62,10 @@ Dentro de estos paratos electrónicos los más conocidos son orenadores, tablets
 	Cualquier dispositivo electrónico que nos facilite la empresa.
 	La empresa marcará normas de uso correcto y unos límites de uso.
 	Existen medidas de protección, dado que no son 100% seguros.  
-		- ¿Por qué no son 100% seguros?  
-Apesar de que puedan llevar instalados sistemas de protección y sistemas antivirus, *la seguridad depende en gran medida del uso que le demos*.  
-Para evitar brechas de seguridad debemos mantener un aprendizaje continuo, no utilizarlo de manera personal, no usarlos para ocio o en RRSS.  
-Por defecto no acceder ni pulsar enlaces desconocidos.
+	- ¿Por qué no son 100% seguros?  
+	Apesar de que puedan llevar instalados sistemas de protección y sistemas antivirus, *la seguridad depende en gran medida del uso que le demos*.  
+	Para evitar brechas de seguridad debemos mantener un aprendizaje continuo, no utilizarlo de manera personal, no usarlos para ocio o en RRSS.  
+	Por defecto no acceder ni pulsar enlaces desconocidos.
 
 ----------
 
