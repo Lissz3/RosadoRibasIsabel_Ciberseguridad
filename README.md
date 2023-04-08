@@ -464,11 +464,11 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 
 	1. **Estándar NIST 800-39**
 
-	Establece un marco y proceso para la gestión del riesgo de sistemas de información en la organización.
+		Establece un marco y proceso para la gestión del riesgo de sistemas de información en la organización.
 
 	2. **Estándar NIST 800-30**
 
-	Es, específicamente, una guía para realizar la evaluación del riesgo en TI.
+		Es, específicamente, una guía para realizar la evaluación del riesgo en TI.
 
 
 
