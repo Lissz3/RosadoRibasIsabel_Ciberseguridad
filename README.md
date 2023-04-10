@@ -497,4 +497,14 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 		- La cultura organizacional.
 	- Identificar el nivel de tolerancia al riesgo de la organización.
 	- Identificar las prioridades y compensaciones consideradas por la organización para la gestión del riesgo. 
+
+	**Estos marcos tan complejos se tienen que aplicar, sobretodo, en grandes empresas.**
+	
+	4. **Aplicación en organizaciones pequeñas y medianas _(PYMES)_**
+		
+		En éste tipo de organizaciones o en aquellas con poco nivel de madurez respecto a la gestión del riesgo, el marco puede establecerse con una línea básica y seguir madurando desde ahí, éstas mismas líneas pueden ser, por ejemplo:
+		- Metodologías de análisis del riesgo, incluyendo valores posibles para la probabilidad e impacto.
+		- Catálogo de activos y amenazas.
+		- Catálogo de potenciales salvaguardas.
+		- Tolerancia del riesgo simplificada.
 		
