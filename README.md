@@ -508,3 +508,20 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 		- Catálogo de potenciales salvaguardas.
 		- Tolerancia del riesgo simplificada.
 		
+4. **Alineación con el negocio**
+	
+	En el proceso de identificación del riesgo es necesario que se consulte a los principales líderes de la organización con objeto de saber qué activos son especialmente importantes para ellos, qué procesos de transformación sufrirá en el corto y medioplazo la organización, cuáles son los escenarios de amenaza/riesgo que les preocupan de verdad, etc. Con este conocimiento será másfácil adaptar la identificación de activos y amenazas y alinearse con el negocio.
+	
+5. **Cultura del riesgo**
+	
+	- Es necesario tener una cultura del riesgo que permita reportar, escalar e intervenir los posibles daños o aprovechar las oportunidades.
+	- La definición de cultura del riesgo abarca los valores, las creencias, las actitudes y el conocimiento sobre el riesgo que se tiene en el interior de una organización.
+	- Es importante que esta cultura del riesgo de ciberseguridad sea instruida dentro de la cultura del riesgo general de la organización, dado que es parte del riesgo laboral.
+	- Una cultura de riesgos también involucra a los cibernéticos, siendo necesario aquí definir líneas de accion específica en tres áreas:
+		- El uso de una metodología alineada con la estrategia de operación.
+		- Planes flexibles.
+		- Líneas de comunicación con los grupos.
+		
+	Cada una de las líneas de gestión de riesgos debe estar alineada con los valores, metas y objetivos de la compañía, de esta forma será más fácil que los colaboradores estén preparados ante cualquier posible problema al que se enfrente la organización y hará más fácil que acepten esta cultura del riesgo.
+	
+	
