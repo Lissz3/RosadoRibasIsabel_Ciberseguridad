@@ -529,7 +529,7 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 	El registro del riesgo es un documento o herramienta donde se registran todos los nuevos riesgos que afecten a la organización de forma que en todo momento se pueda saber el estado de riesgo de la mismo. Es un repositorio centralizado de todos los riegos.  
 	Debería ser actualizado de forma regular, tras cada evaluación del riesgos, con cada reunión del comité del comité deriesgos, con los resultados del monitoreo del riesgo y su tratamiento, etc.  
 
-	Por cada riesgo se debería recopilar la siguiente información:
+	Por cada riesgo se debería recopilar la siguiente información:  
 	- Identificador único
 	- Fecha de detección
 	- Probabilidad
