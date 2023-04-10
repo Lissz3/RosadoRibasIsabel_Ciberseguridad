@@ -541,3 +541,4 @@ Por cada riesgo se debería recopilar la siguiente información:
 	- Progreso de las acciones
 	- Estado
 
+- **Test repaso** realizado: Definición del marco de gestión del riesgo.  
