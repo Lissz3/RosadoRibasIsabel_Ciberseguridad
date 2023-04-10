@@ -488,5 +488,13 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 		Esta capa pertenece a los responsables de los programas, propietarios de sistemas informáticos y los proveedores comunes de controles (por ejemplo, el área de ciberseguridad) aplican su entendimiento del marco de riesgo de la organización en base a cómo los decisores en las capas 1 y 2 decidieron gestionar el riesgo.
 		
 	
+	Sin embargo, para realizar una definición del marco de gestión del riesgo hay que tener un trabajo previo hecho:
 	
+	- Identificar las asunciones que afectan a cómo el riesgo se evalúa, se responde y se monitoriza en la organización.
+	- Identificar las restricciones para la realización de las actividades de evaluación, respuesta y monitorización del riesgo dentro de la organización, como pueden ser:
+		- Limitaciones financieras.
+		- Requisitos legales, regulatorios y/o contractuales.
+		- La cultura organizacional.
+	- Identificar el nivel de tolerancia al riesgo de la organización.
+	- Identificar las prioridades y coimpensaciones consideradas por la organización para la gestión del riesgo. 
 		
