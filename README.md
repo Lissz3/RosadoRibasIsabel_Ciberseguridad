@@ -468,5 +468,25 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 
 		Es, específicamente, una guía para realizar la evaluación del riesgo en TI.
 
+3. **Definicion del marco de gestión del riesgo**
 
-
+	Este marco se va basar en el marco de gestión **NIST 800-39**.  
+	Hay diferentes niveles de responsabilidad:
+	
+	1. **Nivel 1 de responsabilidad**
+		
+		Los líderes de la organización junto con la colaboración del responsable del riesgo deben defeinir el marco de riesgo organizacional, inlcuyendo el tipo de decisiones soportadas, por ejemplo: qué respuestas al riesgo vamos a tomar, cómo y bajo qué condiciones se valorará el riesgo para dar soporte a las decisiones sobre el mismo de forma regular: cada cuánto, ante cambios de impacto, cuales serían estas condiciones... También cómo se va a monitorizar el riesgo, hasta qué nivel de detalle, de qué forma, con qué frecuencia, etc.  
+		En resumen, establece el modelo **general**, las restricciones generales, el apetito del riesgo general y la metodología entre otros.
+		
+	2. **Nivel 2 de responsabilidad**
+	
+		Esta es la capa intermedia de gestión, es decir, los responsables de áreas y procesos. En este nivel los propietarios de los servicios o procesos aplicarán la **comprensión** del marco organizacional del riesgo para dirigir sus preocupaciones específicas a sus funciones de negocio.  
+		Éstos deben enfocar el modelo general dentro de su área o proceso.
+		
+	3. **Capa 3**
+	
+		Esta capa pertenece a los responsables de los programas, propietarios de sistemas informáticos y los proveedores comunes de controles (por ejemplo, el área de ciberseguridad) aplican su entendimiento del marco de riesgo de la organización en base a cómo los decisores en las capas 1 y 2 decidieron gestionar el riesgo.
+		
+	
+	
+		
