@@ -496,5 +496,5 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 		- Requisitos legales, regulatorios y/o contractuales.
 		- La cultura organizacional.
 	- Identificar el nivel de tolerancia al riesgo de la organización.
-	- Identificar las prioridades y coimpensaciones consideradas por la organización para la gestión del riesgo. 
+	- Identificar las prioridades y compensaciones consideradas por la organización para la gestión del riesgo. 
 		
