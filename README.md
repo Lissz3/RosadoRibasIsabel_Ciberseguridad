@@ -524,4 +524,20 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 		
 	Cada una de las líneas de gestión de riesgos debe estar alineada con los valores, metas y objetivos de la compañía, de esta forma será más fácil que los colaboradores estén preparados ante cualquier posible problema al que se enfrente la organización y hará más fácil que acepten esta cultura del riesgo.
 	
-	
+5. **Registro del riesgo**
+
+	El registro del riesgo es un documento o herramienta donde se registran todos los nuevos riesgos que afecten a la organización de forma que en todo momento se pueda saber el estado de riesgo de la mismo. Es un repositorio centralizado de todos los riegos.  
+	Debería ser actualizado de forma regular, tras cada evaluación del riesgos, con cada reunión del comité del comité deriesgos, con los resultados del monitoreo del riesgo y su tratamiento, etc.
+
+Por cada riesgo se debería recopilar la siguiente información:
+	- Identificador único
+	- Fecha de detección
+	- Probabilidad
+	- Impacto
+	- Nivel de riesgo
+	- Propietario
+	- Acciones/Salvaguardas de tratamiento
+	- Acción de contigencia (reacciones ante la amenaza si se hace real)
+	- Progreso de las acciones
+	- Estado
+
