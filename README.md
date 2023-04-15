@@ -558,3 +558,66 @@ Los expertos identifican los riesgos a través de una serie de preguntas.
 Un razonamiento inductivo es una forma de razonamiento en que la verdad de las premisas apoyan la conclusión, pero no la garantizan (Todos los cuervos observados hasta ahora son negros - Por ello todos los cuervos son negros).
 		
 En esta primera fase de la metodología se identifican de forma sistemática las posibles causas concretas de los riesgos empresariales de seguridad, así como los diversos y posibles efectos que debe afrontar la organización 
+
+### Métodos y herramientas para el análisis de riesgo (I)
+Se deben utilizar una serie de herramientas y métodos que facilitarán el análisis de la organización entre los cuales, los más comunes son:  
+1. **Checklists**  
+	Catálogo de preguntas de posibles amenazas o lista previamente desarrollada de las mismas. Un ejemplo es el catálogo de amenazas de **MAGERIT**.
+	
+2. **Entrevistas**
+	Se realizan entrevistas con expertos de la organización y/o externos para la identificación de los riesgos.
+	
+3. **Análisis Delphi**  
+	Se crean entrevistas y cuestionarios anónimos, individuales y de conjunto, que se distribuirán todas las personas de los diferentes grupos de expertos dotados de un conocimiento amplio en temas de gestión de riesgos. Luego se recopila esa información y se distribuye a todo el mundo sin decir de donde procede la misma para evitar influencias de unos sobre otros. La idea final es llegar a un consenso entre los grupos.
+	
+4. **Informes de inteligencia externos**
+	Fuera de las organizaciones existen varios organismos públicos y privados, tanto sin ánimo de lucro como comerciales que se dedican a recopilar información  sobre nuevas amenazas o de indicadores para detectar estas amenazas.
+	Por un lado se dispone de feeds de ciberinteligencia que alertan de nuevo malware, vulnerabilidades y ataques, junto con posibles indicadores de
+compromiso **(IoCs)** para su detección automática mediante herramientas (como SIEM o un EDR). 
+	Por otro lado, existen organizaciones llamadas **ISACs** (Information
+Sharing and Analysis Centers) que proveen de recursos centralizados para la recopilación de información sobre amenazas y que permiten una comunicación
+bidireccional con sus miembros (de forma que se retroalimenten entre ellos), ofreciendo información sobre experiencias en diferentes causas raíz, incidentes y
+amenazas, así como la compartición de experiencias, conocimiento y análisis realizados. Estos ISACs suelen ser sectoriales: por ejemplo, en el ámbito bancario llamado **FSISAC**.
+	
+5. **Análisis what-if**
+	Este análisis e usa en la etapa preliminar de la gestión cuando se comienzan a identificar los riesgos.
+	Consiste en programar reuniones con expertos que conozcan en detalle un área / servicio / proceso concreto. En la reunión inicial se plantean interrogantes para evidenciar riesgos futuros. Las reuniones siguientes son para encontrar causas, consecuencias y acciones. Se basa en imaginas casos que impactarían en la organización y validar su probabilidad e impacto final.
+	
+### Métodos y herramientas para el análisis de riesgo (II)
+Existen otros métodos más avanzados para empresas muy maduras e incluso en algunos casos especificas para sectores.
+1. **Análisis preliminar de riesgo (APR)  **
+	Identifica posibles riesgos al inicio de un proyecto.
+	
+2. **Cinco porqués ** 
+	Mediante trabajo grupal, se presenta un problema y se plantean preguntas repetitivas que lleven a descifrar la causa raíz.
+	
+3. **FMEA (Failure mode and effecive analysis)  **
+	Identifica, clasifica y elimina anticipadamente los problemas de los proyectos y de los procesos de una empresa. Comienza mediantee la identificación de errores, los cuales después se clasifican según una puntuación obtenida dependiendo de su frecuencia, gravedad y detección. Después de haberlos clasificado y priorizado, se establecen los problemas más graves para atenderlos de manera inmediata.
+	
+4. **Matrix SWOT (Strenghts, Weaknesses, Oportunities and Threats)  **
+	Consiste en el análisis de fortalezas, debilidades, oportunidades y amenazas. Comienza con un análisis internos por el cual se identifican las fortalezas y los puntos débiles del negocio. En el contexto externo se identifican las oportunidades y amenazas.	
+	
+5. **Análisis del árbo de fallas  **
+	Se inicia con un evento no deseado y se determinan todas las maneras en las que podría ocurrir. Una vez mostrados gráficamente en un diagráma de arbol lógico, se pasa a considerarse las posibilidades de formas de reduciar o eliminar las posibles causas/fuentes, etc.
+	
+6. **Diagramas causa-efecto (o Ishikawa) ** 
+	Dado que un efecto puede tener un número de factores que se pueden agrupar en distintas categorias, los cuales se identifican a menudo a trvaés del intercambio de ideas y se muestran en una estructura de "espina de pescado", dando a conocer la raíz del problema y los posibles cuellos de botella en los procesos.
+	
+7. **Cuestionario de análisis de riesgos  **
+	Se elaboran una serie de preguntas para definir la probabiliadad de que sucedan eventos de impacto. Cada uno de los inerrogantes tocan cuestiones que pueden implicar algún riesgo. Una vez la lista está creada, deve revisarse y complementarse de acuerdo con cada proyecto o proceso.
+	
+8. **Gráfico de flujo de procesos  **
+	Herramienta que muestra gráficamente la secuencia de funcionamiento de un proceso, determinando asi el flijo de actividades de una empresa. Se utiliza nomenclatura estandarizada por organizaciones como la ISO y la ANSI, facilitando su compresión independientemente del proceso descrito. De esta manera se podrán detectar potenciales problemas y amenazas en dichos pasa que afectarían al proceso.
+	
+9. **Análisis Modal de Fallos y Efectos (AMFE) ** 
+	Identifica y analiza fallos potenciales, mecanismos y los efectos de los mismos. Se utuliza, entre otras cosas, para el diseño de componentes y productos, sistemas, procesos de fabricación y montaje, servicio y software.
+	
+10. **Análisis funcional de operatividad (HAZOP)**  
+	Proceso general de identificación de riesgos para definir posibles desviaciones del rendimiento esperado o deseado. Se utiliza para detectar situaciones de inseguridad en plantas industriales, debido a la operación o a los procesos productivos.
+	
+11. **Análisis de capas de protección (LOPA)  **
+	Permite la evaluación de controles así como su eficacia.
+	
+12. **Análisis de Montecarlo  **
+	Mediante una simulación matemática compleja, aproxima el resultado de cálculos de los que no se pueden obtener una solución exacta. Es un método que se utiliza par realizar estimaciones en caso de que existan parámetros que muestran variablidad. De esta manera, se generan multitud de simulaiones con diferentes variaciones en las variables de forma aleatoria de forma que se pueda obtener uan representación de los valores más probables.
+
