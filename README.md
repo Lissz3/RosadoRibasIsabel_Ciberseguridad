@@ -585,39 +585,39 @@ amenazas, así como la compartición de experiencias, conocimiento y análisis r
 	
 ### Métodos y herramientas para el análisis de riesgo (II)
 Existen otros métodos más avanzados para empresas muy maduras e incluso en algunos casos especificas para sectores.
-1. **Análisis preliminar de riesgo (APR)  **
+1. **Análisis preliminar de riesgo (APR)**  
 	Identifica posibles riesgos al inicio de un proyecto.
 	
-2. **Cinco porqués ** 
+2. **Cinco porqués**  
 	Mediante trabajo grupal, se presenta un problema y se plantean preguntas repetitivas que lleven a descifrar la causa raíz.
 	
-3. **FMEA (Failure mode and effecive analysis)  **
+3. **FMEA (Failure mode and effecive analysis)**  
 	Identifica, clasifica y elimina anticipadamente los problemas de los proyectos y de los procesos de una empresa. Comienza mediantee la identificación de errores, los cuales después se clasifican según una puntuación obtenida dependiendo de su frecuencia, gravedad y detección. Después de haberlos clasificado y priorizado, se establecen los problemas más graves para atenderlos de manera inmediata.
 	
-4. **Matrix SWOT (Strenghts, Weaknesses, Oportunities and Threats)  **
+4. **Matrix SWOT (Strenghts, Weaknesses, Oportunities and Threats)**  
 	Consiste en el análisis de fortalezas, debilidades, oportunidades y amenazas. Comienza con un análisis internos por el cual se identifican las fortalezas y los puntos débiles del negocio. En el contexto externo se identifican las oportunidades y amenazas.	
 	
-5. **Análisis del árbo de fallas  **
+5. **Análisis del árbo de fallas**  
 	Se inicia con un evento no deseado y se determinan todas las maneras en las que podría ocurrir. Una vez mostrados gráficamente en un diagráma de arbol lógico, se pasa a considerarse las posibilidades de formas de reduciar o eliminar las posibles causas/fuentes, etc.
 	
-6. **Diagramas causa-efecto (o Ishikawa) ** 
+6. **Diagramas causa-efecto (o Ishikawa)**  
 	Dado que un efecto puede tener un número de factores que se pueden agrupar en distintas categorias, los cuales se identifican a menudo a trvaés del intercambio de ideas y se muestran en una estructura de "espina de pescado", dando a conocer la raíz del problema y los posibles cuellos de botella en los procesos.
 	
-7. **Cuestionario de análisis de riesgos  **
+7. **Cuestionario de análisis de riesgos**  
 	Se elaboran una serie de preguntas para definir la probabiliadad de que sucedan eventos de impacto. Cada uno de los inerrogantes tocan cuestiones que pueden implicar algún riesgo. Una vez la lista está creada, deve revisarse y complementarse de acuerdo con cada proyecto o proceso.
 	
-8. **Gráfico de flujo de procesos  **
+8. **Gráfico de flujo de procesos**  
 	Herramienta que muestra gráficamente la secuencia de funcionamiento de un proceso, determinando asi el flijo de actividades de una empresa. Se utiliza nomenclatura estandarizada por organizaciones como la ISO y la ANSI, facilitando su compresión independientemente del proceso descrito. De esta manera se podrán detectar potenciales problemas y amenazas en dichos pasa que afectarían al proceso.
 	
-9. **Análisis Modal de Fallos y Efectos (AMFE) ** 
+9. **Análisis Modal de Fallos y Efectos (AMFE)**  
 	Identifica y analiza fallos potenciales, mecanismos y los efectos de los mismos. Se utuliza, entre otras cosas, para el diseño de componentes y productos, sistemas, procesos de fabricación y montaje, servicio y software.
 	
 10. **Análisis funcional de operatividad (HAZOP)**  
 	Proceso general de identificación de riesgos para definir posibles desviaciones del rendimiento esperado o deseado. Se utiliza para detectar situaciones de inseguridad en plantas industriales, debido a la operación o a los procesos productivos.
 	
-11. **Análisis de capas de protección (LOPA)  **
+11. **Análisis de capas de protección (LOPA)**    
 	Permite la evaluación de controles así como su eficacia.
 	
-12. **Análisis de Montecarlo  **
+12. **Análisis de Montecarlo**  
 	Mediante una simulación matemática compleja, aproxima el resultado de cálculos de los que no se pueden obtener una solución exacta. Es un método que se utiliza par realizar estimaciones en caso de que existan parámetros que muestran variablidad. De esta manera, se generan multitud de simulaiones con diferentes variaciones en las variables de forma aleatoria de forma que se pueda obtener uan representación de los valores más probables.
 
