@@ -548,17 +548,13 @@ El análisis del riesgo ayuda a las personas encargadas a la toma de decisiones 
 Es la parte del proceso de gestión de riesgos donde conocemos e inspeccionamos los riesgos, las amenazas, las probabilidades y su impacto.
 
 Los procedimientos de identificación del riesgo pueden contener:  
+- Procedimientos en base a evidencias  
+Por ejemplo, revisión de datos anteriores.  
 
-	- Procedimientos en base a evidencias  
+- Enfoques metodológicos del equipo  
+Los expertos identifican los riesgos a través de una serie de preguntas.  
 	
-		Por ejemplo, revisión de datos anteriores.
-		
-	- Enfoques metodológicos del equipo  
-	
-		Los expertos identifican los riesgos a través de una serie de preguntas.
-		
-	- Métodos de razonamiento inductivo  
-	
-		Un razonamiento inductivo es una forma de razonamiento en que la verdad de las premisas apoyan la conclusión, pero no la garantizan (Todos los cuervos observados hasta ahora son negros - Por ello todos los cuervos son negros).
+- Métodos de razonamiento inductivo  
+Un razonamiento inductivo es una forma de razonamiento en que la verdad de las premisas apoyan la conclusión, pero no la garantizan (Todos los cuervos observados hasta ahora son negros - Por ello todos los cuervos son negros).
 		
 En esta primera fase de la metodología se identifican de forma sistemática las posibles causas concretas de los riesgos empresariales de seguridad, así como los diversos y posibles efectos que debe afrontar la organización 
