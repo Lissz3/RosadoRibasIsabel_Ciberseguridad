@@ -316,7 +316,7 @@ Que se ha aprendido:
 
 - **Examen** realizado: Certificado curso de Onboarding en Ciberseguridad : Bienvenid@ a bordo.  
 
-## Curso de análisis y gestión del riesgo
+## Análisis y gestión del riesgo
 ### Introducción y terminología
 1. **Análisis de riesgos informáticos**
 
@@ -540,3 +540,25 @@ Para poder gestionar el riego primero se necesita contar con un "framework" o ma
 	- Acción de contigencia (reacciones ante la amenaza si se hace real)
 	- Progreso de las acciones
 	- Estado
+
+## Evaluación del riesgo
+### Introducción
+El análisis del riesgo ayuda a las personas encargadas a la toma de decisiones y a entender la gestión de riesgos y cómo éstos pueden afectar a la consecución de sus objetivos y a la capacidad de eficiencia de controles ya implantados.
+
+Es la parte del proceso de gestión de riesgos donde conocemos e inspeccionamos los riesgos, las amenazas, las probabilidades y su impacto.
+
+Los procedimientos de identificación del riesgo pueden contener:  
+
+	- Procedimientos en base a evidencias  
+	
+		Por ejemplo, revisión de datos anteriores.
+		
+	- Enfoques metodológicos del equipo  
+	
+		Los expertos identifican los riesgos a través de una serie de preguntas.
+		
+	- Métodos de razonamiento inductivo  
+	
+		Un razonamiento inductivo es una forma de razonamiento en que la verdad de las premisas apoyan la conclusión, pero no la garantizan (Todos los cuervos observados hasta ahora son negros - Por ello todos los cuervos son negros).
+		
+En esta primera fase de la metodología se identifican de forma sistemática las posibles causas concretas de los riesgos empresariales de seguridad, así como los diversos y posibles efectos que debe afrontar la organización 
