@@ -824,3 +824,16 @@ Desde el estándar ISO 27001 se dispone de un catálogo de vulnerabilidades gene
 - Los derechos del usuario no se revisan regularmente.  
 
 ## Evaluación del riesgo
+1. **Valoración de activos (I)**  
+	- La valoracón se puede ver desde la perspectiva de la **necesidad de proteger**.  
+	- El valor puede ser propio o acumulado. Se dice que los activos inferiories en un esquema de dependencias, acumulan el valor de los activos que se apoyan en ellos.  
+	- El valor nuclear suele estar en la información que el sistema maneja y los servicios que se prestan (activos denominados esenciales), quedando los demás activos subordinados a las necesidades de explotación y protección de lo esencial.  
+	- De un activo cabe valorar:
+		1. Su **confidencialidad** (¿Qué daño causaría que lo conociera quien no debe?)  
+		2. Su **integridad** (¿Qué perjuicio causaría que estuviera dañado o corrupto?)  
+		3. Su **disponibilidad** (¿Qué perjuicio causaría no tenerlo o no poder utilizarlo?)  
+
+En sistemas dedicados a servicios de la sociedad de la información como puedan ser los de administración electrónica o comercio electrónico, el conocimiento de los actores es fundamental para poder prestar el servicio correctamente y poder perseguir los fallos (accidentales o deliberados) que pudieran darse. 
+	- De los activos esenciales cabe valorar:  
+		1. Su **autenticidad** (¿Qué perjuicio causaría no saber exactamente quien hace o ha hecho cada acción?), tanto de los de servicios (autenticidad del usuario) como de los datos (autenticidad de quien accede a los datos para escribir o, simplemente, consultar).  
+		2. La **trazabilidad** del uso del servicio (¿Qué daño causaría no saber a quién se le presta tal servicio? O sea, ¿quién hace qué y cuándo?)  
