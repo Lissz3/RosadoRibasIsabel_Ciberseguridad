@@ -776,3 +776,51 @@ El capítulo 5 del Catálogo de Elementos (MAGERIT V3) presenta una relación de
 	- Indisponibilidad del personal.  
 	- Extorsión.  
 	- Ingeniería social.  
+
+### Identificación de vulnerabilidades
+MAGERIT no incluye un catálogo de vulnerabilidades, dado que estas pueden ser muy variadas y una lista completa sería muy exhaustiva. Por ello, se recomienda trabajar con las amenazas y validar si por cada una de ellas que pueda afectar a la organización existen vulnerabilidades que las harían posibles.  
+Desde el estándar ISO 27001 se dispone de un catálogo de vulnerabilidades generalista que podría servir como base para el trabajo (sirva más como ejemplo que como un "catálogo completo"):
+- Interfaz de usuario complejas.  
+- Contraseñas predeterminadas no modificadas.  
+- Eliminación de medios de almacenamiento sin eliminar datos.  
+- Sensibilidad del equipo a los cambios de voltaje.  
+- Sensibilidad del equipo a la humedad, temperatura o contaminantes.  
+- Inadecuada seguridad del cableado.  
+- Inadecuada gestión de capacidad del sistema.  
+- Gestión inadecuada del cambio.  
+- Clasificación inadecuada de la información.  
+- Control inadecuado del acceso físico.  
+- Mantenimiento inadecuado.  
+- Inadecuada gestión de red.  
+- Respaldo inapropiado o irregular.  
+- Inadecuada gestión y protección de contraseñas.  
+- Protección física no apropiada.  
+- Reemplazo inadecuado de equipos viejos.  
+- Falta de formación y conciencia sobre seguridad.  
+- Inadecuada segregación de funciones.  
+- Mala segregación de las instalaciones operativas y de prueba.  
+- Insuficiente supervisión de los empleados y vendedores.  
+- Especificación incompleta para el desarrollo de software.  
+- Pruebas de software insuficientes.  
+- Falta de política de acceso o política de acceso remoto.  
+- Ausencia de política de escritorio limpio y pantalla clara.  
+- Falta de control sobre los datos de entrada y salida.  
+- Falta de documentación interna.  
+- Carencia o mala implementación de la auditoría interna.  
+- Falta de políticas para el uso de la criptografía.  
+- Falta de procedimientos para eliminar los derechos de acceso a la terminación del empleo.  
+- Desprotección en equipos móviles.  
+- Falta de redundancia, copia única.  
+- Ausencia de sistemas de identificación y autenticación.  
+- No validación de los datos procesados.  
+- Ubicación vulnerable a inundaciones.  
+- Mala selección de datos de prueba.  
+- Copia no controlada de datos.  
+- Descarga no controlada de Internet.  
+- Uso incontrolado de sistemas de información.  
+- Software no documentado.  
+- Empleados desmotivados.  
+- Conexiones a red pública desprotegidas.  
+- Los derechos del usuario no se revisan regularmente.  
+
+## Evaluación del riesgo
