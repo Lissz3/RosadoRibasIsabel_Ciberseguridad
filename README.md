@@ -680,18 +680,20 @@ Subordinados a dicha esencia se pueden identificar otros activos relevantes:
     
 Los activos esenciales son la información y los servicios prestados; pero estos activos dependen de otros activos más prosaicos como pueden ser los equipos, las
 comunicaciones, las instalaciones y las frecuentemente olvidadas personas que trabajan con aquellos.  
+
 Por ello aparece como importante el concepto de “dependencias entre activos”. Se dice que un “activo superior” depende de otro “activo inferior” cuando la
 materialización de una amenaza en el activo inferior tiene como consecuencia un perjuicio sobre el activo superior.  
+
 Aunque en cada caso hay que adaptarse a la Organización objeto del análisis, con frecuencia se puede estructurar el conjunto de activos en capas, donde las capas
 superiores dependen de las inferiores:  
-1. **Activos esenciales:**  
+1. **Activos esenciales:**
 	- Información que se maneja  
 	- Servicios prestados  
 	  
-2. **Servicios internos:**  
+2. **Servicios internos:**
 	- Estructuran ordenadamente el sistema de información
 	  
-3. **El equipamiento informático:**  
+3. **El equipamiento informático:**
 	- Aplicaciones (software)  
 	- Equipos informáticos (hardware)  
 	- Comunicaciones  
@@ -703,7 +705,7 @@ superiores dependen de las inferiores:
 	- Servicios subcontratados a terceros  
 	- Instalaciones físicas (edificios, CPDs, etc).  
 
-5. **El personal:**  
+5. **El personal:**
 	- Usuarios
 	- Operadores y administradores  
 	- Desarrolladores.
