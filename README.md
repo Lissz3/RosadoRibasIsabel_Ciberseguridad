@@ -678,11 +678,9 @@ Subordinados a dicha esencia se pueden identificar otros activos relevantes:
 - Las instalaciones que acogen equipos informáticos y de comunicaciones.  
 - Las personas que explotan u operan todos los elementos anteriormente citados.  
     
-Los activos esenciales son la información y los servicios prestados; pero estos activos dependen de otros activos más prosaicos como pueden ser los equipos, las
-comunicaciones, las instalaciones y las frecuentemente olvidadas personas que trabajan con aquellos.  
+Los activos esenciales son la información y los servicios prestados; pero estos activos dependen de otros activos más prosaicos como pueden ser los equipos, las mcomunicaciones, las instalaciones y las frecuentemente olvidadas personas que trabajan con aquellos.  
 
-Por ello aparece como importante el concepto de “dependencias entre activos”. Se dice que un “activo superior” depende de otro “activo inferior” cuando la
-materialización de una amenaza en el activo inferior tiene como consecuencia un perjuicio sobre el activo superior.  
+Por ello aparece como importante el concepto de “dependencias entre activos”. Se dice que un “activo superior” depende de otro “activo inferior” cuando la materialización de una amenaza en el activo inferior tiene como consecuencia un perjuicio sobre el activo superior.  
 
 Aunque en cada caso hay que adaptarse a la Organización objeto del análisis, con frecuencia se puede estructurar el conjunto de activos en capas, donde las capas
 superiores dependen de las inferiores:  
@@ -709,3 +707,72 @@ superiores dependen de las inferiores:
 	- Usuarios
 	- Operadores y administradores  
 	- Desarrolladores.
+
+### Identificación de amenazas
+
+El siguiente paso consiste en determinar las amenazas que pueden afectar a cada activo. Las amenazas son “cosas que ocurren”. Y, de todo lo que puede ocurrir, interesa lo que puede pasarle a nuestros activos y causar un daño.
+El capítulo 5 del Catálogo de Elementos (MAGERIT V3) presenta una relación de amenazas típicas.  
+  
+1. **De origen natural: Hay accidentes naturales (terremotos, inundaciones, ...). Ante esos avatares el sistema de información es víctima pasiva, pero de todas formas tendremos en cuenta lo que puede suceder.**  
+	- Fuego.  
+	- Daños por agua.  
+	- Desastres naturales.  
+  
+2. **Del entorno (de origen industrial): Hay desastres industriales (contaminación, fallos eléctricos, ...) ante los cuales el sistema de información es víctima pasiva; pero no por ser pasivos hay que permanecer indefensos.**
+	- Fuego.  
+	- Daños por agua.  
+	- Desastres industriales (explosiones, sobrecarga eléctrica, contaminación química, etc).  
+	- Contaminación mecánica como polvo, suciedad, vibraciones, etc.  
+	- Contaminación electromecánica: interferencias de radio, eléctricas, etc.  
+	- Avería de origen físico o lógico como fallos en equipos o programas.  
+	- Corte del suministro eléctrico.  
+	- Condiciones inadecuadas de temperatura y/o humedad.  
+	- Fallo de servicios de comunicaciones (intencionados o accidentales).  
+	- Interrupción de otros servicios y suministros esenciales como papel, toner, refrigerante, etc.  
+	- Degradación de los soportes de almacenamiento de la información.  
+	- Emanación electromagnética (se puedan interceptar datos de forma remota, como leer emanaciones de una pantalla o un procesador o vibraciones de una conversación telefónica en un crsital). Ésta, aún pudiendo ser muy compleja de realizar, existen equipamientos y atacantes que son capaces de hacerlo.  
+  
+3. **Causadas por las personas de forma accidental: Las personas con acceso al sistema de información pueden ser causa de problemas no intencionados, típicamente por error o por omisión.**  
+	- Errores de los usuarios.  
+	- Errores de los administradores.  
+	- Errores de monitorización como falta de registros, registros incompletos, registros incorrectamente fechados, registros incorrectamente atribuidos, etc.  
+	- Errores de configuración.  
+	- Deficiencias de la organización (cuando no está claro quién tiene que hacer exactamente qué y cuándo, incluyendo tomar medidas sobre los activos o informar a la jerarquía de gestión).  
+	- Difusión de software dañino (como malware, ransomware, etc).  
+	- Errores de (re-)encaminamiento en dispositivos de red.  
+	- Errores de secuencia (alteración accidental del orden de los mensajes transmitidos).  
+	- Escapes o fugas de información (llega a personas que no debería sin que se haya modificado, por ejemplo por envío de correo a destinatario incorrecto, incontinencia verbal).  
+	- Alteración accidental de la información.  
+	- Destrucción de información.  
+	- Vulnerabilidades de los programas (software).  
+	- Errores de mantenimiento / actualización de programas (software).  
+	- Errores de mantenimiento / actualización de equipos (hardware).  
+	- Caída del sistema por agotamiento de recursos (DoS/DDoS).  
+	- Pérdida de equipos.  
+	- Indisponibilidad del personal.  
+  
+4. **Causadas por las personas de forma deliberada: Las personas con acceso al sistema de información pueden ser causa de problemas o ataques intencionados, bien con ánimo de beneficiarse indebidamente, bien con ánimo de causar daños y perjuicios a los legítimos propietarios.**  
+	- Manipulación de los registros de actividad (log).  
+	- Manipulación de la configuración.  
+	- Suplantación de la identidad del usuario.  
+	- Abuso de privilegios de acceso.  
+	- Uso no previsto (juegos, consultas personales en internet, etc).  
+	- Difusión de sw dañino.  
+	- [Re-]encaminamiento de mensajes.  
+	- Alteración de secuencia.  
+	- Acceso no autorizado.  
+	- Análisis de tráfico (sin necesidad de entrar a analizar el contenido de las comunicaciones, es capaz de extraer conclusiones a partir del análisis del origen, destino, volumen y frecuencia de los intercambios).  
+	- Repudio (origen, recepción y/o entrega).  
+	- Interceptación de información (escucha).  
+	- Modificación deliberada de la información.  
+	- Destrucción de información.  
+	- Divulgación de información.  
+	- Manipulación de programas.  
+	- Manipulación de los equipos.  
+	- Denegación de servicio.  
+	- Robo.  
+	- Ataque destructivo (vandalismo, terrorismo, acción militar, etc).  
+	- Ocupación enemiga.  
+	- Indisponibilidad del personal.  
+	- Extorsión.  
+	- Ingeniería social.  
