@@ -857,3 +857,54 @@ Desde el estándar ISO 27001 se dispone de un catálogo de vulnerabilidades gene
 	Casi todas las dimensiones mencionadas anteriormente permiten una valoración simple, cualitativa o cuantitativa, salvo la disponibilidad.
 
 3. **Valoración de las amenazas**
+	Cuando un activo es víctima de una amenaza, no se ve afectado en todas sus dimensiones, ni en la misma cuantía.
+Una vez determinado que una amenaza puede perjudicar a un activo, hay que valorar su influencia en el valor del activo, en dos sentidos:  
+	![image](https://user-images.githubusercontent.com/93931447/232327495-9bb22cbd-fc79-44b3-b173-9e63dfb1e9d9.png)
+	1. La degradación mide el daño causado por un incidente en el supuesto de que ocurriera. 
+	La degradación se suele caracterizar como una fracción del valor del activo y así aparecen expresiones como que un activo se ha visto “totalmente degradado”, o “degradado en una pequeña fracción”. Cuando las amenazas no son intencionales,
+probablemente baste conocer la fracción físicamente perjudicada de un activo para calcular la pérdida proporcional de valor que se pierde. Pero cuando la amenaza es intencional, no se puede pensar en proporcionalidad alguna pues el atacante puede causar muchísimo daño de forma selectiva.  
+	2.La probabilidad de ocurrencia es más compleja de determinar y de expresar. A veces se modela de forma cualitativa por medio de alguna escala nominal (p.e alto, medio y bajo) o a veces (en organizaciones con una mayor madurez), de forma numérica (p.e asumiendo que 1 es 1 a vez al año de ocurrencia, 100 sería a diario o 1/100 cada siglo).
+	- Determinación del impacto potencial:  
+	Se denomina impacto a la medida del daño sobre el activo derivado dde la materialización de una amenaza.  
+	Conociendo el valor de los activos (en varias dimensiones) y la desgradación que causan las amenazas, es direto derivar el impacto que estas tendrían sobre el sistema. La única consideración que queda hacer es relativa a las dependencias entre activos.  
+		1. **Impacto acumulado**
+		Se tiene en cuenta:  
+			- Su valor acumulado
+			- Las amenazas a las que está expuesto  
+		Se calcula para cada activo, por cada amenaza y en cada dimensión de valoración, siendo una función del valor acumulado y de la degradación causada:  
+			- El impacto es tanto mayor cuando mayor es el valor propio o acumulado sobre un activo  
+			- El impacto es tanto mayor cuanto mayor sea la degradación del activo atacado  
+		2. **Impacto repercutido**
+		Se tiene en cuenta:  
+			- Su valor propio  
+			- Las amenazas a que están expuestos los activos de los que depende  
+		Se calcula para cada activo, de igual manera que en el impacto acumulado. Según los impactos:
+			- El impacto es tanto mayor cuanto mayor es el valor propio de un activo  
+			- El impacto es tanto mayor cuanto mayor sea la degradación del activo atacado  
+			- El impacto es tanto mayor cuanto mayor sea la dependencia del activo atacado  
+		El impacto repercutido al calcularse sobre los activos que tienen valor propio, permite determinar las consecuencias de las incidencias técnicas sobre la misión delsistema de información. Es pues una presentación gerencial que ayuda a tomar una de las decisiones críticas de un análisis de riesgos: **aceptar un cierto nivel de riesgo**.  
+4. **Determinación del riesgo potencial (I)**
+	Se denomina riesgo a la medida del daño probable sobre un sistema. Conociendo el impacto de las amenazas sobre los activos, es directo derivar el riesgo sin más que tener en cuenta la probabilidad de ocurrencia. Por lo general se calcula multiplicando el impacto por la probabilidad, si bien para cada organización se puede adaptar esta
+formula.
+	![image](https://user-images.githubusercontent.com/93931447/232328991-58b7fe51-6605-4b54-b054-afe4d4f4581e.png)
+	- Zona 1: Riesgos muy probables y de muy alto impacto.  
+	- Zona 2: franja amarilla: cubre un amplio rango desde situaciones improbables y de impacto medio, hasta situaciones muy probables pero de impacto bajo o muy bajo.  
+	- Zona 3: riesgos improbables y de bajo impacto.  
+	- Zona 4: riesgos improbables pero de muy alto impacto.
+4. **Determinación del riesgo potencial (II)**
+	Así mismo, y en base a las dependencias se pueden calcular dististintos tipos de riesgos:  
+		1. **Riesgo acumulado**  
+		Impacto acumulado por probabilidad de ocurrencia.
+		El riesgo acumulado, al calcularse sobre los activos que soportan el peso del sistema de información, permite determinar las salvaguardas de que hay que dotar a los medios de trabajo: protección de los equipos, copias de respaldo, etc.  
+		2. **Riesgo repercutido**  
+		Impacto repercutido por probabilidad de ocurrencia.
+		El riesgo repercutido, al calcularse sobre los activos que tienen valor propio, permite determinar las consecuencias de las incidencias técnicas sobre la misión del sistema de información. Es pues una presentación gerencial que ayuda a tomar una de las decisiones críticas de un análisis de riesgos: aceptar un cierto nivel de riesgo.
+		3. **Agregación de riesgos**  
+		Las organizaciones pueden utilizar la agregación de riesgos para juntar diferentes riesgos discretos o de bajo nivel dentro de un riesgo más general o de alto nivel.
+		También se puede utilizar la agregación para gestionar eficientemente el alcance y escala de las evaluaciones del riesgo que involucran múltiples SI y áreas/servicios/procesos con relaciones específicas y dependencias entre dichos elementos.
+		La agregación debe realizarse bajo ciertas condiciones:
+		- Puede agregarse el riesgo repercutido sobre diferentes activos.
+		- Puede agregarse el impacto acumulado sobre activos que no sean dependientes entre sí, y no hereden valor de un activo superior común.
+		- No debe agregarse el riesgo acumulado sobre activos que no sean independientes, pues ello supondría sobre ponderar el riesgo al incluir varias veces el valor acumulado de activos superiores.
+		- Puede agregarse el riesgo de diferentes amenazas sobre un mismo activo, aunque conviene considerar en qué medida las diferentes amenazas son independientes y pueden ser concurrentes.
+		- Puede agregarse el riesgo de una amenaza en diferentes dimensiones.
