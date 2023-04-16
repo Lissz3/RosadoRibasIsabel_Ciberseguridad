@@ -835,5 +835,5 @@ Desde el estándar ISO 27001 se dispone de un catálogo de vulnerabilidades gene
 
 En sistemas dedicados a servicios de la sociedad de la información como puedan ser los de administración electrónica o comercio electrónico, el conocimiento de los actores es fundamental para poder prestar el servicio correctamente y poder perseguir los fallos (accidentales o deliberados) que pudieran darse.  
 	- De los activos esenciales cabe valorar:  
-		1. Su **autenticidad** (¿Qué perjuicio causaría no saber exactamente quien hace o ha hecho cada acción?), tanto de los de servicios (autenticidad del usuario) como de los datos (autenticidad de quien accede a los datos para escribir o, simplemente, consultar).  
+		1. Su **autenticidad** (¿Qué perjuicio causaría no saber exactamente quien hace o ha hecho cada acción?), tanto de los de servicios (autenticidad del usuario) como de los datos (autenticidad de quien accede a los datos para escribir o, simplemente, consultar)    
 		2. La **trazabilidad** del uso del servicio (¿Qué daño causaría no saber a quién se le presta tal servicio? O sea, ¿quién hace qué y cuándo?)  
