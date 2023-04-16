@@ -659,3 +659,51 @@ Como mínimo, la evaluación del riesgo deberá determinar los siguientes elemen
   
    ![image](https://user-images.githubusercontent.com/93931447/232259886-c7e37a8f-ebfa-4b46-83dc-32d4476d2de5.png)
 
+El primer paso será identificar los activos, así como las amenazas que podrían impactar en los mismos y las vulnerabilidades que pueden ser explotadas para hacer
+realidad estas amenazas. A continuación veremos como se puede realizar el modelado de esto basada en la metodología MAGERIT v3 (metodología de acceso público
+creada para su uso en las administraciones públicas españolas y en las organizaciones privadas que les prestan servicios, y que se ha convertido en un estándar de facto en España). 
+En un sistema de información hay 2 cosas esenciales:
+- La información que maneja
+- Los servicios que presta  
+
+Estos activos esenciales marcan los requisitos de seguridad para todos los demás componentes del sistema.  
+Subordinados a dicha esencia se pueden identificar otros activos relevantes:    
+- Datos que materializan la información.  
+- Servicios auxiliares que se necesitan para poder organizar el sistema.  
+- Las aplicaciones informáticas (software) que permiten manejar los datos.  
+- Los equipos informáticos (hardware) y que permiten hospedar datos, aplicaciones y servicios.  
+- Los soportes de información que son dispositivos de almacenamiento de datos.  
+- El equipamiento auxiliar que complementa el material informático.  
+- Las redes de comunicaciones que permiten intercambiar datos.  
+- Las instalaciones que acogen equipos informáticos y de comunicaciones.  
+- Las personas que explotan u operan todos los elementos anteriormente citados.  
+    
+Los activos esenciales son la información y los servicios prestados; pero estos activos dependen de otros activos más prosaicos como pueden ser los equipos, las
+comunicaciones, las instalaciones y las frecuentemente olvidadas personas que trabajan con aquellos.  
+Por ello aparece como importante el concepto de “dependencias entre activos”. Se dice que un “activo superior” depende de otro “activo inferior” cuando la
+materialización de una amenaza en el activo inferior tiene como consecuencia un perjuicio sobre el activo superior.  
+Aunque en cada caso hay que adaptarse a la Organización objeto del análisis, con frecuencia se puede estructurar el conjunto de activos en capas, donde las capas
+superiores dependen de las inferiores:  
+1. **Activos esenciales:**  
+	- Información que se maneja  
+	- Servicios prestados  
+	  
+2. **Servicios internos:**  
+	- Estructuran ordenadamente el sistema de información
+	  
+3. **El equipamiento informático:**  
+	- Aplicaciones (software)  
+	- Equipos informáticos (hardware)  
+	- Comunicaciones  
+	- Soportes de información: discos, cintas, etc.  
+	  
+4. **El entorno: activos que se precisan para garantizar las siguientes capas:**
+	- Equipamiento y suministros: energía, climatización, etc.  
+	- Mobiliario  
+	- Servicios subcontratados a terceros  
+	- Instalaciones físicas (edificios, CPDs, etc).  
+
+5. **El personal:**  
+	- Usuarios
+	- Operadores y administradores  
+	- Desarrolladores.
