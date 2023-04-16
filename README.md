@@ -653,3 +653,9 @@ recuperación con la capacidad de recuperación de los sistemas que intervienen 
 En última instancia, se deberán presentar las conclusiones al comité de dirección para hacerlos partícipes y así obtener su respaldo de cara a afrontar nuevos proyectos para mejorar la capacidad de recuperación actual.  
   
 El BIA es un requisito básico de cara a la evaluación de riesgo, dado que nos permitirá entender mejor el impacto en la disponibilidad de las diferentes amenazas así como poder establecer salvaguardas acordes al impacto y a la criticidad de los diferentes servicios / procesos afectados.
+
+### Identificación de activos
+Como mínimo, la evaluación del riesgo deberá determinar los siguientes elementos:  
+  
+	![image](https://user-images.githubusercontent.com/93931447/232259886-c7e37a8f-ebfa-4b46-83dc-32d4476d2de5.png)
+
