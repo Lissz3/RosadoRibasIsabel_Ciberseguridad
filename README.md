@@ -657,5 +657,5 @@ El BIA es un requisito básico de cara a la evaluación de riesgo, dado que nos 
 ### Identificación de activos
 Como mínimo, la evaluación del riesgo deberá determinar los siguientes elementos:  
   
-	![image](https://user-images.githubusercontent.com/93931447/232259886-c7e37a8f-ebfa-4b46-83dc-32d4476d2de5.png)
+   ![image](https://user-images.githubusercontent.com/93931447/232259886-c7e37a8f-ebfa-4b46-83dc-32d4476d2de5.png)
 
