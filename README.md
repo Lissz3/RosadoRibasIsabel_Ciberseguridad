@@ -829,11 +829,31 @@ Desde el estándar ISO 27001 se dispone de un catálogo de vulnerabilidades gene
 	- El valor puede ser propio o acumulado. Se dice que los activos inferiories en un esquema de dependencias, acumulan el valor de los activos que se apoyan en ellos.  
 	- El valor nuclear suele estar en la información que el sistema maneja y los servicios que se prestan (activos denominados esenciales), quedando los demás activos subordinados a las necesidades de explotación y protección de lo esencial.  
 	- De un activo cabe valorar:
-		1. Su **confidencialidad** (¿Qué daño causaría que lo conociera quien no debe?)  
-		2. Su **integridad** (¿Qué perjuicio causaría que estuviera dañado o corrupto?)  
-		3. Su **disponibilidad** (¿Qué perjuicio causaría no tenerlo o no poder utilizarlo?)  
+		1. Su **confidencialidad** (*¿Qué daño causaría que lo conociera quien no debe?*)  
+		2. Su **integridad** (*¿Qué perjuicio causaría que estuviera dañado o corrupto?*)  
+		3. Su **disponibilidad** (*¿Qué perjuicio causaría no tenerlo o no poder utilizarlo?*)  
 
 	En sistemas dedicados a servicios de la sociedad de la información como puedan ser los de administración electrónica o comercio electrónico, el conocimiento de los actores es fundamental para poder prestar el servicio correctamente y poder perseguir los fallos (accidentales o deliberados) que pudieran darse.  
 	- De los activos esenciales cabe valorar:  
-		1. Su **autenticidad** (¿Qué perjuicio causaría no saber exactamente quien hace o ha hecho cada acción?), tanto de los de servicios (autenticidad del usuario) como de los datos (autenticidad de quien accede a los datos para escribir o, simplemente, consultar)  
-		2. La **trazabilidad** del uso del servicio (¿Qué daño causaría no saber a quién se le presta tal servicio? O sea, ¿quién hace qué y cuándo?)  
+		1. Su **autenticidad** (*¿Qué perjuicio causaría no saber exactamente quien hace o ha hecho cada acción?), tanto de los de servicios (autenticidad del usuario) como de los datos (autenticidad de quien accede a los datos para escribir o, simplemente, consultar*)  
+		2. La **trazabilidad** del uso del servicio (*¿Qué daño causaría no saber a quién se le presta tal servicio? O sea, ¿quién hace qué y cuándo?*)  
+
+2. **Valoración de activos (II)**
+	La valoración es la determinación del coste que supondría recuperarse de una incidencia que destrozara el activo.
+	Hay muchos factores a considerar, entre ellos:
+	- Coste de reposición
+	- Coste de mano de obra
+	- Lucro cesante (*cuánto dinero estamos dejando de ingresar porque un servicio no esté disponible o haya sido comprometido*)
+	- Capacidad de operar
+	- Sanciones por incumplimiento de la ley u obligaciones contractuales
+	- Daños a otros activos, propios o ajenos
+	- Daño a personas
+	- Daños mediambientales  
+
+	La valoración puede ser cuantitativa (*cantidad numérica*) o cualitativa (*en algún tipo de escala de niveles, por ejemplo bajo, medio o alto*). Los criterios más importantes a respetar son:  
+	1. La **homogeneidad**: es importante poder comparar valores aunque sean de diferentes dimensiones a fin de poder combinar valores propios y valores acumulados, así como poder determinar si es más grave el daño en una dimensión o en otra.
+	2. La **relatividad**: es importante poder relativizar el valor de un activo en comparación con otros activos.
+	
+	Casi todas las dimensiones mencionadas anteriormente permiten una valoración simple, cualitativa o cuantitativa, salvo la disponibilidad.
+
+3. **Valoración de las amenazas**
