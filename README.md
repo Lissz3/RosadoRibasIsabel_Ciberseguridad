@@ -867,14 +867,14 @@ probablemente baste conocer la fracción físicamente perjudicada de un activo p
 	- Determinación del impacto potencial:  
 	Se denomina impacto a la medida del daño sobre el activo derivado dde la materialización de una amenaza.  
 	Conociendo el valor de los activos (en varias dimensiones) y la desgradación que causan las amenazas, es direto derivar el impacto que estas tendrían sobre el sistema. La única consideración que queda hacer es relativa a las dependencias entre activos.  
-		1. **Impacto acumulado**
+		1. **Impacto acumulado**  
 		Se tiene en cuenta:  
 			- Su valor acumulado
 			- Las amenazas a las que está expuesto  
 		Se calcula para cada activo, por cada amenaza y en cada dimensión de valoración, siendo una función del valor acumulado y de la degradación causada:  
 			- El impacto es tanto mayor cuando mayor es el valor propio o acumulado sobre un activo  
 			- El impacto es tanto mayor cuanto mayor sea la degradación del activo atacado  
-		2. **Impacto repercutido**
+		2. **Impacto repercutido**  
 		Se tiene en cuenta:  
 			- Su valor propio  
 			- Las amenazas a que están expuestos los activos de los que depende  
