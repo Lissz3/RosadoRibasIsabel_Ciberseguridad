@@ -549,28 +549,28 @@ Es la parte del proceso de gestión de riesgos donde conocemos e inspeccionamos 
 
 Los procedimientos de identificación del riesgo pueden contener:  
 - Procedimientos en base a evidencias  
-Por ejemplo, revisión de datos anteriores.  
+*Por ejemplo, revisión de datos anteriores.*  
 
 - Enfoques metodológicos del equipo  
-Los expertos identifican los riesgos a través de una serie de preguntas.  
+*Los expertos identifican los riesgos a través de una serie de preguntas.*  
 	
 - Métodos de razonamiento inductivo  
-Un razonamiento inductivo es una forma de razonamiento en que la verdad de las premisas apoyan la conclusión, pero no la garantizan (Todos los cuervos observados hasta ahora son negros - Por ello todos los cuervos son negros).
+*Un razonamiento inductivo es una forma de razonamiento en que la verdad de las premisas apoyan la conclusión, pero no la garantizan (Todos los cuervos observados hasta ahora son negros - Por ello todos los cuervos son negros).*
 		
 En esta primera fase de la metodología se identifican de forma sistemática las posibles causas concretas de los riesgos empresariales de seguridad, así como los diversos y posibles efectos que debe afrontar la organización 
 
 ### Métodos y herramientas para el análisis de riesgo (I)
-Se deben utilizar una serie de herramientas y métodos que facilitarán el análisis de la organización entre los cuales, los más comunes son:  
+Se deben utilizar una serie de herramientas y métodos que facilitarán el análisis de la organización entre los cuales, los más comunes son:    
 1. **Checklists**  
 	Catálogo de preguntas de posibles amenazas o lista previamente desarrollada de las mismas. Un ejemplo es el catálogo de amenazas de **MAGERIT**.
 	
-2. **Entrevistas**
+2. **Entrevistas**  
 	Se realizan entrevistas con expertos de la organización y/o externos para la identificación de los riesgos.
 	
 3. **Análisis Delphi**  
 	Se crean entrevistas y cuestionarios anónimos, individuales y de conjunto, que se distribuirán todas las personas de los diferentes grupos de expertos dotados de un conocimiento amplio en temas de gestión de riesgos. Luego se recopila esa información y se distribuye a todo el mundo sin decir de donde procede la misma para evitar influencias de unos sobre otros. La idea final es llegar a un consenso entre los grupos.
 	
-4. **Informes de inteligencia externos**
+4. **Informes de inteligencia externos**  
 	Fuera de las organizaciones existen varios organismos públicos y privados, tanto sin ánimo de lucro como comerciales que se dedican a recopilar información  sobre nuevas amenazas o de indicadores para detectar estas amenazas.
 	Por un lado se dispone de feeds de ciberinteligencia que alertan de nuevo malware, vulnerabilidades y ataques, junto con posibles indicadores de
 compromiso **(IoCs)** para su detección automática mediante herramientas (como SIEM o un EDR). 
@@ -579,12 +579,12 @@ Sharing and Analysis Centers) que proveen de recursos centralizados para la reco
 bidireccional con sus miembros (de forma que se retroalimenten entre ellos), ofreciendo información sobre experiencias en diferentes causas raíz, incidentes y
 amenazas, así como la compartición de experiencias, conocimiento y análisis realizados. Estos ISACs suelen ser sectoriales: por ejemplo, en el ámbito bancario llamado **FSISAC**.
 	
-5. **Análisis what-if**
+5. **Análisis what-if**  
 	Este análisis e usa en la etapa preliminar de la gestión cuando se comienzan a identificar los riesgos.
 	Consiste en programar reuniones con expertos que conozcan en detalle un área / servicio / proceso concreto. En la reunión inicial se plantean interrogantes para evidenciar riesgos futuros. Las reuniones siguientes son para encontrar causas, consecuencias y acciones. Se basa en imaginas casos que impactarían en la organización y validar su probabilidad e impacto final.
 	
 ### Métodos y herramientas para el análisis de riesgo (II)
-Existen otros métodos más avanzados para empresas muy maduras e incluso en algunos casos especificas para sectores.
+Existen otros métodos más avanzados para empresas muy maduras e incluso en algunos casos especificas para sectores.  
 1. **Análisis preliminar de riesgo (APR)**  
 	Identifica posibles riesgos al inicio de un proyecto.
 	
@@ -636,18 +636,20 @@ Tiempo máximo tolerable de caída el cual nos determina el tiempo que puede est
 3. **RPO (Recovery Point Objective)**  
 El grado de dependencia de la actualidad de los datos determina la cantidad máxima de información que se podría perder sin llegar a tener consecuencias inaceptables, formando parte de las políticas de respaldo definidas por la organización. En este sentido, imaginemos que el Responsable del Departamento de Administración nos indica que podrían tolerar una pérdida de información siempre y cuando no se perdieran los datos generados en más de un día completo. Por lo tanto, estableceríamos que el RPO es de 24h.
 
-Por cada servicio o proceso analizado se debería obtener la siguiente información:
-	- Identificación y nombre del servicio / proceso  
-	- Descripción del mismo  
-	- Datos de contacto del resposable de negocio y del técnico  
-	- Procesos o servicios que dependen de este  
-	- Procesos o servicios de los que depende este  
-	- Árbol de interrelaciones entre los servicios / procesos de la organización  
-	- Proveedores críticos  
-	- RTO, RPO y MTD
-	- Matriz de impacto indisponibilidad servicio / procesosç
+Por cada servicio o proceso analizado se debería obtener la siguiente información:  
 
+- Identificación y nombre del servicio / proceso  
+- Descripción del mismo  
+- Datos de contacto del resposable de negocio y del técnico  
+- Procesos o servicios que dependen de este  
+- Procesos o servicios de los que depende este  
+- Árbol de interrelaciones entre los servicios / procesos de la organización  
+- Proveedores críticos  
+- RTO, RPO y MTD
+- Matriz de impacto indisponibilidad servicio / procesos  
+  
 La información obtenida en la elaboración del BIA se validará con los distintos departamentos involucrados. Adicionalmente, contrastaremos los requisitos de
 recuperación con la capacidad de recuperación de los sistemas que intervienen en la prestación de servicios / procesos. 
-En última instancia, se deberán presentar las conclusiones al comité de dirección para hacerlos partícipes y así obtener su respaldo de cara a afrontar nuevos proyectos para mejorar la capacidad de recuperación actual.
+En última instancia, se deberán presentar las conclusiones al comité de dirección para hacerlos partícipes y así obtener su respaldo de cara a afrontar nuevos proyectos para mejorar la capacidad de recuperación actual.  
+  
 El BIA es un requisito básico de cara a la evaluación de riesgo, dado que nos permitirá entender mejor el impacto en la disponibilidad de las diferentes amenazas así como poder establecer salvaguardas acordes al impacto y a la criticidad de los diferentes servicios / procesos afectados.
