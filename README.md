@@ -619,5 +619,35 @@ Existen otros métodos más avanzados para empresas muy maduras e incluso en alg
 	Permite la evaluación de controles así como su eficacia.
 	
 12. **Análisis de Montecarlo**  
-	Mediante una simulación matemática compleja, aproxima el resultado de cálculos de los que no se pueden obtener una solución exacta. Es un método que se utiliza par realizar estimaciones en caso de que existan parámetros que muestran variablidad. De esta manera, se generan multitud de simulaiones con diferentes variaciones en las variables de forma aleatoria de forma que se pueda obtener uan representación de los valores más probables.
+	Mediante una simulación matemática compleja, aproxima el resultado de cálculos de los que no se pueden obtener una solución exacta. Es un método que se utiliza par realizar estimaciones en caso de que existan parámetros que muestran variablidad. De esta manera, se generan multitud de simulaiones con diferentes variaciones en las variables de forma aleatoria de forma que se pueda obtener una representación de los valores más probables.
 
+### Análisis de impacto de negocio **(BIA)**
+Tiene como principal objetivo identificar las necesidades del negocio en términos de recuperación.
+Un aspecto importante a tener en cuenta en la elaboración de un BIA son los tiempos.
+
+![image](https://user-images.githubusercontent.com/93931447/232259329-43f8cd54-3ac2-42b0-9a30-f74b509f6a5b.png)
+
+1. **RTO (Recovery Time Objective)**  
+Tiempo de recuperación de las actividades que hemos identificado bajo unas condiciones mínimas aceptables. Por ejemplo, supongamos que el Responsable del Departamento de Administración nos indica que, en caso de que fallara la plataforma que soporta las aplicaciones para la generación y emisión de la nómina, se deberían recuperar el servicio en un plazo máximo de 24h. En este caso, estableceríamos que el RTO asociado a dicho proceso es de 24h.
+
+2. **MTD (Maximum Tolerable Downtime)**  
+Tiempo máximo tolerable de caída el cual nos determina el tiempo que puede estar caído un proceso antes de que se produzcan efectos desastrosos en la compañía y repercuta en el negocio. Volviendo al caso anterior, supongamos que el proceso de gestión de nóminas no debe estar interrumpido por un periodo superior a 48h. En este caso, estableceríamos que el MTD asociado a dicho proceso es de 48h.
+
+3. **RPO (Recovery Point Objective)**  
+El grado de dependencia de la actualidad de los datos determina la cantidad máxima de información que se podría perder sin llegar a tener consecuencias inaceptables, formando parte de las políticas de respaldo definidas por la organización. En este sentido, imaginemos que el Responsable del Departamento de Administración nos indica que podrían tolerar una pérdida de información siempre y cuando no se perdieran los datos generados en más de un día completo. Por lo tanto, estableceríamos que el RPO es de 24h.
+
+Por cada servicio o proceso analizado se debería obtener la siguiente información:
+	- Identificación y nombre del servicio / proceso  
+	- Descripción del mismo  
+	- Datos de contacto del resposable de negocio y del técnico  
+	- Procesos o servicios que dependen de este  
+	- Procesos o servicios de los que depende este  
+	- Árbol de interrelaciones entre los servicios / procesos de la organización  
+	- Proveedores críticos  
+	- RTO, RPO y MTD
+	- Matriz de impacto indisponibilidad servicio / procesosç
+
+La información obtenida en la elaboración del BIA se validará con los distintos departamentos involucrados. Adicionalmente, contrastaremos los requisitos de
+recuperación con la capacidad de recuperación de los sistemas que intervienen en la prestación de servicios / procesos. 
+En última instancia, se deberán presentar las conclusiones al comité de dirección para hacerlos partícipes y así obtener su respaldo de cara a afrontar nuevos proyectos para mejorar la capacidad de recuperación actual.
+El BIA es un requisito básico de cara a la evaluación de riesgo, dado que nos permitirá entender mejor el impacto en la disponibilidad de las diferentes amenazas así como poder establecer salvaguardas acordes al impacto y a la criticidad de los diferentes servicios / procesos afectados.
