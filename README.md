@@ -920,4 +920,10 @@ Así mismo, y en base a las dependencias se pueden calcular dististintos tipos d
 			En esta aproximación se comienza con los objetivos de negocio globales y se realiza un análisis de los escenarios de riesgos más probables y
 relevantes que podrían afectar a dichos objetivos.  
 		- De abajo a arriba:  
-			En esta aproximación se comienza con un conjunto genérico de escenarios para definir escenarios más específicos y concretos para la organización.
+			En esta aproximación se comienza con un conjunto genérico de escenarios para definir escenarios más específicos y concretos para la organización.  
+		Una aproximación de cómo desarrollar estos escenarios sería:  
+		![image](https://user-images.githubusercontent.com/93931447/232583759-37ab93d1-4e39-4fe3-b51e-6d283f42538b.png)
+	2. **Modelado de amenazas**  
+		Conjunto de técnicas que permiten analizar las potenciales amenazas que un desarrollo de software podría tener con el fin de asegurar que las mismas son tratadas mediante controles.
+		Los pasos para crear un modelo de amenazas son:
+		![image](https://user-images.githubusercontent.com/93931447/232584082-6e516e72-60f6-4652-91ac-b592be1a2d38.png)
