@@ -856,7 +856,7 @@ Desde el estándar ISO 27001 se dispone de un catálogo de vulnerabilidades gene
 	
 	Casi todas las dimensiones mencionadas anteriormente permiten una valoración simple, cualitativa o cuantitativa, salvo la disponibilidad.
 
-3. **Valoración de las amenazas**
+3. **Valoración de las amenazas**  
 	Cuando un activo es víctima de una amenaza, no se ve afectado en todas sus dimensiones, ni en la misma cuantía.
 Una vez determinado que una amenaza puede perjudicar a un activo, hay que valorar su influencia en el valor del activo, en dos sentidos:  
 	![image](https://user-images.githubusercontent.com/93931447/232327495-9bb22cbd-fc79-44b3-b173-9e63dfb1e9d9.png)
