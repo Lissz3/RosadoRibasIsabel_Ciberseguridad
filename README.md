@@ -946,7 +946,7 @@ relevantes que podrían afectar a dichos objetivos.
 		- CRAMM  
 		- NIST 800-30
 		
-## Informe de evaluación del riesgo  
+## Informe de evaluación del riesgo
 Este informe es el resultado del trabajo ralizado durante la evaluación del riesgo.  
 Recoge todas las evidencias recopiladas y las conclusiones obtenidas sobre el entorno de riesgo, las amenazas encontradas, su valoración en impacto y probabilidad y el mapa de riesgo de la organización.  
 	1. **Plantilla simple (I)**  
