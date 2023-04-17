@@ -969,5 +969,5 @@ Recoge todas las evidencias recopiladas y las conclusiones obtenidas sobre el en
 	- Debilidades (o vulnerabilidades): Descripción resumen de las principales debilidades encontradas por dominios (*de la norma ISO 27001, como criptografía, seguridad de las comunicaciones, control de accesos, organización de la seguridad de la información, seguridad física y ambiental, gestión de activos, etc*).  
 	- Se debe crear un anexo resumen de áreas, servicios, valoraciones, red(es) donde se encuentra la información, apliucaciones, herramientas y repositorios, información gestionada en general, dónde se encuentra localizada la información en papel, dónde se encuentra localizada la información digital y el responsable de área.
 
-- - **Test repaso** realizado: Análisis y gestión del riesgo.  
+- **Test repaso** realizado: Análisis y gestión del riesgo.  
 ![image](https://user-images.githubusercontent.com/93931447/232601594-c75e85e6-da3f-47b9-9a10-5fae147648da.png)
