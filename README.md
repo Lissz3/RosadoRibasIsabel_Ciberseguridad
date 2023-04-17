@@ -949,10 +949,10 @@ relevantes que podrían afectar a dichos objetivos.
 ## Informe de evaluación del riesgo
 Este informe es el resultado del trabajo ralizado durante la evaluación del riesgo.  
 Recoge todas las evidencias recopiladas y las conclusiones obtenidas sobre el entorno de riesgo, las amenazas encontradas, su valoración en impacto y probabilidad y el mapa de riesgo de la organización.  
-	1. **Plantilla simple (I)**  
-		- Descripción de los activos:  
-		Descripción de procesos de negocio o área, y por cada uno su árbol de activos y dependencias.  
-		- Por cada área de la organización:  
-		Mostrar la misma con sus servicios y la información asociada a éstos.
-		- Por cada elemento de soporte de los servicios:  
-		Mostrar su detalle.
+1. **Plantilla simple (I)**  
+	- Descripción de los activos:  
+	Descripción de procesos de negocio o área, y por cada uno su árbol de activos y dependencias.  
+	- Por cada área de la organización:  
+	Mostrar la misma con sus servicios y la información asociada a éstos.  
+	- Por cada elemento de soporte de los servicios:  
+	Mostrar su detalle.
