@@ -924,6 +924,17 @@ relevantes que podrían afectar a dichos objetivos.
 		Una aproximación de cómo desarrollar estos escenarios sería:  
 		![image](https://user-images.githubusercontent.com/93931447/232583759-37ab93d1-4e39-4fe3-b51e-6d283f42538b.png)
 	2. **Modelado de amenazas**  
-		Conjunto de técnicas que permiten analizar las potenciales amenazas que un desarrollo de software podría tener con el fin de asegurar que las mismas son tratadas mediante controles.
+		Conjunto de técnicas que permiten analizar las potenciales amenazas que un desarrollo de software podría tener con el fin de asegurar que las mismas son tratadas mediante controles.  
 		Los pasos para crear un modelo de amenazas son:
-		![image](https://user-images.githubusercontent.com/93931447/232584082-6e516e72-60f6-4652-91ac-b592be1a2d38.png)
+		1. Crear una descripción de la arquitectura: utilizar diagramas y tablas para documentar la arquitectura, incluyendo subsistemas, fronteras de confianza (*donde la información abandona zonas que se consideran seguras*) y flujo de datos.  
+		2. Descomponer la aplicación: Descomponer la arquitectura de la aplicación, incluyendo la capa de red y el diseño de infraestructura, para crear un perfil de seguridad para la aplicación.  
+		3. Identificar las amenazas: Utilizar la información de los pasos 1 y 2 y la mentalidad de un atacante para identificar las amenazas más importantes para el contexto y el escenario del sistema.  
+		4. Documentar las amenazas: Utilizar plantillas predefinidas para asegurarnos de que no nos olvidamos ningún tipo de infomración importante.
+		5. Asignar prioridades a las amenazas: Utilizar una calificación de amenazas para centrarse en las áreas donde existe mayor vulnerabilidad y riesgo.
+		Para la identificación y documentación de las amenazas existen diferentes modelos. Uno de los más conocidos y utilizados es el modelo STRIDE creado por Microsoft.
+			- **S**poofing - *suplantación de identidad de usuario*
+			- **T**ampering - *modificación indebida*
+			- **R**epudiation
+			- **I**nformation Disclosure - *brecha de privacidad o filtración/divulgación de información*
+			- **D**enegation of Service o *DoS*
+			- **E**levation of Privileges
