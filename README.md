@@ -912,7 +912,7 @@ Así mismo, y en base a las dependencias se pueden calcular dististintos tipos d
 5. **Modelos cuantitivos y cualitativos**
 	 ![image](https://user-images.githubusercontent.com/93931447/232580763-95e96250-cd65-4100-bbe0-a8521bc3332b.png)
 
-7. **Escenarios de riesgo, modelado de amenazas y metodlogías de análisis del riesgo**  
+7. **Escenarios de riesgo, modelado de amenazas y metodologías de análisis del riesgo**  
 	1. **Escenarios de riesgo**  
 		La estimación, prevención y reducción de riesgos es la clave para evitar pérdidas y desastres en cualquier organización. Uno de los pasos para lograr estos osbjetivos es la construcción de una serie de escenarios de riesgos, amenazas y vulnerabilidades. Su objetivo principal es tener una visión global de los riesgos, roles e interacciones para identificar prioridades en el tratamiento de riesgo. Ayudan a los profesionales a realizar las preguntas correctas y prepararse para lo inesperado.  
 		Para ello se pueden tomar 2 aproximaciones:  
@@ -938,3 +938,10 @@ relevantes que podrían afectar a dichos objetivos.
 			- **I**nformation Disclosure - *brecha de privacidad o filtración/divulgación de información*
 			- **D**enegation of Service o *DoS*
 			- **E**levation of Privileges
+	3. **Metodologías de análisis del riesgo**
+		Además de la metodología MAGERIT, la cual ha sido desarrollada por el Consejo Superiro de Administración Electrónica  y publicado por el Ministerio de Administraciones Públicas español, existen otras metodologías que pueden ser utilizadas:  
+		- OCTAVE  
+		- Estándar Intenacional ISO/IEX 27005  
+		- MEHARI  
+		- CRAMM  
+		- NIST 800-30
