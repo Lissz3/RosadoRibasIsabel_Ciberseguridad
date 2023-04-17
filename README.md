@@ -912,7 +912,7 @@ Así mismo, y en base a las dependencias se pueden calcular dististintos tipos d
 5. **Modelos cuantitivos y cualitativos**
 	 ![image](https://user-images.githubusercontent.com/93931447/232580763-95e96250-cd65-4100-bbe0-a8521bc3332b.png)
 
-6.**Escenarios de riesgo, modelado de amenazas y metodlogías de análisis del riesgo**  
+7. **Escenarios de riesgo, modelado de amenazas y metodlogías de análisis del riesgo**  
 	1. **Escenarios de riesgo**  
 		La estimación, prevención y reducción de riesgos es la clave para evitar pérdidas y desastres en cualquier organización. Uno de los pasos para lograr estos osbjetivos es la construcción de una serie de escenarios de riesgos, amenazas y vulnerabilidades. Su objetivo principal es tener una visión global de los riesgos, roles e interacciones para identificar prioridades en el tratamiento de riesgo. Ayudan a los profesionales a realizar las preguntas correctas y prepararse para lo inesperado.  
 		Para ello se pueden tomar 2 aproximaciones:  
@@ -920,5 +920,4 @@ Así mismo, y en base a las dependencias se pueden calcular dististintos tipos d
 			En esta aproximación se comienza con los objetivos de negocio globales y se realiza un análisis de los escenarios de riesgos más probables y
 relevantes que podrían afectar a dichos objetivos.  
 		- De abajo a arriba:  
-			En esta aproximación se comienza con un conjunto genérico de escenarios (p.e. el listado de amenazas de MAGERIT al estilo de los checklists de
-amenazas, si bien, como se verá, este modelado va más allá) para definir escenarios más específicos y concretos para la organización.
+			En esta aproximación se comienza con un conjunto genérico de escenarios para definir escenarios más específicos y concretos para la organización.
