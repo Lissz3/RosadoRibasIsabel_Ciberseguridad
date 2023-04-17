@@ -956,3 +956,15 @@ Recoge todas las evidencias recopiladas y las conclusiones obtenidas sobre el en
 	Mostrar la misma con sus servicios y la información asociada a éstos.  
 	- Por cada elemento de soporte de los servicios:  
 	Mostrar su detalle.
+	- Incluir la relación entre los activos  
+	- Crear un resumen del valor de los activos con detalles de los siguientes elementos:  
+		- Descripción de los servicios/procesos críticos y la explicación de su criticidad.  
+		- Descripción de las aplicaciones y elementos de soporte críticos y la trazabilidad. Se incluye también la documentación en papel crítica respecto a la confidencialidad.  
+		- Descripción de las redes críticas respecto a las diferentes dimensiones (*por ejemplo, autenticidad*).  
+	- Crear una descripción del riesgo, lo cual incluye una descripción de las principales amenazas y su valoración a nivel de servicios/procesos, información, elementos de soporte, elementos de seguridad y almacenamientos, elementos de seguridad física y las personas.  
+	- Crear una descripción de los valores seleccionados para la probabilidad y degradación en las amenazas (*metodología cuantitativa o cualitativa*). 
+	- Crear un mapa de riesgo según:  
+		- Riesgo potencial: riesgo al que está expuesta la organización en caso de que no hubiera ningún tipo de salvaguarda implantada, siendo ésto un escenario de riesgo simulado, no real.  
+		- Riesgo presente: riesgo al que está expuesta la organización con las salvaguardas existentes. Se trata de su situación actual.  
+	- Debilidades (o vulnerabilidades): Descripción resumen de las principales debilidades encontradas por dominios (*de la norma ISO 27001, como criptografía, seguridad de las comunicaciones, control de accesos, organización de la seguridad de la información, seguridad física y ambiental, gestión de activos, etc*).  
+	- Se debe crear un anexo resumen de áreas, servicios, valoraciones, red(es) donde se encuentra la información, apliucaciones, herramientas y repositorios, información gestionada en general, dónde se encuentra localizada la información en papel, dónde se encuentra localizada la información digital y el responsable de área.
