@@ -1021,12 +1021,14 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 			- Zona 1; riesgos muy probables y de muy alto impacto. Posiblemente nos planteemos sacarlos de esta zona, es decir, tratarlos inmediatamente. 
 			- Zona 2; riesgos de probabilidad relativa e impacto medio; se pueden tomar varias opciones.  
 			- Zona 3; riesgos improbables y de bajo impacto. O los dejamos como están, o permitimos que suban a mayores si ello nos ofrece alguna ventaja o beneficio en otro terreno.  
-			- Zona 4; riesgos improbables pero de muy alto impacto; suponene un reto de decisión dado a su improbabilidad, ya que esta justifica que se tomen medidas preventivas, pero su elevado impacto exige que tengamos algo previsto para reaccionar: medidas para limitar el daño y de recuperación si esta ocurriera.   
+			- Zona 4; riesgos improbables pero de muy alto impacto; suponene un reto de decisión dado a su improbabilidad, ya que esta justifica que se tomen medidas preventivas, pero su elevado impacto exige que tengamos algo previsto para reaccionar: medidas para limitar el daño y de recuperación si esta ocurriera.
+		  
 	También conviene considerar la incertidumbre del análisis. En ocasiones, la incertidumbre afecta a la probabilidad. Estos escenarios suelen afectar a la zona 3 y 4, ya que cuando la probabilidad es alta normalmente adiquirimos experiencia con rapidez y salimos de la incerticumbre. En cualquier caso, toda incertidumbre debe considerarse como mala y debemos hacer algo:  
-	- Buscar formas de mejorar la previsión (*Indagando en foros, centros de respuesta a incidentes o expertos en la materia*).  
-	- Evitar el riesgo cambiando algún aspecto, componente o ariquitectura del sistema.  
-	- Tener preparados sistemas de alerta y procedicimentos flexibles de contención, limitación y recuperación del posible incidente (*mediante la monitorización continua del riesgo*).  
-	3. Estudio del coste beneficio  
+	- Buscar formas de mejorar la previsión (*Indagando en foros, centros de respuesta a incidentes o expertos en la materia*)  
+	- Evitar el riesgo cambiando algún aspecto, componente o ariquitectura del sistema  
+	- Tener preparados sistemas de alerta y procedicimentos flexibles de contención, limitación y recuperación del posible incidente (*mediante la monitorización continua del riesgo*)  
+	
+	4. Estudio del coste beneficio  
 	No se puede invertir en salvaguardas más allá del valor que queremos proteger.
 	Es intencionado el hecho de que el riesgo caiga fuertemente con pequeñas inversiones y que el coste de las inversiones se dispare para alcanzar niveles de seguridad cercanos al 100%.  
 	- Análisis cuantitivo  
