@@ -1048,11 +1048,13 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 		
 	- Análisis cualitativo
 	En estos tipos de análisis, en la balanza de costes beneficios aparecen aspectos intangibles que impiden el cálculo de un punto numérico de equilibrio.  
-	Entre los aspectos intangibles se suelen contemplar:  
+	Entre los aspectos intangibles se suelen contemplar: 
+	
 		- Aspectos reputacionales o de imagen  
 		- Aspectos de competencia: comparación con otras organizaciones de mismo ámbito de actividad  
 		- Cumplimiento normativo, que puede ser obligatorio o voluntario  
 		- Capacidad de operar  
 		- Productividad
+		
 	Estas consideraciones nos llevan a contemplar diversos escenarios para determinar el balance neto.
 	
