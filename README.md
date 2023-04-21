@@ -1043,7 +1043,8 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 		- Sumar el coste de las salvaguardas  
 		- Sumar el coste anual de mantenimiento de salvaguardas (*recurrente*)  
 		- Restar el coste del análisis en la porductividad  
-		- Restar al coste las mejoras en la capacidad de la organización (*para prestar nuevos servicios, conseguir mejores condiciones de los proveedores, entrar en asociacion con otras organizaciones, etc*) (*recurrente*)
+		- Restar al coste las mejoras en la capacidad de la organización (*para prestar nuevos servicios, conseguir mejores condiciones de los proveedores, entrar en asociacion con otras organizaciones, etc*) (*recurrente*)  
+		
 	- Análisis cualitativo
 	En estos tipos de análisis, en la balanza de costes beneficios aparecen aspectos intangibles que impiden el cálculo de un punto numérico de equilibrio.  
 	Entre los aspectos intangibles se suelen contemplar:  
