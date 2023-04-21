@@ -30,8 +30,6 @@ Curso de introducción a la plataforma y a términos básicos dentro del mundo I
 		2. Falsas identidades, por ejemplo hacerse pasar por una compañía.
 		3. Manipulación de la persona.
 		4. Obtención de la información.
-				
-----------
 
 ### Dispositivos - *qué conocer sobre ellos*
 Un dispositivo es **cualquier** aparato que tenga una conexión a internet y que nos permite interactuar con personas.
@@ -63,10 +61,7 @@ Dentro de estos paratos electrónicos los más conocidos son orenadores, tablets
 	- ¿Por qué no son 100% seguros?  
 	Apesar de que puedan llevar instalados sistemas de protección y sistemas antivirus, *la seguridad depende en gran medida del uso que le demos*.  
 	Para evitar brechas de seguridad debemos mantener un aprendizaje continuo, no utilizarlo de manera personal, no usarlos para ocio o en RRSS.  
-	Por defecto no acceder ni pulsar enlaces desconocidos.
-
-----------
-
+	Por defecto no acceder ni pulsar enlaces desconocidos.  
 ### Dispositivos BYOD
 
 **B**ring **Y**our **O**wn **D**evice.
@@ -83,8 +78,6 @@ Tipo de impactos:
 	- En caso de avería puede necesitar una inversión por parte de la persona.
 	- Puede existir algún tipo de obligación de normas de uso por parte de la empresa a pesar de ser un dispositivo personal.
 	- Cada persona es responsable de su propio dispositivo y las medidas de seguridad aplicadas.
-
-----------
 
 ### Usuarios y contraseñas
 
@@ -316,8 +309,10 @@ Que se ha aprendido:
 
 - **Examen** realizado: Certificado curso de Onboarding en Ciberseguridad : Bienvenid@ a bordo.  
 
+----------
+
 ## Análisis y gestión del riesgo
-### Introducción y terminología
+### Terminología
 1. **Análisis de riesgos informáticos**
 
 	Proceso por el cual se identifican todos los activos de la organización, qué cosas tienen valor comenzando por la información y siguiendo por todo aquello que da soporte a la información (instalaciones, sistemas de información, personas, etc) y sus vulnerabilidades y qué amenazas podrían impactarle, con el objetivo de establecer los controles y estrategias para gestionarlo.  
@@ -970,4 +965,32 @@ Recoge todas las evidencias recopiladas y las conclusiones obtenidas sobre el en
 	- Se debe crear un anexo resumen de áreas, servicios, valoraciones, red(es) donde se encuentra la información, apliucaciones, herramientas y repositorios, información gestionada en general, dónde se encuentra localizada la información en papel, dónde se encuentra localizada la información digital y el responsable de área.
 
 - **Test repaso** realizado: Análisis y gestión del riesgo.  
-![image](https://user-images.githubusercontent.com/93931447/232601594-c75e85e6-da3f-47b9-9a10-5fae147648da.png)
+![image](https://user-images.githubusercontent.com/93931447/232601594-c75e85e6-da3f-47b9-9a10-5fae147648da.png)  
+
+### Mitigación del riesgo
+1. **Introducción a la gestión del riesgo (I)**  
+A la vista de los impactos y riesgos a que están expuestos los activos de las organizaciones, hay que tomar una serie de decisiones condicionadas por diversos factores:  
+	- La gravedad del impacto y/o del riesgo.  
+	- Las obligaciones a las que por ley esté sometida la organización.  
+	- Las obligaciones a las que por reglamentos sectoriales esté sometida la organización (banca, seguros, industrias críticas, etc).  
+	- Las obligaciones a las que por contrato esté sometida la organización.  
+	
+Dentro del margen de maniobra que permita este marco, pueden aparecer consideraciones adicionales sobre la capacidad de la organización para aceptar ciertos impactos de naturaleza intangible como pueden ser:  
+	- Imagen pública de cara a la sociedad (aspectos reputacionales).
+	- Política interna: relaciones con los propios empleados, tales como la capacidad de contratar al personal idóneo, capacidad de retener a los mejores, capacidad de soportar rotaciones del personal, capacidad de ofrecer una carrera profesional atractiva, etc.  
+	- Relaciones con los proveedores 
+	- Relaciones con los clientes o usuarios.  
+	- Relaciones con otras organizaciones.  
+	- Nuevas oportunidades de negocio.  
+	- Acceso a sellos o calificaciones reconocidas de seguridad (*ISO 27001, ISO 22301, CSA STAR, etc*).  
+
+2. **Introducción a la gestión del riesgo (II)**  
+Todas las consideraciones anteriores desembocan en una calificación de cada riesgo significativo, determinándose si:  
+	1. Es crítico en el sentido de que requiere atención urgente.  
+	2. Es grave en el sentido de que requiere atención.  
+	3. Es apreciable en el sentido de que pueda ser objeto de estudio para su tratamiento.  
+	4. Es asumible en el sentido de que no se van a tomar acciones para atajarlo. Ésta siempre es arriesgada y hay que tomarla con prudencia y justificación. Las razones que pueden llevar a esta aceptación son:
+		- Cuando el impacto residual es asumible.  
+		- Cuando el riesgo residual es asumible.  
+		- Cuando el coste de las salvaguardas oportunas es desproporcionado en comparación al impacto y riesgo residuales.
+	
