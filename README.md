@@ -1007,7 +1007,7 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 		- Un valor resiual es sólo un número. Para su correcta interpretación debe venir acompañado de lo que se debería hacer y no se ha hecho  
 
 	2. Aceptación del riesgo  
-		- El comté de dirección debe determinal el nivel de impacto y riesgo aceptable y aceptar la responsabilidad de las insuficiencias
+		- El comité de dirección debe determinal el nivel de impacto y riesgo aceptable y aceptar la responsabilidad de las insuficiencias
 		- Estos niveles de aceptación se pueden establecer por activo o por agrupación de activos
 		- Cualquier nivel de impacto y/o riesgo es aceptable si lo conoce y acepta formalmente la dirección
 		- Estos riesgos aceptados deberían ser monitorizados de forma continua y especial para asegurar que no cambien su valor  
@@ -1026,4 +1026,30 @@ Estos riesgos aceptados deberán ser monitorizados de forma continua y especial 
 	También conviene considerar la incertidumbre del análisis. En ocasiones, la incertidumbre afecta a la probabilidad. Estos escenarios suslene afectar a la zona 3 y 4, ya que cuando la probabilidad es alta normalmente adiquirimos experiencia con rapidez y salimos de la incerticumbre. En cualquier caso, toda incertidumbre debe considerarse como mala y debemos hacer algo:  
 	- Buscar formas de mejorar la previsión (*Indagando en foros, centros de respuesta a incidentes o expertos en la materia*).  
 	- Evitar el riesgo cambiando algún aspecto, componente o ariquitectura del sistema.  
-	- Tener preparados sistemas de alerta y procedicimentos flexibles de contención, limitación y recuperación del posible incidente (*mediante la monitorización continua del riesgo*).
+	- Tener preparados sistemas de alerta y procedicimentos flexibles de contención, limitación y recuperación del posible incidente (*mediante la monitorización continua del riesgo*).  
+
+	3. Estudio del coste beneficio  
+	No se puede invertir en salvaguardas más allá del valor que queremos proteger.
+	Es intencionado el hecho de que el riesgo caiga fuertemente con pequeñas inversiones y que el coste de las inversiones se dispare para alcanzar niveles de seguridad cercanos al 100%.  
+	- Análisis cuantitivo  
+		En la práctica, cuando hay que protegerse de un riesgo, aparecen varios escenarios hipotéticos:  
+			1. E0: Si no se hace nada  
+			2. E1: Si se aplican cierto conjunto de salvaguardas  
+			3. E2 a N: Si se aplican otros conjuntos de salvaguardas  
+		El análisis económico tiene como misión decidir entre estas opciones, siendo E0 (*seguir como estamos*) una opción posible, pudiendo estar justificada económicamente.  
+		En cada escenario hay que estimar el coste que va a suponer a lo largo del tiempo, teniendo en cuenta los siguientes elementos:  
+			- Sumar el coste del riesgo residual (*recurrente*)  
+			- Sumar el coste de las salvaguardas  
+			- Sumar el coste anual de mantenimiento de salvaguardas (*recurrente*)  
+			- Restar el coste del análisis en la porductividad  
+			- Restar al coste las mejoras en la capacidad de la organización (*para prestar nuevos servicios, conseguir mejores condiciones de los proveedores, entrar en asociacion con otras organizaciones, etc*) (*recurrente*)
+	- Análisis cualitativo
+		En estos tipos de análisis, en la balanza de costes beneficios aparecen aspectos intangibles que impiden el cálculo de un punto numérico de equilibrio.  
+		Entre los aspectos intangibles se suelen contemplar:  
+			- Aspectos reputacionales o de imagen  
+			- Aspectos de competencia: comparación con otras organizaciones de mismo ámbito de actividad  
+			- Cumplimiento normativo, que puede ser obligatorio o voluntario  
+			- Capacidad de operar  
+			- Productividad
+		Estas consideraciones nos llevan a contemplar diversos escenarios para determinar el balance neto.
+	
