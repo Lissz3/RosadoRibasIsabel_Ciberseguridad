@@ -1022,8 +1022,7 @@ Estos riesgos aceptados deberán ser monitorizados de forma continua y especial 
 			- Zona 2; riesgos de probabilidad relativa e impacto medio; se pueden tomar varias opciones.  
 			- Zona 3; riesgos improbables y de bajo impacto. O los dejamos como están, o permitimos que suban a mayores si ello nos ofrece alguna ventaja o beneficio en otro terrneno.  
 			- Zona 4; riesgos improbables pero de muy alto impacto; suponene un reto de decisión dado a su improbabilidad, ya que esta justifica que se tomen medidas preventivas, pero su elevado impacto exige que tengamos algo previsto para reaccionar: medidas para limitar el daño y de recuperación si esta ocurriera.  
-
-También conviene considerar la incertidumbre del análisis. En ocasiones, la incertidumbre afecta a la probabilidad. Estos escenarios suslene afectar a la zona 3 y 4, ya que cuando la probabilidad es alta normalmente adiquirimos experiencia con rapidez y salimos de la incerticumbre. En cualquier caso, toda incertidumbre debe considerarse como mala y debemos hacer algo:  
+	También conviene considerar la incertidumbre del análisis. En ocasiones, la incertidumbre afecta a la probabilidad. Estos escenarios suslene afectar a la zona 3 y 4, ya que cuando la probabilidad es alta normalmente adiquirimos experiencia con rapidez y salimos de la incerticumbre. En cualquier caso, toda incertidumbre debe considerarse como mala y debemos hacer algo:  
 	- Buscar formas de mejorar la previsión (*Indagando en foros, centros de respuesta a incidentes o expertos en la materia*).  
 	- Evitar el riesgo cambiando algún aspecto, componente o ariquitectura del sistema.  
 	- Tener preparados sistemas de alerta y procedicimentos flexibles de contención, limitación y recuperación del posible incidente (*mediante la monitorización continua del riesgo*).
