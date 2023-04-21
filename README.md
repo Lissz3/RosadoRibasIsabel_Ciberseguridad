@@ -1040,17 +1040,15 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 		
 	El análisis económico tiene como misión decidir entre estas opciones, siendo E0 (*seguir como estamos*) una opción posible, pudiendo estar justificada económicamente.  
 	En cada escenario hay que estimar el coste que va a suponer a lo largo del tiempo, teniendo en cuenta los siguientes elementos:  
-	
 		- Sumar el coste del riesgo residual (*recurrente*)  
 		- Sumar el coste de las salvaguardas  
 		- Sumar el coste anual de mantenimiento de salvaguardas (*recurrente*)  
 		- Restar el coste del análisis en la porductividad  
 		- Restar al coste las mejoras en la capacidad de la organización (*para prestar nuevos servicios, conseguir mejores condiciones de los proveedores, entrar en asociacion con otras organizaciones, etc*) (*recurrente*)  
 		
-	- Análisis cualitativo
+	- Análisis cualitativo  
 	En estos tipos de análisis, en la balanza de costes beneficios aparecen aspectos intangibles que impiden el cálculo de un punto numérico de equilibrio.  
 	Entre los aspectos intangibles se suelen contemplar: 
-	
 		- Aspectos reputacionales o de imagen  
 		- Aspectos de competencia: comparación con otras organizaciones de mismo ámbito de actividad  
 		- Cumplimiento normativo, que puede ser obligatorio o voluntario  
