@@ -994,3 +994,35 @@ Todas las consideraciones anteriores desembocan en una calificación de cada rie
 		- Cuando el riesgo residual es asumible.  
 		- Cuando el coste de las salvaguardas oportunas es desproporcionado en comparación al impacto y riesgo residuales.
 	
+El resultado del análisis es sólo un análisis. A partir de el disponemos de información para tomar decisiones conociendo lo que queremos proteger (activos valorados), de qué lo queremos proteger (amenazas valoradas) y qué hemos hecho por protegerlo (salvaguardas valoradas). Todo ello sintetizado en los valores de impacto y riesgo.  
+A partir de aquí, las decisiones son de los órganos de gobierno de la organización que actuarán realizando una evaluación y a posterior un tratamiento.  
+
+3. **Decisiones para el tratamiento del riesgo**  
+![image](https://user-images.githubusercontent.com/93931447/233572478-a55733df-4c28-4cfc-a92c-fc0f51f3f928.png)
+
+4. **Evaluación y tratamiento del riesgo**  
+	1. Interpretación de los valores de impacto y riesgos residuales  
+		- Son una medida del estado presente, entre la inseguridad potencial y las medidas adecuadas que reducen impacto y riesgo a valores aceptables  
+		- Si el valor residual es igual al valor potencial, las salvaguardas existententes no valen para nada.  
+		- Un valor resiual es sólo un número. Para su correcta interpretación debe venir acompañado de lo que se debería hacer y no se ha hecho  
+
+	2. Aceptación del riesgo  
+		- El comté de dirección debe determinal el nivel de impacto y riesgo aceptable y aceptar la responsabilidad de las insuficiencias
+		- Estos niveles de aceptación se pueden establecer por activo o por agrupación de activos
+		- Cualquier nivel de impacto y/o riesgo es aceptable si lo conoce y acepta formalmente la dirección
+		- Estos riesgos aceptados deberían ser monitorizados de forma continua y especial para asegurar que no cambien su valor  
+	Cabe destacar que esta no es una opción de tratamiento del riesgo, per se, sino que el riesgo existente (o parte de el) es aceptado sin más por el motivo que sea.  
+Estos riesgos aceptados deberán ser monitorizados de forma continua y especial para asegurar que no cambien su valor (impacto y/o probabilidad, y puedan llegar a causar un impacto severo en la organización).  
+	3. Tratamiento del riesgo  
+		1. Opciones  
+			- Reducir el riesgo residual  
+			- Ampliar el riesgo residual *(aceptar un mayor riesgo)*  
+		2. Decisiones:  
+			- Zona 1; riesgos muy probables y de muy alto impacto. Posiblemente nos planteemos sacarlos de esta zona, es decir, tratarlos inmediatamente.  
+			- Zona 2; riesgos de probabilidad relativa e impacto medio; se pueden tomar varias opciones.  
+			- Zona 3; riesgos improbables y de bajo impacto. O los dejamos como están, o permitimos que suban a mayores si ello nos ofrece alguna ventaja o beneficio en otro terrneno.  
+			- Zona 4; riesgos improbables pero de muy alto impacto; suponene un reto de decisión dado a su improbabilidad, ya que esta justifica que se tomen medidas preventivas, pero su elevado impacto exige que tengamos algo previsto para reaccionar: medidas para limitar el daño y de recuperación si esta ocurriera.  
+	También conviene considerar la incertidumbre del análisis. En ocasiones, la incertidumbre afecta a la probabilidad. Estos escenarios suslene afectar a la zona 3 y 4, ya que cuando la probabilidad es alta normalmente adiquirimos experiencia con rapidez y salimos de la incerticumbre. En cualquier caso, toda incertidumbre debe considerarse como mala y debemos hacer algo:  
+	- Buscar formas de mejorar la previsión (*Indagando en foros, centros de respuesta a incidentes o expertos en la materia*).  
+	- Evitar el riesgo cambiando algún aspecto, componente o ariquitectura del sistema.  
+	- Tener preparados sistemas de alerta y procedicimentos flexibles de contención, limitación y recuperación del posible incidente (*mediante la monitorización continua del riesgo*).
