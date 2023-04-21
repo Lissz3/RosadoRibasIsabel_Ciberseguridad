@@ -1037,6 +1037,7 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 			1. **E0:** Si no se hace nada  
 			2. **E1:** Si se aplican cierto conjunto de salvaguardas  
 			3. **E2 a N:** Si se aplican otros conjuntos de salvaguardas  
+			
 		El análisis económico tiene como misión decidir entre estas opciones, siendo E0 (*seguir como estamos*) una opción posible, pudiendo estar justificada económicamente.  
 		En cada escenario hay que estimar el coste que va a suponer a lo largo del tiempo, teniendo en cuenta los siguientes elementos:  
 			- Sumar el coste del riesgo residual (*recurrente*)  
