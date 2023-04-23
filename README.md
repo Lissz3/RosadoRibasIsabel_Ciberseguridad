@@ -1137,3 +1137,31 @@ reglamentario o contractual, etc.*)
 		- Modelo de valor actualizado  
 		- Mapa de riesgos actualizado  
 		- Estado de riesgo actualizado (impacto, probabilidad y riesgo residuales)  
+6. **Informe de tratamiento del riesgo**
+El informe de tratamiento del riesgo incorpora las diferentes opciones de tratamiento del riesgo (riesgos aceptados, transferidos, eliminados y las salvaguardas a
+desplegar) junto con el mapa del riesgo tras su implementación. Este informe puede ser independiente o bien incluirse como continuación del informe de evaluación de
+riesgos.  
+Como mínimo debería contener la siguiente información:  
+	1. Introducción:  
+		- Fecha de ejecución
+		- Resumen del objetivo   
+		- Descripción del alcance (relacionado con el informe de evaluación de riesgos y si el tratamiento afectará a todos los riesgos de la evaluación o una parte, definiendo en este segundo caso cuáles)  
+		- Objetivos estratégicos de seguridad. Descripción de los objetivos de seguridad a nivel estratégicos buscados con este plan de tratamiento  
+	2. Enfoque metodológico: Descripción del enfoque utilizado, incluyendo criterios de valoración, formulas, etc  
+	3. Situación actual:  
+		- Debilidades: Detalle de las diferentes debilidades (_vulnerabilidades_) halladas por cada dominio de seguridad (_de la ISO 27001_)  
+		- Mapas de riesgos: Incluir los mapas de riesgo presente así como el del riesgo final tras aplicar todas las salvaguardas. En caso de que se trate de un proyecto a medio-largo plazo (2-3 años), se pueden incluir los mapas de riesgos de cómo quedaría la situación tras cada año (con las medidas implementadas de forma estimada en cada momento)  
+		- Resumen de los planes de acción: Descripción del periodo de implantación de las medidas (_definir qué se entiende por corto, medio y lago plazo_) e incluir una tabla con el resumen de medidas y su plazo de implantación (_corto, medio o largo plazo_)  
+	4. Descripción en detalle de los planes de acción. Se pueden crear sub-capítulos por el tipo de planes que sean (seguridad lógica, física y administración y gestión de la seguridad). Por cada uno de los planes se detallará:  
+		- Descripción de la medida  
+		- Objetivos concretos buscados  
+		- Actividades a realizar
+		- Nivel de madurez buscado (_por ejemplo en base al CMMi_)  
+		- Entorno tecnológico involucrado (si lo hubiera)  
+		- Recursos necesarios (a nivel de personal y de inversión monetaria, explicitando cada elemento)  
+		- Métricas propuestas para la medición del plan.
+	5. Acciones de monitorización necesarias: De acuerdo a lo establecido en el marco de gestión del riesgo de la organización y/o de forma ad-hoc. qué acciones son requeridas para monitorizar la implantación de los controles así como para valorar la disminución del riesgo en el tiempo.  
+	6. Apéndices:
+		- Resumen de los planes de acción  
+		- Plan de proyecto con todos los proyectos necesarios, con fecha de inicio y fin  
+7. **Frameworks de seguridad**
