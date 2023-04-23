@@ -1052,5 +1052,19 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 			- Cumplimiento normativo, que puede ser obligatorio o voluntario  
 			- Capacidad de operar  
 			- Productividad  
-		Estas consideraciones nos llevan a contemplar diversos escenarios para determinar el balance neto.
-	
+		Estas consideraciones nos llevan a contemplar diversos escenarios para determinar el balance neto.  
+		- Análisis mixto
+		En análisis de riesgos meramente cualitativos, la decisión la marca el balance de costes y beneficios intangibles, si bien siempre hay que hacer un cálculo de lo que cuesta la solución y cerciorarse de que el gasto es asumible. De lo contrario, la supuesta solución no es una opción. Es decir, primero hay que pasar el filtro económico y luego elegir la mejor de las soluciones factibles.  
+		
+	4. Opciones de tratamiento del riesgo  
+	Si los riesgos no se aceptan será necesario tener una estrategia para tratarlos (*respuesta al riesgo*).
+		1. Eliminación  
+			La eliminación de la fuente de riesgo es una opción frente a un riesgo que no es aceptable. En un sistema podemos eliminar varias cosas, siempre que no afecten a la esencia de la organización.
+Es extremadamente raro que podamos prescindir de la información o los servicios esenciale. Cambiar estos activos supone reorientar la misión de la organización. Sin embargo, en determinados casos puede darse el caso de que el coste de otras opciones sea muy elevado frente al beneficio aportado por el activo amenazado, por lo que se decide prescindir del mismo (*por ejemplo de un servicio o proceso, de una actividad de negocio, etc*).
+Por otro lado, es más viable prescindir otros componentes no esenciales, que están presentes simple y llanamente para implementar la misión, y no siendo parte constituyente de la misma de diferentes formas:
+	- Eliminar cierto tipo de activos, empleando otros en su lugar (*cambiar de sistema operativo, de fabricante de equipos, etc*)
+	- Reordenar la arquitectura del sistema (esquema de dependencias) de forma que se altere el valor acumulado en ciertos activos expuestos a grandes amenazas (*segregar redes, desdoblar equipos para atender a necesidades concretas, alejando lo más valioso de lo más expuesto, etc*)
+		3. Mitigación  
+		4. Compartición o transferencia  
+		5. Financiación (*Aprovisionamiento*)  
+		6. Cálculo de disminución del riesgo
