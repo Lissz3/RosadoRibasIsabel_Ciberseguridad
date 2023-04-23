@@ -1075,5 +1075,12 @@ Por otro lado, es más viable prescindir otros componentes no esenciales, que es
 			- Salvaguardas detectivas: Buscan detectar la ocurrencia de una amenaza. No modifican el impacto de forma directa, pero son necesarios para el funcionamiento de las salvaguardas correctivas.  
 		Tras su depliegue hay repetir el análisis de riesgos, ampliándolo con los nuevos controles y cerciorarse de que las salvaguardas efectivamente disminuyen el estado de riesgo de la organización respecto a la original.
 		4. Compartición o transferencia  
+		Tradicionalmente se ha hablado de ‘transferir el riesgo’. Como la transferencia puede ser parcial o total, es más general hablar de ‘compartir el riesgo’.  
+		Hay dos formas básicas de compartir riesgo:  
+			- Riesgo cualitativo: se comparte por medio de la externalización de componentes del sistema, de forma que se reparten responsabilidades  
+			- Riesgo cuantitativo: se comparte por medio de la contratación de seguros, de forma que a cambio de una prima, el tomador reduce el impacto de las posibles amenazas y el asegurador corre con las consecuencias  
 		5. Financiación (*Aprovisionamiento*)  
-		6. Cálculo de disminución del riesgo
+		Cuando se acepta un riesgo, la organización hará bien en reservar fondos para el caso de que el riesgo se concrete y haya que responder de sus consecuencias.
+			- Cálculo de disminución del riesgo  
+			Una vez finalizado la evaluación del tratamiento y los controles a implementar, se deben generar los nuevos mapas de riesgo que muestren la situación de la organización tras su implementación.  
+			El cálculo de la disminución en impacto y/o probabilidad no es sencillo. Generalmente se recomienda utilizar el sentido común, si bien existen herramientas para el análisis de riesgos que incluyen catálogos de controles con valores predeterminados, si bien estos se deberían editar cuando así se requiera para al organización (*una herramienta podría ser la metodología PILAR, asociada a MAGERIT*).
