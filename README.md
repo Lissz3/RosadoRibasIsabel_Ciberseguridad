@@ -1136,8 +1136,9 @@ reglamentario o contractual, etc.*)
 		- Sistema de indicadores de eficacia y eficiencia del desempeño de los objetivos de seguridad perseguidos  
 		- Modelo de valor actualizado  
 		- Mapa de riesgos actualizado  
-		- Estado de riesgo actualizado (impacto, probabilidad y riesgo residuales)  
-6. **Informe de tratamiento del riesgo**
+		- Estado de riesgo actualizado (impacto, probabilidad y riesgo residuales)
+		
+6. **Informe de tratamiento del riesgo**  
 El informe de tratamiento del riesgo incorpora las diferentes opciones de tratamiento del riesgo (riesgos aceptados, transferidos, eliminados y las salvaguardas a
 desplegar) junto con el mapa del riesgo tras su implementación. Este informe puede ser independiente o bien incluirse como continuación del informe de evaluación de
 riesgos.  
