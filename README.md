@@ -1027,8 +1027,6 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 	- Buscar formas de mejorar la previsión (*Indagando en foros, centros de respuesta a incidentes o expertos en la materia*)  
 	- Evitar el riesgo cambiando algún aspecto, componente o ariquitectura del sistema  
 	- Tener preparados sistemas de alerta y procedicimentos flexibles de contención, limitación y recuperación del posible incidente (*mediante la monitorización continua del riesgo*)  
-	
-	
 	4. Estudio del coste beneficio  
 	No se puede invertir en salvaguardas más allá del valor que queremos proteger.
 	Es intencionado el hecho de que el riesgo caiga fuertemente con pequeñas inversiones y que el coste de las inversiones se dispare para alcanzar niveles de seguridad cercanos al 100%.  
