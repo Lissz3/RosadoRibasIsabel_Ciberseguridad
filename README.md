@@ -1014,6 +1014,7 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 
 	Cabe destacar que esta no es una opción de tratamiento del riesgo, per se, sino que el riesgo existente (o parte de el) es aceptado sin más por el motivo que sea.  
 	Estos riesgos aceptados deberán ser monitorizados de forma continua y especial para asegurar que no cambien su valor (impacto y/o probabilidad, y puedan llegar a causar un impacto severo en la organización).  
+	
 	3. Tratamiento del riesgo  
 		1. Opciones  
 			- Reducir el riesgo residual  
