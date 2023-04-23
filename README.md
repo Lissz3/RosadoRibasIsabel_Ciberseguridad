@@ -1115,7 +1115,7 @@ Un programa de ciberseguridad busca la implementación de los proyectos de segur
 			- Los mecanismos de medida (controles) que debe llevar  
 			- Los criterios de aceptación  
 			- El plan de mantenimiento: incidencias y evolución
-	2. **Plan de ejecución**
+	2. **Plan de ejecución**  
 	Hay que ordenar en el tiempo los proyectos de seguridad teniendo en cuenta los siguientes factores:
 		- La criticidad, gravedad o conveniencia de los impactos y/o riesgos que se afrontan, teniendo máxima prioridad los programas que afronten situaciones críticas  
 		- El coste del programa  
