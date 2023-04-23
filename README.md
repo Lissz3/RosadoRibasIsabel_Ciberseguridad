@@ -1103,8 +1103,29 @@ Un programa de ciberseguridad busca la implementación de los proyectos de segur
 			- Solución técnica: programas, equipos, comunicaciones e instalaciones  
 			- Plan de despliegue  
 			- Plan de formación  
-			- Una estimación del tiempo de ejecución desde su arranque hasta su puesta en operación  
+			- Una estimación del tiempo de ejecución desde su arranque hasta su puesta en marcha  
 		- Una estimación del estado de riesgo (impacto, probabilidad y riesgo residual) a su finalización  
 		- Un sistema de indicadores (métricas) de eficacia y eficiencia que permitan conocer en cada momento la calidad del desempeño de la función de seguridad que se desea y su evolución temporal.
+		Las estimaciones anteriores pueden ser muy precisas en los programas sencillos; pero pueden ser simplemente orientativas en los programas complejos que conlleven la realización de un proyecto específico de seguridad. En este último caso, cada proyecto desarrollará los detalles últimos por medio de una serie de tareas propias de cada proyecto que, en líneas generales responderán a los siguientes puntos:  
+		- Estudio de la oferta del mercado: productos y servicios  
+		- Coste de un desarrollo específico, propio o subcontratado  
+		- Si se estima adecuado un desarrollo específico hay que determinar: 
+			- La especificación funcional y no-funcional del desarrollo  
+			- El método de desarrollo que garantice la seguridad del nuevo componente  
+			- Los mecanismos de medida (controles) que debe llevar  
+			- Los criterios de aceptación  
+			- El plan de mantenimiento: incidencias y evolución
 	2. Plan de ejecución
+		Hay que ordenar en el tiempo los proyectos de seguridad teniendo en cuenta los siguientes factores:
+		- La criticidad, gravedad o conveniencia de los impactos y/o riesgos que se afrontan, teniendo máxima prioridad los programas que afronten situaciones críticas  
+		- El coste del programa  
+		- La disponibilidad del personal propio para responsabilizarse de la dirección (y, en su caso, ejecución) de las tareas programadas  
+		- Las posibles dependencias entre proyectos. En muchos casos puede ocurrir que el comienzo de un proyecto dependa de la salida de otro/s. Por ejemplo, en el caso del despliegue de una salvaguarda técnica, puede ser necesario que se dispongan primero de los procedimientos y guías antes de poder acometer dicho proyecto (con el objetivo de asegurar el alineamiento del control técnico con los objetivos y requisitos organizacionales)  
+		- Otros factores (*elaboración del presupuesto anual de la organización, las relaciones con otras organizaciones, la evolución del marco legal,
+reglamentario o contractual, etc.*)  
+		Típicamente, un plan de seguridad se planifica en tres niveles de detalle:  
+		- **Plan director:** A menudo denominado “plan de actuación”, trabaja sobre un periodo largo (_típicamente entre 3 y 5 años_), estableciendo las directrices de actuación.  
+		- **Plan anual** (una serie de planes anuales): Trabaja sobre un periodo corto (_típicamente entre 1 y 2 años_), estableciendo la planificación de los programas de seguridad.  
+		- Plan de proyecto (un conjunto de proyectos con su planificación): Trabaja en el corto plazo (_típicamente menos de 1 año_), estableciendo el plan detallado de ejecución de cada programa de seguridad.  
+		Se debe desarrollar un plan director único, que es el que da perspectiva y unidad de objetivos a las actuaciones puntuales. Este plan director permite ir desarrollando planes anuales que, dentro del marco estratégico, van estructurando la asignación de recursos para la ejecución de las tareas, en particular partidas presupuestarias. Por último habrá una serie de proyectos que materializan los programas de seguridad.
 	3. Plan de adecuación
