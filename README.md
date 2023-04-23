@@ -1062,9 +1062,18 @@ A partir de aquí, las decisiones son de los órganos de gobierno de la organiza
 			La eliminación de la fuente de riesgo es una opción frente a un riesgo que no es aceptable. En un sistema podemos eliminar varias cosas, siempre que no afecten a la esencia de la organización.
 Es extremadamente raro que podamos prescindir de la información o los servicios esenciale. Cambiar estos activos supone reorientar la misión de la organización. Sin embargo, en determinados casos puede darse el caso de que el coste de otras opciones sea muy elevado frente al beneficio aportado por el activo amenazado, por lo que se decide prescindir del mismo (*por ejemplo de un servicio o proceso, de una actividad de negocio, etc*).
 Por otro lado, es más viable prescindir otros componentes no esenciales, que están presentes simple y llanamente para implementar la misión, y no siendo parte constituyente de la misma de diferentes formas:
-	- Eliminar cierto tipo de activos, empleando otros en su lugar (*cambiar de sistema operativo, de fabricante de equipos, etc*)
-	- Reordenar la arquitectura del sistema (esquema de dependencias) de forma que se altere el valor acumulado en ciertos activos expuestos a grandes amenazas (*segregar redes, desdoblar equipos para atender a necesidades concretas, alejando lo más valioso de lo más expuesto, etc*)
+			- Eliminar cierto tipo de activos, empleando otros en su lugar (*cambiar de sistema operativo, de fabricante de equipos, etc*)
+			- Reordenar la arquitectura del sistema (esquema de dependencias) de forma que se altere el valor acumulado en ciertos activos expuestos a grandes amenazas (*segregar redes, desdoblar equipos para atender a necesidades concretas, alejando lo más valioso de lo más expuesto, etc*)
 		3. Mitigación  
+		La mitigación del riesgo se refiere a una de dos opciones:  
+			- Reducir la degradación causada por una amenaza (*acotar el impacto*)  
+			- Reducir la probabilidad de que una amenaza de materializa  
+		En ambos casos lo que hay que hacer es ampliar o mejorar el conjunto de salvaguardas, es decir, subir de nivel.  
+		Entre los tipos de salvaguardas, encontramos las siguientes tipologías desde el punto de vista de mitigación del riesgo:
+			- Salvaguardas preventivas: Buscan prevenir que una amenaza se haga real, por lo que disminuyen la probabilidad.  
+			- Salvaguardas correctivas: Buscan minimizar el daño realizado en caso de materializarse la amenaza (*disponer de un plan de recuperación ante desastres, copias de seguridad ante ransomware, sistemas de automatización de la respuesta ante incidentes de seguridad, etc*), por lo que disminuyen el impacto. 
+			- Salvaguardas detectivas: Buscan detectar la ocurrencia de una amenaza. No modifican el impacto de forma directa, pero son necesarios para el funcionamiento de las salvaguardas correctivas.  
+		Tras su depliegue hay repetir el análisis de riesgos, ampliándolo con los nuevos controles y cerciorarse de que las salvaguardas efectivamente disminuyen el estado de riesgo de la organización respecto a la original.
 		4. Compartición o transferencia  
 		5. Financiación (*Aprovisionamiento*)  
 		6. Cálculo de disminución del riesgo
