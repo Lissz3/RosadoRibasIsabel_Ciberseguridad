@@ -1088,23 +1088,23 @@ Por otro lado, es más viable prescindir otros componentes no esenciales, que es
 Un programa de ciberseguridad busca la implementación de los proyectos de seguridadd, entendiendo pr tales proyectos los que permitirán materializar las decisiones adoptadas para el tratamiento de los riesgos. Para ello, se deben realizar los siguientes pasos para su implementación:
 	1. Identificación de los proyectos de seguridad  
 		Se busca la agrupación por conveniencia de tareas que en singular carecerían de eficacia, que persigan un objetivo en común o que competen a una única acción. Cada programa debe detallar:
-			- Su objetivo genérico.  
-			- Las salvaguardas concretas a implantar o mejorar, detallando sus objetivos de calidad, eficacia y eficiencia  
-			- La relación de escenarios de impacto y/o riesgo que afronta: activos afectados, tipos de activos, amenazas afrontadas, valoración de activos y amenazas y niveles de impacto y riesgo  
-			- La unidad responsable de su ejecución  
-			- Una estimación de costes, tanto económicos como de esfuerzo de realización, teniendo en cuenta:  
-				- Costes de adquisición (de productos), o de contratación (de servicios), o de desarrollo (de soluciones llave en mano)  
-				- Costes de implantación inicial y mantenimiento en el tiempo. 
-				- Costes de formación, tanto de los operadores como de los usuarios  
-				- Costes de explotación  
-				- Impacto en la productividad de la organización  
-			- Una relación de subtareas a afrontar, teniendo en cuenta:  
-				- Cambios en la normativa y desarrollo de procedimientos  
-				- Solución técnica: programas, equipos, comunicaciones e instalaciones  
-				- Plan de despliegue  
-				- Plan de formación  
-				- Una estimación del tiempo de ejecución desde su arranque hasta su puesta en operación  
-			- Una estimación del estado de riesgo (impacto, probabilidad y riesgo residual) a su finalización  
-			- Un sistema de indicadores (métricas) de eficacia y eficiencia que permitan conocer en cada momento la calidad del desempeño de la función de seguridad que se desea y su evolución temporal.
+		- Su objetivo genérico.  
+		- Las salvaguardas concretas a implantar o mejorar, detallando sus objetivos de calidad, eficacia y eficiencia  
+		- La relación de escenarios de impacto y/o riesgo que afronta: activos afectados, tipos de activos, amenazas afrontadas, valoración de activos y amenazas y niveles de impacto y riesgo  
+		- La unidad responsable de su ejecución  
+		- Una estimación de costes, tanto económicos como de esfuerzo de realización, teniendo en cuenta:  
+			- Costes de adquisición (de productos), o de contratación (de servicios), o de desarrollo (de soluciones llave en mano)  
+			- Costes de implantación inicial y mantenimiento en el tiempo. 
+			- Costes de formación, tanto de los operadores como de los usuarios  
+			- Costes de explotación  
+			- Impacto en la productividad de la organización  
+		- Una relación de subtareas a afrontar, teniendo en cuenta:  
+			- Cambios en la normativa y desarrollo de procedimientos  
+			- Solución técnica: programas, equipos, comunicaciones e instalaciones  
+			- Plan de despliegue  
+			- Plan de formación  
+			- Una estimación del tiempo de ejecución desde su arranque hasta su puesta en operación  
+		- Una estimación del estado de riesgo (impacto, probabilidad y riesgo residual) a su finalización  
+		- Un sistema de indicadores (métricas) de eficacia y eficiencia que permitan conocer en cada momento la calidad del desempeño de la función de seguridad que se desea y su evolución temporal.
 	2. Plan de ejecución
 	3. Plan de adecuación
