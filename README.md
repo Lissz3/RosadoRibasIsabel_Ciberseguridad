@@ -1086,7 +1086,7 @@ Por otro lado, es más viable prescindir otros componentes no esenciales, que es
 			El cálculo de la disminución en impacto y/o probabilidad no es sencillo. Generalmente se recomienda utilizar el sentido común, si bien existen herramientas para el análisis de riesgos que incluyen catálogos de controles con valores predeterminados, si bien estos se deberían editar cuando así se requiera para al organización (*una herramienta podría ser la metodología PILAR, asociada a MAGERIT*).
 5. **Requisitos de un programa de ciberseguridad**  
 Un programa de ciberseguridad busca la implementación de los proyectos de seguridadd, entendiendo pr tales proyectos los que permitirán materializar las decisiones adoptadas para el tratamiento de los riesgos. Para ello, se deben realizar los siguientes pasos para su implementación:
-	1. Identificación de los proyectos de seguridad  
+	1. **Identificación de los proyectos de seguridad ** 
 		Se busca la agrupación por conveniencia de tareas que en singular carecerían de eficacia, que persigan un objetivo en común o que competen a una única acción. Cada programa debe detallar:
 		- Su objetivo genérico.  
 		- Las salvaguardas concretas a implantar o mejorar, detallando sus objetivos de calidad, eficacia y eficiencia  
@@ -1115,7 +1115,7 @@ Un programa de ciberseguridad busca la implementación de los proyectos de segur
 			- Los mecanismos de medida (controles) que debe llevar  
 			- Los criterios de aceptación  
 			- El plan de mantenimiento: incidencias y evolución
-	2. Plan de ejecución
+	2. **Plan de ejecución**
 		Hay que ordenar en el tiempo los proyectos de seguridad teniendo en cuenta los siguientes factores:
 		- La criticidad, gravedad o conveniencia de los impactos y/o riesgos que se afrontan, teniendo máxima prioridad los programas que afronten situaciones críticas  
 		- El coste del programa  
@@ -1128,4 +1128,12 @@ reglamentario o contractual, etc.*)
 		- **Plan anual** (una serie de planes anuales): Trabaja sobre un periodo corto (_típicamente entre 1 y 2 años_), estableciendo la planificación de los programas de seguridad.  
 		- Plan de proyecto (un conjunto de proyectos con su planificación): Trabaja en el corto plazo (_típicamente menos de 1 año_), estableciendo el plan detallado de ejecución de cada programa de seguridad.  
 		Se debe desarrollar un plan director único, que es el que da perspectiva y unidad de objetivos a las actuaciones puntuales. Este plan director permite ir desarrollando planes anuales que, dentro del marco estratégico, van estructurando la asignación de recursos para la ejecución de las tareas, en particular partidas presupuestarias. Por último habrá una serie de proyectos que materializan los programas de seguridad.
-	3. Plan de adecuación
+	3. **Plan de adecuación**
+		El objetivo de esta fase es el de alcanzar los objetivos previstos en el plan de seguridad para cada proyecto planificado.  
+		Como salida del mismo tendremos lo siguiente:  
+		- Salvaguardas implantadas
+		- Normas de uso y procedimientos de operación  
+		- Sistema de indicadores de eficacia y eficiencia del desempeño de los objetivos de seguridad perseguidos  
+		- Modelo de valor actualizado  
+		- Mapa de riesgos actualizado  
+		- Estado de riesgo actualizado (impacto, probabilidad y riesgo residuales)  
