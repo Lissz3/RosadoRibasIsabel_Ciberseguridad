@@ -1191,7 +1191,7 @@ Dado que el riesgo no es algo estático sino dinámico, un SGSI establecido bajo
 		- Evaluación de desmpeño  
 		Realizar un seguimiento mediante el PDCA para asegurar su correcto funcionamiento  
 		- Mejora  
-		Tratamiento de las no conformidades, acciones correctivas y mejoras contínuas  
+		Tratamiento de las no conformidades, acciones correctivas y mejoras contínuas
 	La segunda parte establece los objetivos de control y los controles de referencia.  
 	2. **NIST CSF (_Cyber Security Framework_)**  
 	Este marco no provee de nuevas funciones o categorías de ciberseguridad, si no que recopila las mejores prácticas (_ISO, ITU, CIS y NIST entre otros_) y los agrupa según afinidad.  
