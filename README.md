@@ -1192,5 +1192,6 @@ Dado que el riesgo no es algo estático sino dinámico, un SGSI establecido bajo
 		Realizar un seguimiento mediante el PDCA para asegurar su correcto funcionamiento  
 		- Mejora  
 		Tratamiento de las no conformidades, acciones correctivas y mejoras contínuas  
+		
 	La segunda parte establece los objetivos de control y los controles de referencia.
 	
