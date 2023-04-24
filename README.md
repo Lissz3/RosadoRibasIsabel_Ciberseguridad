@@ -1193,5 +1193,17 @@ Dado que el riesgo no es algo estático sino dinámico, un SGSI establecido bajo
 		- Mejora  
 		Tratamiento de las no conformidades, acciones correctivas y mejoras contínuas  
 		
-	La segunda parte establece los objetivos de control y los controles de referencia.
-	
+La segunda parte establece los objetivos de control y los controles de referencia.
+	2. **NIST CSF (_Cyber Security Framework_)**  
+	Este marco no provee de nuevas funciones o categorías de ciberseguridad, si no que recopila las mejores prácticas (_ISO, ITU, CIS y NIST entre otros_) y los agrupa según afinidad.  
+	Se centra en el uso de impulsores de negocio para guiar las actividades de ciberseguridad y considerar los riesgos de ciberseguridad como parte de los procesos de gestión de riesgos de la organización.  
+	El framework consta de tres partes:
+		- Marco básico  
+		- Perfil del marco  
+		- Niveles de implementación
+	Los niveles de implementación del marco o “tiers” proporcionan un contexto sobre cómo una organización ve el riesgo en ciberseguridad y los procesos implementados para manjearlo.  
+	Las escalas descirben el grado en que las prácticas de gestión de riesgos de ciberseguridad de una empresa exhiben las características definidas en el marco. Actúan como niveles de madurez en estos procesos.  
+	Los niveles de implementación caracterizan las prácticas de una compañía en un rango. Hay 4 niveles: parcial, riesgo informado, repetible y adaptativo.  
+	Estos niveles reflejan una progresión desde respuestas informales y reactivas hasta enfoques que son ágiles y están informados sobre el riesgo.  
+	El núcleo de este marco proporciona cinco funciones contínuas (_Identificar, Detectar, Proteger, Responder y Recuperar_). También brinddad un conjunto de actividades para lograr resultados específicos de ciberseguridad.
+	![image](https://user-images.githubusercontent.com/93931447/234081552-1d17bb03-c502-4b31-bf2d-b7462b2c09ef.png)
