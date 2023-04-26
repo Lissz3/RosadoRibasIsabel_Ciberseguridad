@@ -1209,4 +1209,4 @@ La segunda parte establece los objetivos de control y los controles de referenci
 ### Controles de mitigación: Seguridad administrativa y física
 ### Controles de mitigación: Seguridad lógica
 - **Test autoevaluación** realizado: Mitigación del riesgo. 
-![image](https://user-images.githubusercontent.com/93931447/234581816-16c440a5-61af-4d44-a114-00c9a6781612.png)
+![image](https://user-images.githubusercontent.com/93931447/234583565-c2a39176-9f4a-4215-a2fc-6bc2e32ff8c4.png)
