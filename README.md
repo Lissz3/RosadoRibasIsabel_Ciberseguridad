@@ -1206,3 +1206,7 @@ La segunda parte establece los objetivos de control y los controles de referenci
 	Estos niveles reflejan una progresión desde respuestas informales y reactivas hasta enfoques que son ágiles y están informados sobre el riesgo.  
 	El núcleo de este marco proporciona cinco funciones contínuas (_Identificar, Detectar, Proteger, Responder y Recuperar_). También brinddad un conjunto de actividades para lograr resultados específicos de ciberseguridad.
 	![image](https://user-images.githubusercontent.com/93931447/234081552-1d17bb03-c502-4b31-bf2d-b7462b2c09ef.png)
+### Controles de mitigación: Seguridad administrativa y física
+### Controles de mitigación: Seguridad lógica
+- **Test autoevaluación** realizado: Mitigación del riesgo. 
+![image](https://user-images.githubusercontent.com/93931447/234581816-16c440a5-61af-4d44-a114-00c9a6781612.png)
