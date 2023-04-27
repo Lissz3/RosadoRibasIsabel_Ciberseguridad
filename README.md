@@ -1221,6 +1221,8 @@ Se establecen procedimientos para la gestión de cambios en los sistemas y la in
 Se establecen controles para registrar y monitorear la actividad de los usuarios, con el fin de detectar comportamientos anormales o sospechosos.  
 6. **Gestión de incidentes de seguridad**  
 Se establecen procedimientos para la gestión de incidentes de seguridad, con el fin de minimizar el impacto de los incidentes de seguridad y garantizar la continuidad del negocio.  
+![image](https://user-images.githubusercontent.com/93931447/234865113-92ba67ef-cfb4-49f8-8895-16a9618bda96.png)  
+
 
 ### Controles de mitigación: Seguridad lógica
 Al contrario que en el apartado anterior, éste se enfoca en los controles necesarios para garantizar la **seguridad física** de los activos de información de la organización. El apartado explica como establecer controles necesarios para garantizar la seguridad física de los activos de información de la organización, como el acceso físico restringido, la protección de activos de información, la gestión de los medios de almacenamiento, la seguridad en el manejo de los activos, el monitoreo de la seguridad física y la disponibilidad de los servicios.    
@@ -1236,7 +1238,10 @@ Se establecen controles para garantizar la seguridad en el manejo de los activos
 5. **Monitoreo de la seguridad física**  
 Se establecen controles para el monitoreo y registro de la actividad en las áreas que contienen activos de información, con el fin de detectar comportamientos sospechosos o no autorizados.  
 6. **Disponibilidad de los servicios**  
-Se establecen controles para garantizar la disponibilidad de los servicios de información, incluso en caso de interrupciones físicas.
+Se establecen controles para garantizar la disponibilidad de los servicios de información, incluso en caso de interrupciones físicas.  
+![image](https://user-images.githubusercontent.com/93931447/234864877-ec182507-53be-4333-a2ee-ecb97b52f296.png)  
 
 - **Test autoevaluación** realizado: Mitigación del riesgo. 
 ![image](https://user-images.githubusercontent.com/93931447/234583565-c2a39176-9f4a-4215-a2fc-6bc2e32ff8c4.png)
+
+### Monitorización del riesgo
