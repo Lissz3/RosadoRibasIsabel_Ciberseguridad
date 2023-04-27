@@ -1284,7 +1284,7 @@ Planes de acción, los registros de controles y los sistemas de seguimiento de c
 5. **Herramientas de análisis de datos**  
 Herramientas de minería de datos y los sistemas de inteligencia artificial. Estas herramientas se utilizan para analizar grandes cantidades de datos y identificar patrones y tendencias que puedan indicar riesgos potenciales en la organización.  
 
-#### Herramientas GRC (_Gobiernao, Riesgo y Cumplimiento)  
+#### Herramientas GRC (_Gobierno, Riesgo y Cumplimiento_)  
 Las herramientas GRC son sistemas que permiten integrar y coordinar las actividades de gobierno, riesgo y cumplimiento de una organización. Estas herramientas son una forma efectiva de gestionar y monitorear el riesgo en tiempo real, y pueden ayudar a las organizaciones a identificar y prevenir riesgos, así como a cumplir con las normativas y regulaciones aplicables.  
 Las herramientas GRC incluyen diversas funcionalidades, como la gestión de políticas y procedimientos, la evaluación de riesgos, la monitorización del cumplimiento, la gestión de incidentes y la generación de informes y análisis. Además, estas herramientas pueden ser personalizadas para adaptarse a las necesidades específicas de la organización y pueden ser utilizadas en diferentes áreas, como finanzas, recursos humanos, seguridad de la información, entre otros.  
 Al utilizar las herramientas GRC, las organizaciones pueden optimizar sus procesos de gestión del riesgo, mejorar la eficiencia y eficacia de sus operaciones, reducir los costos y, sobre todo, reducir los riesgos asociados a su actividad.  
