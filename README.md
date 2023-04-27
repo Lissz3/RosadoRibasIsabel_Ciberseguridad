@@ -1207,7 +1207,7 @@ La segunda parte establece los objetivos de control y los controles de referenci
 	El núcleo de este marco proporciona cinco funciones contínuas (_Identificar, Detectar, Proteger, Responder y Recuperar_). También brinddad un conjunto de actividades para lograr resultados específicos de ciberseguridad.
 	![image](https://user-images.githubusercontent.com/93931447/234081552-1d17bb03-c502-4b31-bf2d-b7462b2c09ef.png)
 ### Controles de mitigación: Seguridad administrativa y física
-Este apartado habla sobre los controles necesarios para garantizar la seguridad en la gestión de la seguridad de la información en la organización. También habla de como establecer controles necesarios para la gestión de la seguridad de la información en la organización, como políticas de seguridad, gestión de usuarios, control de acceso, control de cambios, monitoreo de la actividad del usuario y gestión de incidentes de seguridad.  
+Este apartado habla sobre los controles necesarios para garantizar la seguridad en la **gestión** de la seguridad de la información en la organización. También habla de como establecer controles necesarios para la gestión de la seguridad de la información en la organización, como políticas de seguridad, gestión de usuarios, control de acceso, control de cambios, monitoreo de la actividad del usuario y gestión de incidentes de seguridad.  
 A continuación, se presenta un resumen de los temas tratados en este apartado:  
 1. **Políticas de seguridad**  
 Se establecen políticas y procedimientos que describen las medidas necesarias para proteger la información, incluyendo la identificación y autenticación de usuarios, el control de acceso y la gestión de contraseñas.  
@@ -1223,5 +1223,20 @@ Se establecen controles para registrar y monitorear la actividad de los usuarios
 Se establecen procedimientos para la gestión de incidentes de seguridad, con el fin de minimizar el impacto de los incidentes de seguridad y garantizar la continuidad del negocio.  
 
 ### Controles de mitigación: Seguridad lógica
+Al contrario que en el apartado anterior, éste se enfoca en los controles necesarios para garantizar la seguridad **física** de los activos de información de la organización. El apartado explica como establecer controles necesarios para garantizar la seguridad física de los activos de información de la organización, como el acceso físico restringido, la protección de activos de información, la gestión de los medios de almacenamiento, la seguridad en el manejo de los activos, el monitoreo de la seguridad física y la disponibilidad de los servicios.    
+Este apartado lo podemos resumir en los siguientes temas:  
+1. **Acceso físico restringido**  
+Se establecen controles para limitar el acceso físico a los activos de información y las áreas que los contienen, incluyendo el uso de cerraduras, tarjetas de acceso y sistemas de vigilancia.  
+2. **Protección de activos de información**  
+Se establecen controles para proteger los activos de información de la organización de daños físicos o robo, incluyendo la protección contra incendios, la protección contra inundaciones y el uso de sistemas de alarma.  
+3. **Gestión de los medios de almacenamiento**  
+Se establecen procedimientos para la gestión y protección de los medios de almacenamiento de la información, como discos duros, cintas de respaldo y dispositivos USB.
+4. **Seguridad en el manejo de los activos**  
+Se establecen controles para garantizar la seguridad en el manejo de los activos de información, incluyendo el transporte seguro de los dispositivos y la eliminación segura de la información.  
+5. **Monitoreo de la seguridad física**  
+Se establecen controles para el monitoreo y registro de la actividad en las áreas que contienen activos de información, con el fin de detectar comportamientos sospechosos o no autorizados.  
+6. **Disponibilidad de los servicios**  
+Se establecen controles para garantizar la disponibilidad de los servicios de información, incluso en caso de interrupciones físicas.
+
 - **Test autoevaluación** realizado: Mitigación del riesgo. 
 ![image](https://user-images.githubusercontent.com/93931447/234583565-c2a39176-9f4a-4215-a2fc-6bc2e32ff8c4.png)
