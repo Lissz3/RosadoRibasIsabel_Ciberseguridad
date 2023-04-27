@@ -1288,6 +1288,7 @@ Herramientas de minería de datos y los sistemas de inteligencia artificial. Est
 Las herramientas GRC son sistemas que permiten integrar y coordinar las actividades de gobierno, riesgo y cumplimiento de una organización. Estas herramientas son una forma efectiva de gestionar y monitorear el riesgo en tiempo real, y pueden ayudar a las organizaciones a identificar y prevenir riesgos, así como a cumplir con las normativas y regulaciones aplicables.  
 Las herramientas GRC incluyen diversas funcionalidades, como la gestión de políticas y procedimientos, la evaluación de riesgos, la monitorización del cumplimiento, la gestión de incidentes y la generación de informes y análisis. Además, estas herramientas pueden ser personalizadas para adaptarse a las necesidades específicas de la organización y pueden ser utilizadas en diferentes áreas, como finanzas, recursos humanos, seguridad de la información, entre otros.  
 Al utilizar las herramientas GRC, las organizaciones pueden optimizar sus procesos de gestión del riesgo, mejorar la eficiencia y eficacia de sus operaciones, reducir los costos y, sobre todo, reducir los riesgos asociados a su actividad.  
-En resumen, las herramientas GRC son una solución integral para la gestión del riesgo, que permite a las organizaciones mantener el control y la visibilidad sobre sus actividades críticas.
-![image](https://user-images.githubusercontent.com/93931447/234871789-42179dea-d34b-4a94-898a-5253b3bdf228.png)
+En resumen, las herramientas GRC son una solución integral para la gestión del riesgo, que permite a las organizaciones mantener el control y la visibilidad sobre sus actividades críticas.  
+
+![image](https://user-images.githubusercontent.com/93931447/234872099-6c329430-47fc-4a60-ad4e-41263d93af08.png)
 
