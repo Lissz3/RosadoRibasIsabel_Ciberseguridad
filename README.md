@@ -1220,9 +1220,7 @@ Se establecen procedimientos para la gestión de cambios en los sistemas y la in
 5. **Monitoreo de la actividad del usuario**  
 Se establecen controles para registrar y monitorear la actividad de los usuarios, con el fin de detectar comportamientos anormales o sospechosos.  
 6. **Gestión de incidentes de seguridad**  
-Se establecen procedimientos para la gestión de incidentes de seguridad, con el fin de minimizar el impacto de los incidentes de seguridad y garantizar la continuidad del negocio.  
-![image](https://user-images.githubusercontent.com/93931447/234865113-92ba67ef-cfb4-49f8-8895-16a9618bda96.png)  
-
+Se establecen procedimientos para la gestión de incidentes de seguridad, con el fin de minimizar el impacto de los incidentes de seguridad y garantizar la continuidad del negocio.   
 
 ### Controles de mitigación: Seguridad lógica
 Al contrario que en el apartado anterior, éste se enfoca en los controles necesarios para garantizar la **seguridad física** de los activos de información de la organización. El apartado explica como establecer controles necesarios para garantizar la seguridad física de los activos de información de la organización, como el acceso físico restringido, la protección de activos de información, la gestión de los medios de almacenamiento, la seguridad en el manejo de los activos, el monitoreo de la seguridad física y la disponibilidad de los servicios.    
@@ -1239,9 +1237,57 @@ Se establecen controles para garantizar la seguridad en el manejo de los activos
 Se establecen controles para el monitoreo y registro de la actividad en las áreas que contienen activos de información, con el fin de detectar comportamientos sospechosos o no autorizados.  
 6. **Disponibilidad de los servicios**  
 Se establecen controles para garantizar la disponibilidad de los servicios de información, incluso en caso de interrupciones físicas.  
-![image](https://user-images.githubusercontent.com/93931447/234864877-ec182507-53be-4333-a2ee-ecb97b52f296.png)  
 
 - **Test autoevaluación** realizado: Mitigación del riesgo. 
 ![image](https://user-images.githubusercontent.com/93931447/234583565-c2a39176-9f4a-4215-a2fc-6bc2e32ff8c4.png)
 
 ### Monitorización del riesgo
+Este apartado habla de los controles necesarios a establecer para monitorear y gestionar adecuadamente los riesgos de seguridad de la información en la organización, incluyendo la identificación de los riesgos, la evaluación y análisis del riesgo, la selección y aplicación de controles, el monitoreo continuo de los riesgos y los informes de riesgos.  
+A continuación se explican los temas tratados en este apartado:  
+1. **Identificación de los riesgos**  
+Se establecen procesos para identificar los riesgos de seguridad de la información en la organización, incluyendo la evaluación de amenazas, vulnerabilidades y posibles impactos.
+2. **Evaluación y análisis del riesgo**  
+Se establecen procesos para evaluar y analizar los riesgos identificados, incluyendo la evaluación de la probabilidad y el impacto de cada riesgo.  
+3. **Selección y aplicación de controles**  
+Se establecen procesos para seleccionar y aplicar controles para mitigar los riesgos de seguridad de la información, incluyendo la implementación de políticas y procedimientos, la capacitación del personal y el uso de tecnologías de seguridad.  
+4. **Monitoreo continuo de los riesgos**  
+Se establecen procesos para monitorear continuamente los riesgos de seguridad de la información y los controles aplicados, con el fin de detectar cualquier cambio en el nivel de riesgo y tomar medidas para mitigarlo.  
+5. **Informes de riesgos**  
+Se establecen procesos para generar informes regulares sobre los riesgos de seguridad de la información y los controles aplicados, con el fin de informar a la dirección y otros interesados sobre el estado de la seguridad de la información en la organización.  
+
+#### KRIs (_Indicadores Clave del Riesgo_)  
+Este apartado se centra en los indicadores clave que se utilizan para medir y monitorear el riesgo en la organización.  
+En cuanto a los KRI:  
+1. **Definición**  
+Se definen los KRIs como medidas cuantitativas o cualitativas que se utilizan para evaluar y monitorear el riesgo en la organización.  
+2. **Importancia**  
+Se explica la importancia de los KRIs para la gestión del riesgo, ya que permiten identificar y monitorear los riesgos críticos para la organización y tomar medidas para mitigarlos.  
+3. **Selección de KRI**  
+Se establecen procesos para seleccionar los KRIs adecuados para la organización, basados en los riesgos identificados, los objetivos de la organización y otros factores relevantes.  
+4. **Desarrollo** 
+Se establecen procesos para desarrollar los KRIs adecuados para la organización, incluyendo la definición de las fórmulas para calcular los indicadores, el establecimiento de los umbrales de alerta y los límites críticos, y la integración de los KRIs en los sistemas de monitoreo.
+5. **Monitoreo y reporte**  
+Se establecen procesos para monitorear continuamente los KRIs y generar informes regulares sobre el estado del riesgo en la organización, con el fin de informar a la dirección y otros interesados sobre el desempeño de la gestión del riesgo.  
+
+#### Herramientas para monitorización del riesgo  
+En cuanto a las herramientas que se utilizan para monitorear y evaluar el riesgo en la organización, incluimos herramientas de análisis de riesgos, monitoreo de KRIs, gestión de incidentes, seguimiento de controles y análisis de datos.  
+El uso de estas herramientas ayuda a la organización a evaluar y monitorear el riesgo de manera efectiva y tomar medidas para mitigarlo.  
+Hay diferentes tipos de herramientas:  
+1. **Herramientas de análisis de riesgos** 
+Matriz de riesgos, el análisis de causa-raíz, el análisis de escenarios y el análisis de impacto y probabilidad. Estas herramientas se utilizan para identificar, evaluar y priorizar los riesgos en la organización.  
+2. **Herramientas de monitoreo de KRIs**  
+Dashboards e informes automatizados. Estas herramientas se utilizan para monitorear los indicadores clave del riesgo y generar informes regulares sobre el estado del riesgo en la organización.  
+3. **Herramientas de gestión de incidentes**  
+Sistemas de gestión de incidentes y los protocolos de respuesta a incidentes. Estas herramientas se utilizan para identificar, registrar, investigar y reportar los incidentes relacionados con el riesgo en la organización.  
+4. **Herramientas de seguimiento de controles**  
+Planes de acción, los registros de controles y los sistemas de seguimiento de controles. Estas herramientas se utilizan para monitorear la implementación y eficacia de los controles de mitigación del riesgo en la organización.  
+5. **Herramientas de análisis de datos**  
+Herramientas de minería de datos y los sistemas de inteligencia artificial. Estas herramientas se utilizan para analizar grandes cantidades de datos y identificar patrones y tendencias que puedan indicar riesgos potenciales en la organización.  
+
+#### Herramientas GRC (_Gobiernao, Riesgo y Cumplimiento)  
+Las herramientas GRC son sistemas que permiten integrar y coordinar las actividades de gobierno, riesgo y cumplimiento de una organización. Estas herramientas son una forma efectiva de gestionar y monitorear el riesgo en tiempo real, y pueden ayudar a las organizaciones a identificar y prevenir riesgos, así como a cumplir con las normativas y regulaciones aplicables.  
+Las herramientas GRC incluyen diversas funcionalidades, como la gestión de políticas y procedimientos, la evaluación de riesgos, la monitorización del cumplimiento, la gestión de incidentes y la generación de informes y análisis. Además, estas herramientas pueden ser personalizadas para adaptarse a las necesidades específicas de la organización y pueden ser utilizadas en diferentes áreas, como finanzas, recursos humanos, seguridad de la información, entre otros.  
+Al utilizar las herramientas GRC, las organizaciones pueden optimizar sus procesos de gestión del riesgo, mejorar la eficiencia y eficacia de sus operaciones, reducir los costos y, sobre todo, reducir los riesgos asociados a su actividad.  
+En resumen, las herramientas GRC son una solución integral para la gestión del riesgo, que permite a las organizaciones mantener el control y la visibilidad sobre sus actividades críticas.
+![image](https://user-images.githubusercontent.com/93931447/234871719-7c420070-90d5-46b3-9ad6-c336cab71888.png)
+
