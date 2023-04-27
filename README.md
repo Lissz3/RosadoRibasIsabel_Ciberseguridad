@@ -1292,3 +1292,6 @@ En resumen, las herramientas GRC son una solución integral para la gestión del
 
 ![image](https://user-images.githubusercontent.com/93931447/234872099-6c329430-47fc-4a60-ad4e-41263d93af08.png)
 
+- **Test autoevaluación** realizado: Monitorización del riesgo
+![image](https://user-images.githubusercontent.com/93931447/234886061-b51edc4f-d393-44f3-a3a1-85e27cfe1c55.png)
+
