@@ -1207,8 +1207,8 @@ La segunda parte establece los objetivos de control y los controles de referenci
 	El núcleo de este marco proporciona cinco funciones contínuas (_Identificar, Detectar, Proteger, Responder y Recuperar_). También brinddad un conjunto de actividades para lograr resultados específicos de ciberseguridad.
 	![image](https://user-images.githubusercontent.com/93931447/234081552-1d17bb03-c502-4b31-bf2d-b7462b2c09ef.png)
 ### Controles de mitigación: Seguridad administrativa y física
-	Este apartado habla sobre los controles necesarios para garantizar la seguridad en la gestión de la seguridad de la información en la organización. También habla de como establecer controles necesarios para la gestión de la seguridad de la información en la organización, como políticas de seguridad, gestión de usuarios, control de acceso, control de cambios, monitoreo de la actividad del usuario y gestión de incidentes de seguridad.  
-	A continuación, se presenta un resumen de los temas tratados en este apartado:  
+Este apartado habla sobre los controles necesarios para garantizar la seguridad en la gestión de la seguridad de la información en la organización. También habla de como establecer controles necesarios para la gestión de la seguridad de la información en la organización, como políticas de seguridad, gestión de usuarios, control de acceso, control de cambios, monitoreo de la actividad del usuario y gestión de incidentes de seguridad.  
+A continuación, se presenta un resumen de los temas tratados en este apartado:  
 	1. **Políticas de seguridad**  
 	Se establecen políticas y procedimientos que describen las medidas necesarias para proteger la información, incluyendo la identificación y autenticación de usuarios, el control de acceso y la gestión de contraseñas.  
 	2. **Gestión de usuarios**  
