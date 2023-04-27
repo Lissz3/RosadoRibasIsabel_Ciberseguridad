@@ -1289,5 +1289,5 @@ Las herramientas GRC son sistemas que permiten integrar y coordinar las activida
 Las herramientas GRC incluyen diversas funcionalidades, como la gestión de políticas y procedimientos, la evaluación de riesgos, la monitorización del cumplimiento, la gestión de incidentes y la generación de informes y análisis. Además, estas herramientas pueden ser personalizadas para adaptarse a las necesidades específicas de la organización y pueden ser utilizadas en diferentes áreas, como finanzas, recursos humanos, seguridad de la información, entre otros.  
 Al utilizar las herramientas GRC, las organizaciones pueden optimizar sus procesos de gestión del riesgo, mejorar la eficiencia y eficacia de sus operaciones, reducir los costos y, sobre todo, reducir los riesgos asociados a su actividad.  
 En resumen, las herramientas GRC son una solución integral para la gestión del riesgo, que permite a las organizaciones mantener el control y la visibilidad sobre sus actividades críticas.
-![image](https://user-images.githubusercontent.com/93931447/234871719-7c420070-90d5-46b3-9ad6-c336cab71888.png)
+![image](https://user-images.githubusercontent.com/93931447/234871789-42179dea-d34b-4a94-898a-5253b3bdf228.png)
 
