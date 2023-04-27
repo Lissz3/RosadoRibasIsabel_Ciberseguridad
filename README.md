@@ -1273,7 +1273,7 @@ Se establecen procesos para monitorear continuamente los KRIs y generar informes
 En cuanto a las herramientas que se utilizan para monitorear y evaluar el riesgo en la organización, incluimos herramientas de análisis de riesgos, monitoreo de KRIs, gestión de incidentes, seguimiento de controles y análisis de datos.  
 El uso de estas herramientas ayuda a la organización a evaluar y monitorear el riesgo de manera efectiva y tomar medidas para mitigarlo.  
 Hay diferentes tipos de herramientas:  
-1. **Herramientas de análisis de riesgos** 
+1. **Herramientas de análisis de riesgos**  
 Matriz de riesgos, el análisis de causa-raíz, el análisis de escenarios y el análisis de impacto y probabilidad. Estas herramientas se utilizan para identificar, evaluar y priorizar los riesgos en la organización.  
 2. **Herramientas de monitoreo de KRIs**  
 Dashboards e informes automatizados. Estas herramientas se utilizan para monitorear los indicadores clave del riesgo y generar informes regulares sobre el estado del riesgo en la organización.  
