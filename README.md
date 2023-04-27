@@ -1207,6 +1207,21 @@ La segunda parte establece los objetivos de control y los controles de referenci
 	El núcleo de este marco proporciona cinco funciones contínuas (_Identificar, Detectar, Proteger, Responder y Recuperar_). También brinddad un conjunto de actividades para lograr resultados específicos de ciberseguridad.
 	![image](https://user-images.githubusercontent.com/93931447/234081552-1d17bb03-c502-4b31-bf2d-b7462b2c09ef.png)
 ### Controles de mitigación: Seguridad administrativa y física
+	Este apartado habla sobre los controles necesarios para garantizar la seguridad en la gestión de la seguridad de la información en la organización. También habla de como establecer controles necesarios para la gestión de la seguridad de la información en la organización, como políticas de seguridad, gestión de usuarios, control de acceso, control de cambios, monitoreo de la actividad del usuario y gestión de incidentes de seguridad.  
+	A continuación, se presenta un resumen de los temas tratados en este apartado:  
+	1. **Políticas de seguridad**  
+	Se establecen políticas y procedimientos que describen las medidas necesarias para proteger la información, incluyendo la identificación y autenticación de usuarios, el control de acceso y la gestión de contraseñas.  
+	2. **Gestión de usuarios**  
+	Se establecen procedimientos para la gestión de los usuarios, incluyendo la creación, modificación y eliminación de cuentas, así como la revisión periódica de los permisos de acceso.  
+	3. **Control de acceso**  
+	Se establecen controles para limitar el acceso a la información y los sistemas de información a los usuarios autorizados. Esto incluye la autenticación de usuarios, la autorización de acceso y el control de acceso físico a los sistemas.  
+	4. **Control de cambios**  
+	Se establecen procedimientos para la gestión de cambios en los sistemas y la información, con el fin de evitar cambios no autorizados y garantizar la integridad de los datos.  
+	5. **Monitoreo de la actividad del usuario**  
+	Se establecen controles para registrar y monitorear la actividad de los usuarios, con el fin de detectar comportamientos anormales o sospechosos.  
+	6. **Gestión de incidentes de seguridad**  
+	Se establecen procedimientos para la gestión de incidentes de seguridad, con el fin de minimizar el impacto de los incidentes de seguridad y garantizar la continuidad del negocio.  
+
 ### Controles de mitigación: Seguridad lógica
 - **Test autoevaluación** realizado: Mitigación del riesgo. 
 ![image](https://user-images.githubusercontent.com/93931447/234583565-c2a39176-9f4a-4215-a2fc-6bc2e32ff8c4.png)
