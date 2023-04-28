@@ -1295,3 +1295,4 @@ En resumen, las herramientas GRC son una solución integral para la gestión del
 - **Test autoevaluación** realizado: Monitorización del riesgo
 ![image](https://user-images.githubusercontent.com/93931447/234886061-b51edc4f-d393-44f3-a3a1-85e27cfe1c55.png)
 
+- **Examen** realizado: Certificado curso de análisis y gestión del riesgo.
