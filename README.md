@@ -1343,7 +1343,7 @@ Al igual que la criptografía simétrica, la simétrica también tiene sus venta
 	1. **Procesamiento más lento**  
 	Más lenta que la criptografía simétrica debido al uso de dos claves diferentes para cifrar y descifrar los mensajes.
 	2. **Mayor complejidad**  
-	Más compleja de implementar y administrar que la criptografía simétrica, lo que puede dificultar su adopción.
+	Más compleja de implementar y administrar que la criptografía simétrica, lo que puede dificultar su implementación.
 	3. **Vulnerable a ataques de intermediario**  
 	Vulnerable a ataques de intermediario en los que un atacante intercepta y manipula la comunicación entre el remitente y el destinatario.  
 	
