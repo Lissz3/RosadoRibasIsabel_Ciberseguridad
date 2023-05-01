@@ -1314,19 +1314,19 @@ La **criptografía simétrica** utiliza una clave compartida entre el remitente 
 La criptografía simétrica tiene varias ventajas y desventajas que deben tenerse en cuenta al elegir un algoritmo de cifrado:  
 - Ventajas  
 	1. **Eficiente**  
-	La criptografía simétrica es rápida y eficiente en términos de procesamiento de datos, ya que utiliza una única clave para cifrar y descifrar los mensajes. Esto la hace ideal para aplicaciones que requieren un alto rendimiento y velocidad.
+	Rápida y eficiente en términos de procesamiento de datos, ya que utiliza una única clave para cifrar y descifrar los mensajes. Esto la hace ideal para aplicaciones que requieren un alto rendimiento y velocidad.
 	2. **Fácil implementación**  
-	La criptografía simétrica es fácil de implementar, ya que solo se necesita una clave compartida entre el remitente y el destinatario.  
+	Fácil de implementar, ya que solo se necesita una clave compartida entre el remitente y el destinatario.  
 	3. **Ampliamente disponible**  
 	Existen muchos algoritmos de cifrado simétricos disponibles que son ampliamente utilizados y soportados por sistemas y dispositivos.  
 	
 - Desventajas:  
 	1. **Clave compartida**  
-	La principal desventaja de la criptografía simétrica es que la misma clave debe ser compartida entre el remitente y el destinatario. Esto significa que si la clave cae en manos equivocadas, toda la información cifrada con esa clave puede ser descifrada.  
+	La misma clave debe ser compartida entre el remitente y el destinatario. Esto significa que si la clave cae en manos equivocadas, toda la información cifrada con esa clave puede ser descifrada.  
 	2. **Distribución de claves**  
 	La distribución segura de las claves entre el remitente y el destinatario puede ser difícil y puede requerir la implementación de mecanismos adicionales de seguridad.  
 	3. **Escalabilidad**  
-	La criptografía simétrica puede no ser escalable para grandes redes o sistemas distribuidos debido a la necesidad de compartir la misma clave entre múltiples entidades.  
+	Puede no ser escalable para grandes redes o sistemas distribuidos debido a la necesidad de compartir la misma clave entre múltiples entidades.  
 Es decir, la criptografía simétrica es rápida, eficiente y fácil de implementar, pero su principal desventaja es la necesidad de compartir la misma clave y la distribución segura de la misma.
 
 La **criptografía asimétrica**, por otro lado, utiliza un par de claves diferentes: una clave pública y una clave privada. La clave pública se comparte ampliamente y se utiliza para cifrar los mensajes, mientras que la clave privada se mantiene en secreto y se utiliza para descifrar los mensajes cifrados. Esto significa que el remitente no necesita conocer la clave privada del destinatario para enviar un mensaje cifrado. Algunos ejemplos de algoritmos de criptografía asimétrica son RSA, DSA y ECC.  
@@ -1337,14 +1337,14 @@ Al igual que la criptografía simétrica, la simétrica también tiene sus venta
 	2. **No es necesario compartir claves**  
 	No es necesario compartir una clave secreta entre el remitente y el destinatario, lo que simplifica la distribución y gestión de claves en entornos de red.
 	3. **Escalabilidad**  
-	La criptografía asimétrica es escalable para grandes redes y sistemas distribuidos debido a la capacidad de generar múltiples claves públicas y privadas.  
+	Escalable para grandes redes y sistemas distribuidos debido a la capacidad de generar múltiples claves públicas y privadas.  
 
 - Desventajas:  
 	1. **Procesamiento más lento**  
-	La criptografía asimétrica es más lenta que la criptografía simétrica debido al uso de dos claves diferentes para cifrar y descifrar los mensajes.
+	Más lenta que la criptografía simétrica debido al uso de dos claves diferentes para cifrar y descifrar los mensajes.
 	2. **Mayor complejidad**  
-	La criptografía asimétrica es más compleja de implementar y administrar que la criptografía simétrica, lo que puede dificultar su adopción.
+	Más compleja de implementar y administrar que la criptografía simétrica, lo que puede dificultar su adopción.
 	3. **Vulnerable a ataques de intermediario**  
-	La criptografía asimétrica es vulnerable a ataques de intermediario en los que un atacante intercepta y manipula la comunicación entre el remitente y el destinatario.  
+	Vulnerable a ataques de intermediario en los que un atacante intercepta y manipula la comunicación entre el remitente y el destinatario.  
 	
 Las principales diferencias entre ambas es que la criptografía simétrica utiliza una clave compartida para cifrar y descifrar la información, mientras que la criptografía asimétrica utiliza un par de claves diferentes para asegurar la privacidad de la información. Ambas técnicas son ampliamente utilizadas en la seguridad de la información.
