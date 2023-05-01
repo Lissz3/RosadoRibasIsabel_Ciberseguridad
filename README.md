@@ -1296,3 +1296,55 @@ En resumen, las herramientas GRC son una solución integral para la gestión del
 ![image](https://user-images.githubusercontent.com/93931447/234886061-b51edc4f-d393-44f3-a3a1-85e27cfe1c55.png)
 
 - **Examen** realizado: Certificado curso de análisis y gestión del riesgo.
+
+## OSINT para fuga de datos empresariales
+
+La herramienta OSINT (Open-Source Intelligence) de Kali es una colección de herramientas de inteligencia de fuentes abiertas que pueden ser utilizadas para recopilar información de fuentes públicas en línea.  
+Estas herramientas pueden ayudar en la recopilación de información sobre personas, organizaciones, direcciones IP, nombres de dominio, redes sociales y otros datos relevantes para la investigación de seguridad, la evaluación de amenazas y la inteligencia de negocios.  
+La herramienta OSINT de Kali también puede ser útil para los profesionales de seguridad en la identificación de vulnerabilidades y en la preparación de pruebas de penetración. Algunas de las herramientas incluidas en la herramienta OSINT de Kali son Maltego, theHarvester, Recon-ng y Metagoofil.  
+Estos datos pueden ser sacados, remarcando que siempre es de forma legal, de plataformas como LinkedIn, QDQ, librebor, infobel, twago, indeed, Páginas Amarillas, invenes, hunter.io, boletines del BOE, páginas del Gobierno, y redes sociales en general.  
+Como herramientas de búsqueda se pueden utilizar Google, Yahoo, Bing o Yandex.
+
+## Criptografía Simétrica y Asimétrica
+
+La criptografía es el estudio de técnicas de codificación para proteger la privacidad y la seguridad de la información.  
+En la criptografía, existen dos tipos principales de algoritmos: criptografía simétrica y criptografía asimétrica.  
+
+La **criptografía simétrica** utiliza una clave compartida entre el remitente y el destinatario para cifrar y descifrar la información. La misma clave se utiliza tanto para cifrar como para descifrar el mensaje. Esto significa que ambas partes deben conocer la clave compartida para asegurar la privacidad de la información. Algunos ejemplos de algoritmos de criptografía simétrica son DES, AES y Blowfish.  
+La criptografía simétrica tiene varias ventajas y desventajas que deben tenerse en cuenta al elegir un algoritmo de cifrado:  
+- Ventajas  
+	1. **Eficiente**  
+	La criptografía simétrica es rápida y eficiente en términos de procesamiento de datos, ya que utiliza una única clave para cifrar y descifrar los mensajes. Esto la hace ideal para aplicaciones que requieren un alto rendimiento y velocidad.
+	2. **Fácil implementación**  
+	La criptografía simétrica es fácil de implementar, ya que solo se necesita una clave compartida entre el remitente y el destinatario.  
+	3. **Ampliamente disponible**  
+	Existen muchos algoritmos de cifrado simétricos disponibles que son ampliamente utilizados y soportados por sistemas y dispositivos.  
+	
+- Desventajas:  
+	1. **Clave compartida**  
+	La principal desventaja de la criptografía simétrica es que la misma clave debe ser compartida entre el remitente y el destinatario. Esto significa que si la clave cae en manos equivocadas, toda la información cifrada con esa clave puede ser descifrada.  
+	2. **Distribución de claves**  
+	La distribución segura de las claves entre el remitente y el destinatario puede ser difícil y puede requerir la implementación de mecanismos adicionales de seguridad.  
+	3. **Escalabilidad**  
+	La criptografía simétrica puede no ser escalable para grandes redes o sistemas distribuidos debido a la necesidad de compartir la misma clave entre múltiples entidades.  
+Es decir, la criptografía simétrica es rápida, eficiente y fácil de implementar, pero su principal desventaja es la necesidad de compartir la misma clave y la distribución segura de la misma.
+
+La **criptografía asimétrica**, por otro lado, utiliza un par de claves diferentes: una clave pública y una clave privada. La clave pública se comparte ampliamente y se utiliza para cifrar los mensajes, mientras que la clave privada se mantiene en secreto y se utiliza para descifrar los mensajes cifrados. Esto significa que el remitente no necesita conocer la clave privada del destinatario para enviar un mensaje cifrado. Algunos ejemplos de algoritmos de criptografía asimétrica son RSA, DSA y ECC.  
+Al igual que la criptografía simétrica, la simétrica también tiene sus ventajas y desventajas:  
+- Ventajas:  
+	1. **Mayor seguridad**  
+	La criptografía asimétrica proporciona un mayor nivel de seguridad al utilizar dos claves diferentes, una pública y otra privada. Esto significa que la clave pública puede ser compartida ampliamente sin comprometer la seguridad de la información.  
+	2. **No es necesario compartir claves**  
+	No es necesario compartir una clave secreta entre el remitente y el destinatario, lo que simplifica la distribución y gestión de claves en entornos de red.
+	3. **Escalabilidad**  
+	La criptografía asimétrica es escalable para grandes redes y sistemas distribuidos debido a la capacidad de generar múltiples claves públicas y privadas.  
+
+- Desventajas:  
+	1. **Procesamiento más lento**  
+	La criptografía asimétrica es más lenta que la criptografía simétrica debido al uso de dos claves diferentes para cifrar y descifrar los mensajes.
+	2. **Mayor complejidad**  
+	La criptografía asimétrica es más compleja de implementar y administrar que la criptografía simétrica, lo que puede dificultar su adopción.
+	3. **Vulnerable a ataques de intermediario**  
+	La criptografía asimétrica es vulnerable a ataques de intermediario en los que un atacante intercepta y manipula la comunicación entre el remitente y el destinatario.  
+	
+Las principales diferencias entre ambas es que la criptografía simétrica utiliza una clave compartida para cifrar y descifrar la información, mientras que la criptografía asimétrica utiliza un par de claves diferentes para asegurar la privacidad de la información. Ambas técnicas son ampliamente utilizadas en la seguridad de la información.
