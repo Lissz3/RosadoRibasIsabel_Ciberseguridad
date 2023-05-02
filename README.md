@@ -1348,3 +1348,6 @@ Al igual que la criptografía simétrica, la simétrica también tiene sus venta
 	Vulnerable a ataques de intermediario en los que un atacante intercepta y manipula la comunicación entre el remitente y el destinatario.  
 	
 Las principales diferencias entre ambas es que la criptografía simétrica utiliza una clave compartida para cifrar y descifrar la información, mientras que la criptografía asimétrica utiliza un par de claves diferentes para asegurar la privacidad de la información. Ambas técnicas son ampliamente utilizadas en la seguridad de la información.
+
+## Seguridad de red en el ámbito corporativo: Capa 2 del modelo OSI
+- **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
