@@ -1351,3 +1351,6 @@ Las principales diferencias entre ambas es que la criptografía simétrica utili
 
 ## Seguridad de red en el ámbito corporativo: Capa 2 del modelo OSI
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
+
+## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
+- **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI-
