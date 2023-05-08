@@ -1365,4 +1365,7 @@ Las principales diferencias entre ambas es que la criptografía simétrica utili
 ![image](https://user-images.githubusercontent.com/93931447/236868772-6ccbce95-63e7-473d-9536-6bc48bf42893.png)
 
 ### Análisis de archivos ejecutables
+- **Test repaso** realizado: Curso de triage informático - Análisis de archivos ejecutables.
+![image](https://user-images.githubusercontent.com/93931447/236928529-f4a53b20-dfa0-4442-95bd-22bdfc6e22ef.png)
+
 ### Emails y pishing
