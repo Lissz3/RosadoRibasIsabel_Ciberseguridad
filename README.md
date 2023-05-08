@@ -1361,5 +1361,8 @@ Las principales diferencias entre ambas es que la criptografía simétrica utili
 ![image](https://user-images.githubusercontent.com/93931447/236833696-13b3f21e-3ada-45a1-aafe-367fb3473aab.png)
 
 ### Búsqueda de malware
+- **Test repaso** realizado: Curso de triage informático - Búsqueda de malware.
+![image](https://user-images.githubusercontent.com/93931447/236868772-6ccbce95-63e7-473d-9536-6bc48bf42893.png)
+
 ### Análisis de archivos ejecutables
 ### Emails y pishing
