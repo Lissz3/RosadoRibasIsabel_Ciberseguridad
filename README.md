@@ -1354,3 +1354,12 @@ Las principales diferencias entre ambas es que la criptografía simétrica utili
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI-
+
+## Curso de triage informático
+### Introducción
+- **Test repaso** realizado: Curso de triage informático - Introducción.
+![image](https://user-images.githubusercontent.com/93931447/236833696-13b3f21e-3ada-45a1-aafe-367fb3473aab.png)
+
+### Búsqueda de malware
+### Análisis de archivos ejecutables
+### Emails y pishing
