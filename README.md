@@ -1369,3 +1369,6 @@ Las principales diferencias entre ambas es que la criptografía simétrica utili
 ![image](https://user-images.githubusercontent.com/93931447/236928529-f4a53b20-dfa0-4442-95bd-22bdfc6e22ef.png)
 
 ### Emails y pishing
+- **Test repaso** realizado: Curso de triage informático - Emails y pishing.
+![image](https://user-images.githubusercontent.com/93931447/236934611-7db27513-741e-4d17-be59-994b7de35bae.png)
+
