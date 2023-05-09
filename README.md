@@ -1171,7 +1171,7 @@ Los que vamos a ver los dos más famosos a nivel mundial:
 	1. **ISO 27001**  
 	La norma ISO/IEC 27001 es un estándar para la seguridad de la información. Especifica los requisitos necesarios para establecer, implantar, mantener y mejorar un sistema de gestión de la seguridad de la información (SGSI) según el conocido como “Ciclo de Deming”: PDCA, acrónimo de Plan, Do, Check, Act (Planificar, Hacer, Verificar, Actuar).
 Dado que el riesgo no es algo estático sino dinámico, un SGSI establecido bajo esta norma debe contemplar un proceso cíclico desarrollado en el ciclo PDCA:  
-	![image](https://user-images.githubusercontent.com/93931447/234074751-4d41cdf6-4020-4ec6-ac99-7a9934cfb586.png)
+	![image](https://user-images.githubusercontent.com/93931447/234074751-4d41cdf6-4020-4ec6-ac99-7a9934cfb586.png)  
 	La norma se encuentra dividida en dos partes. La primera se compone de 10 puntos que son:
 		- Objeto y campo de aplicación  
 		Especifica la finalidad de la norma, su uso dentro de una organización y el modo de aplicación estándar  
