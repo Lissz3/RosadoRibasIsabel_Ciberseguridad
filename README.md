@@ -1372,7 +1372,7 @@ Las principales diferencias entre ambas es que la criptografía simétrica utili
 - **Test repaso** realizado: Curso de triage informático - Emails y pishing.
 ![image](https://user-images.githubusercontent.com/93931447/236934611-7db27513-741e-4d17-be59-994b7de35bae.png)
 
-- **Examen** realizado: Certificado curso de Triage informático.
+- **Examen** realizado: Certificado curso de triage informático.
 
 ## Curso de desarrollo seguro
-- **Examen** realizado: Certificado curso de Desarrollo Seguro.
+- **Examen** realizado: Certificado curso de desarrollo seguro.
