@@ -1350,6 +1350,48 @@ Al igual que la criptografía simétrica, la simétrica también tiene sus venta
 Las principales diferencias entre ambas es que la criptografía simétrica utiliza una clave compartida para cifrar y descifrar la información, mientras que la criptografía asimétrica utiliza un par de claves diferentes para asegurar la privacidad de la información. Ambas técnicas son ampliamente utilizadas en la seguridad de la información.
 
 ## Seguridad de red en el ámbito corporativo: Capa 2 del modelo OSI
+### Introducción a la capa de enlace de datos 
+La capa de enlace de datos es la segunda capa del modelo OSI y se encarga de la transferencia de datos entre nodos que están directamente conectados en una red local. Esta capa se encarga de dividir los datos en paquetes más pequeños y de transmitirlos de forma segura y eficiente a través de un medio de transmisión, como un cable o una conexión inalámbrica.  
+Encapsula los datos de la capa 3 de red (_Tx_) e interpreta los bits de la capa 1 física (_Rx_).  
+También se encarga de la detección y corrección de errores que puedan ocurrir durante la transmisión de datos, así como de controlar el flujo de datos para evitar la congestión en la red. Además, esta capa puede asignar direcciones físicas a los dispositivos conectados a la red, lo que permite su identificación en la misma.
+
+#### Subcapas
+Según el IEEE 802, la capa de enlace de datos se divide en dos subcapas:  
+1. Control de enlace lógico (LLC)  
+	- Implementado en software  
+	- Identifica el protocolo de Capa 3  
+2. Control de acceso al medio (MAC)  
+	- Implementado en hardware  
+	- Encapsulación de datos  
+		- Delimitación de tramas  
+		- Direccionamiento  
+		- Detección de errores  
+	- Control de acceso a medios  
+
+#### Tipos de comunicación
+1. **Simplex**  
+Transmiten información en una sola dirección  
+2. **Semi-dúplex**  
+Transmiten información en ambas direcciones pero no de manera simultánea  
+3. **Dúplex**  
+Transmiten información en ambas direcciones de manera simultánea  
+
+### Métodos de control de acceso
+1. **Acceso por contienda**
+	- Acceso múltiple con detección de colisiones (CSMA/CD)  
+		Protocolo de acceso al medio **utilizado en redes de área local (LAN)**.  
+		En un sistema CSMA/CD, cada dispositivo que desea transmitir datos escucha el canal de comunicación para detectar si otros dispositivos están transmitiendo datos. Si el canal está libre, el dispositivo comienza a transmitir sus datos. Si otro dispositivo comienza a transmitir al mismo tiempo, se produce una colisión de datos y ambas transmisiones se interrumpen. Los dispositivos implicados en la colisión esperan un tiempo aleatorio antes de intentar transmitir de nuevo, para evitar una nueva colisión. Por otro lado, si un dispositivo que desea transmitir datos detecta que está recibiendo una trama, no enviará su trama hasta que termine dicha transmisión.  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/ada83cca-37f3-4731-a81e-38f119f7ad97)  
+
+	- Acceso múltiple con prevención de colisiones (CSMA/CA)  
+		Protocolo de acceso al medio **utilizado en redes inalámbricas**.
+		En un sistema CSMA/CA, cada dispositivo que desea transmitir datos envía primero una señal de solicitud de transmisión al punto de acceso de la red inalámbrica (AP). El AP luego concede permiso para la transmisión de datos a través de una señal de confirmación de transmisión. Si varios dispositivos envían señales de solicitud de transmisión al mismo tiempo, el AP utiliza un mecanismo de programación para otorgar permiso de transmisión a un dispositivo a la vez, lo que evita las colisiones.  
+		Antes de transmitir datos, un dispositivo escucha el canal de comunicación para detectar si otros dispositivos están transmitiendo. Si el canal está libre, el dispositivo espera un tiempo aleatorio antes de comenzar a transmitir sus datos, para evitar que otros dispositivos comiencen a transmitir al mismo tiempo.  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/35da285b-e14b-4a8a-84c3-fb8c89b28d5f)
+
+2. **Acceso controlado**
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/5931ee75-f679-4fa9-b080-ea296f60307d)
+
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
