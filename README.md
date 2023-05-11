@@ -1403,8 +1403,8 @@ Transmiten información en ambas direcciones de manera simultánea
 
 ### Tipos de direcciones
 **Dirección MAC**  
-La dirección MAC (Media Access Control) es una dirección **única y permanente** asignada a cada interfaz de red de un dispositivo (_como una tarjeta de red_) por el fabricante del dispositivo.
-![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/06aec0a8-25fd-42d3-92c8-9aa72b9be677)
+La dirección MAC (Media Access Control) es una dirección **única y permanente** asignada a cada interfaz de red de un dispositivo (_como una tarjeta de red_) por el fabricante del dispositivo.  
+![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/75525b67-e45c-40ad-b8c2-f34305a9d5ff)  
 	1. **Dirección MAC unicast**  
 		- Un único dispositivo de destino  
 		- MAC Dest.: MAC Dispositivo  
