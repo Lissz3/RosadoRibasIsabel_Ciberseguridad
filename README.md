@@ -1387,10 +1387,10 @@ Transmiten información en ambas direcciones de manera simultánea
 		Protocolo de acceso al medio **utilizado en redes inalámbricas**.  
 		En un sistema CSMA/CA, cada dispositivo que desea transmitir datos envía primero una señal de solicitud de transmisión al punto de acceso de la red inalámbrica (AP). El AP luego concede permiso para la transmisión de datos a través de una señal de confirmación de transmisión. Si varios dispositivos envían señales de solicitud de transmisión al mismo tiempo, el AP utiliza un mecanismo de programación para otorgar permiso de transmisión a un dispositivo a la vez, lo que evita las colisiones.  
 		Antes de transmitir datos, un dispositivo escucha el canal de comunicación para detectar si otros dispositivos están transmitiendo. Si el canal está libre, el dispositivo espera un tiempo aleatorio antes de comenzar a transmitir sus datos, para evitar que otros dispositivos comiencen a transmitir al mismo tiempo.  
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/35da285b-e14b-4a8a-84c3-fb8c89b28d5f)
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c1e75d2a-1a43-4e31-a38f-9d4685989d8e)
 
 2. **Acceso controlado**
-	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/5931ee75-f679-4fa9-b080-ea296f60307d)
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/89fd7e73-642f-4109-954f-1ebb0c7db529)
 
 ### Campos de la trama Ethernet
 - **Tecnología Ethernet**  
@@ -1404,7 +1404,7 @@ Transmiten información en ambas direcciones de manera simultánea
 ### Tipos de direcciones
 **Dirección MAC**  
 La dirección MAC (Media Access Control) es una dirección **única y permanente** asignada a cada interfaz de red de un dispositivo (_como una tarjeta de red_) por el fabricante del dispositivo.
-![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/e14f6298-ff3b-4a5c-a1ac-4291c7302bb9)  
+![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/06aec0a8-25fd-42d3-92c8-9aa72b9be677)
 	1. **Dirección MAC unicast**  
 		- Un único dispositivo de destino  
 		- MAC Dest.: MAC Dispositivo  
