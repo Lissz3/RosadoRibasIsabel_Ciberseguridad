@@ -1390,7 +1390,7 @@ Transmiten información en ambas direcciones de manera simultánea
 		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c1e75d2a-1a43-4e31-a38f-9d4685989d8e)
 
 2. **Acceso controlado**  
-	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/89fd7e73-642f-4109-954f-1ebb0c7db529)
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/9a2ba092-3d38-40f1-84e6-5f27ae9b49e0)
 
 ### Campos de la trama Ethernet
 - **Tecnología Ethernet**  
@@ -1405,15 +1405,15 @@ Transmiten información en ambas direcciones de manera simultánea
 **Dirección MAC**  
 La dirección MAC (Media Access Control) es una dirección **única y permanente** asignada a cada interfaz de red de un dispositivo (_como una tarjeta de red_) por el fabricante del dispositivo.  
 ![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/75525b67-e45c-40ad-b8c2-f34305a9d5ff)  
-	1. **Dirección MAC unicast**  
-		- Un único dispositivo de destino  
-		- MAC Dest.: MAC Dispositivo  
-	2. **Dirección MAC broadcast**  
-		- Todos los dispositivos de la red local reciben y procesan la trama  
-		- MAC Dest.: FF-FF-FF-FF-FF-FF  
-	3. **Dirección MAC multicast**  
-		- Grupo de dispositivos como destino  
-		- MAC Dest.: 01-00-5E-XX-XX-XX  
+1. **Dirección MAC unicast**  
+	- Un único dispositivo de destino  
+	- MAC Dest.: MAC Dispositivo  
+2. **Dirección MAC broadcast**  
+	- Todos los dispositivos de la red local reciben y procesan la trama  
+	- MAC Dest.: FF-FF-FF-FF-FF-FF  
+3. **Dirección MAC multicast**  
+	- Grupo de dispositivos como destino  
+	- MAC Dest.: 01-00-5E-XX-XX-XX  
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
