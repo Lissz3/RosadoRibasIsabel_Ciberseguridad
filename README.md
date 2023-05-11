@@ -1376,3 +1376,7 @@ Las principales diferencias entre ambas es que la criptografía simétrica utili
 
 ## Curso de desarrollo seguro
 - **Examen** realizado: Certificado curso de desarrollo seguro.
+
+## Introducción al Esquema Nacional de Seguridad
+
+- **Examen** realizado: Certificado curso de introducción al Esquema Nacional de Seguridad
