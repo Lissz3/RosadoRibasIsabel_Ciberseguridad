@@ -1399,7 +1399,8 @@ Transmiten información en ambas direcciones de manera simultánea
 - **Trama Ethernet**  
 	- Tamaño mín.: 64 bytes  
 	- Tamaño máx.: 1518 bytes  
-![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/de872d08-48e7-4a06-b855-45ebb96147b7)
+
+![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/dbb33f16-c509-40c6-bd31-e28024e4d0cb)  
 
 ### Tipos de direcciones
 **Dirección MAC**  
