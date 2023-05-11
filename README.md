@@ -1384,7 +1384,7 @@ Transmiten información en ambas direcciones de manera simultánea
 		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/ada83cca-37f3-4731-a81e-38f119f7ad97)  
 
 	- Acceso múltiple con prevención de colisiones (CSMA/CA)  
-		Protocolo de acceso al medio **utilizado en redes inalámbricas**.
+		Protocolo de acceso al medio **utilizado en redes inalámbricas**.  
 		En un sistema CSMA/CA, cada dispositivo que desea transmitir datos envía primero una señal de solicitud de transmisión al punto de acceso de la red inalámbrica (AP). El AP luego concede permiso para la transmisión de datos a través de una señal de confirmación de transmisión. Si varios dispositivos envían señales de solicitud de transmisión al mismo tiempo, el AP utiliza un mecanismo de programación para otorgar permiso de transmisión a un dispositivo a la vez, lo que evita las colisiones.  
 		Antes de transmitir datos, un dispositivo escucha el canal de comunicación para detectar si otros dispositivos están transmitiendo. Si el canal está libre, el dispositivo espera un tiempo aleatorio antes de comenzar a transmitir sus datos, para evitar que otros dispositivos comiencen a transmitir al mismo tiempo.  
 		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/35da285b-e14b-4a8a-84c3-fb8c89b28d5f)
