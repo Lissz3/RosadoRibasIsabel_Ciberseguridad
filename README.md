@@ -1378,12 +1378,12 @@ Transmiten información en ambas direcciones de manera simultánea
 
 ### Métodos de control de acceso
 1. **Acceso por contienda**
-	- Acceso múltiple con detección de colisiones (CSMA/CD)  
+	- **Acceso múltiple con detección de colisiones (CSMA/CD)**  
 		Protocolo de acceso al medio **utilizado en redes de área local (LAN)**.  
 		En un sistema CSMA/CD, cada dispositivo que desea transmitir datos escucha el canal de comunicación para detectar si otros dispositivos están transmitiendo datos. Si el canal está libre, el dispositivo comienza a transmitir sus datos. Si otro dispositivo comienza a transmitir al mismo tiempo, se produce una colisión de datos y ambas transmisiones se interrumpen. Los dispositivos implicados en la colisión esperan un tiempo aleatorio antes de intentar transmitir de nuevo, para evitar una nueva colisión. Por otro lado, si un dispositivo que desea transmitir datos detecta que está recibiendo una trama, no enviará su trama hasta que termine dicha transmisión.  
 		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/ada83cca-37f3-4731-a81e-38f119f7ad97)  
 
-	- Acceso múltiple con prevención de colisiones (CSMA/CA)  
+	- **Acceso múltiple con prevención de colisiones (CSMA/CA) ** 
 		Protocolo de acceso al medio **utilizado en redes inalámbricas**.  
 		En un sistema CSMA/CA, cada dispositivo que desea transmitir datos envía primero una señal de solicitud de transmisión al punto de acceso de la red inalámbrica (AP). El AP luego concede permiso para la transmisión de datos a través de una señal de confirmación de transmisión. Si varios dispositivos envían señales de solicitud de transmisión al mismo tiempo, el AP utiliza un mecanismo de programación para otorgar permiso de transmisión a un dispositivo a la vez, lo que evita las colisiones.  
 		Antes de transmitir datos, un dispositivo escucha el canal de comunicación para detectar si otros dispositivos están transmitiendo. Si el canal está libre, el dispositivo espera un tiempo aleatorio antes de comenzar a transmitir sus datos, para evitar que otros dispositivos comiencen a transmitir al mismo tiempo.  
@@ -1391,6 +1391,29 @@ Transmiten información en ambas direcciones de manera simultánea
 
 2. **Acceso controlado**
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/5931ee75-f679-4fa9-b080-ea296f60307d)
+
+### Campos de la trama Ethernet
+- **Tecnología Ethernet**  
+	- Funciona en las Capas 1 y 2  
+	- Se define en los estándares **IEEE 802.2 y 802.3**  
+- **Trama Ethernet**  
+	- Tamaño mín.: 64 bytes  
+	- Tamaño máx.: 1518 bytes  
+![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/de872d08-48e7-4a06-b855-45ebb96147b7)
+
+### Tipos de direcciones
+**Dirección MAC**  
+La dirección MAC (Media Access Control) es una dirección **única y permanente** asignada a cada interfaz de red de un dispositivo (_como una tarjeta de red_) por el fabricante del dispositivo.
+![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/e14f6298-ff3b-4a5c-a1ac-4291c7302bb9)  
+	1. **Dirección MAC unicast**  
+		- Un único dispositivo de destino  
+		- MAC Dest.: MAC Dispositivo  
+	2. **Dirección MAC broadcast**  
+		- Todos los dispositivos de la red local reciben y procesan la trama  
+		- MAC Dest.: FF-FF-FF-FF-FF-FF  
+	3. **Dirección MAC multicast**  
+		- Grupo de dispositivos como destino  
+		- MAC Dest.: 01-00-5E-XX-XX-XX  
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
