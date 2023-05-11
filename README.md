@@ -1389,7 +1389,7 @@ Transmiten información en ambas direcciones de manera simultánea
 		Antes de transmitir datos, un dispositivo escucha el canal de comunicación para detectar si otros dispositivos están transmitiendo. Si el canal está libre, el dispositivo espera un tiempo aleatorio antes de comenzar a transmitir sus datos, para evitar que otros dispositivos comiencen a transmitir al mismo tiempo.  
 		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c1e75d2a-1a43-4e31-a38f-9d4685989d8e)
 
-2. **Acceso controlado**
+2. **Acceso controlado**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/89fd7e73-642f-4109-954f-1ebb0c7db529)
 
 ### Campos de la trama Ethernet
