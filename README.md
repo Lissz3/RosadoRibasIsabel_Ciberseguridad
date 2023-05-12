@@ -2201,7 +2201,10 @@ En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.
 
 	- **Cadena de comunidad de lectura y escritura**  
 		Permite modificar la configuración del dispositivo  
-		`R1(config)# snmp-server community password rw`
+		`R1(config)# snmp-server community password rw`  
+
+5. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/937b6ef9-94c7-4585-90a9-2d5456990d25)  
 
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
