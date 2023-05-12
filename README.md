@@ -1435,19 +1435,19 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 		- Únicamente _read-only_  
 		- Más seguro pero menos escalable  
 	- **ARP dinámico**  
-			- Se aprenden a través del protocolo ARP
-			- Tienen fecha de vencimiento
-			- Menos seguro pero más escalable
+		- Se aprenden a través del protocolo ARP  
+		- Tienen fecha de vencimiento  
+		- Menos seguro pero más escalable  
 4. **Variaciones ARP**  
 	- **Reverse ARP (RARP)**  
-	 - Encuentra la dirección IP asociada a una determinada dirección MAC  
-	 - Necesidad de un servidor RARP especializado  
-	 - A día de hoy casi no se utiliza, reemplazandose por BOOTP y DHCP  
+		- Encuentra la dirección IP asociada a una determinada dirección MAC  
+		- Necesidad de un servidor RARP especializado  
+		- A día de hoy casi no se utiliza, reemplazandose por BOOTP y DHCP  
 
 	- **Proxy ARP**
-	 - Un host responde a peticiones ARP destinadas a un host que se encuentra fuera de la red local. No es necesario enrutamiento o puerta de enlace.  
+		- Un host responde a peticiones ARP destinadas a un host que se encuentra fuera de la red local. No es necesario enrutamiento o puerta de enlace.  
 
-			`R1(config-if)# ip proxy-arp`  
+		`R1(config-if)# ip proxy-arp`  
 			
 5. **Fallos de seguridad y posibles mitigaciones**
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/86577adc-38d3-49c2-9da9-cea347a1e2a4)
