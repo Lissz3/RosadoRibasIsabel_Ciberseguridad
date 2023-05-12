@@ -1419,39 +1419,104 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 	- MAC Dest.: 01-00-5E-XX-XX-XX  
 
  ### ARP  
- - Descripción general:
+ 1. **Explicación general**
  	- Protocolo de la capa de enlace de datos responsable de encontrar la dirección MAC asociada a una determinada dirección IP  
  	- Mantiene una tabla de asignaciones de direcciones IPv4 a MAC  
  	- Esencial en la transmisión de datos en redes Ethernet  
- 	- Existen dos tipos de paquetes: **ARP Request y ARP Reply**  
- 		- ARP Request  
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/23895822-af97-4270-9804-bdd070e3790c)  
-		- ARP Reply  
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/073b3456-adc1-4d45-bff5-362f60fbd9ab)
+ 2. Dos tipos de paquetes: **ARP Request y ARP Reply**  
+	- ARP Request  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/23895822-af97-4270-9804-bdd070e3790c)  
+	- ARP Reply  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/073b3456-adc1-4d45-bff5-362f60fbd9ab)
 
- 	- Se distinguen dos modos de almacenar las relaciones: **estática o dinámica**
-		- **ARP estático**  
-			- Añadidas por el administrador (manual)  
-			- Únicamente _read-only_  
-			- Más seguro pero menos escalable  
-		- **ARP dinámico**  
+3. Dos modos de almacenar las relaciones: **estática o dinámica**
+	- **ARP estático**  
+		- Añadidas por el administrador (manual)  
+		- Únicamente _read-only_  
+		- Más seguro pero menos escalable  
+	- **ARP dinámico**  
 			- Se aprenden a través del protocolo ARP
 			- Tienen fecha de vencimiento
 			- Menos seguro pero más escalable
-	- Existen variaciones como:  
-		- **Reverse ARP (RARP)**  
-			- Encuentra la dirección IP asociada a una determinada dirección MAC  
-			- Necesidad de un servidor RARP especializado  
-			- A día de hoy casi no se utiliza, reemplazandose por BOOTP y DHCP  
-		- **Proxy ARP**
-			- Un host responde a peticiones ARP destinadas a un host que se encuentra fuera de la red local. No es necesario enrutamiento o puerta de enlace.  
+4. **Variaciones ARP**  
+	- **Reverse ARP (RARP)**  
+		- Encuentra la dirección IP asociada a una determinada dirección MAC  
+		- Necesidad de un servidor RARP especializado  
+		- A día de hoy casi no se utiliza, reemplazandose por BOOTP y DHCP  
+	- **Proxy ARP**
+		- Un host responde a peticiones ARP destinadas a un host que se encuentra fuera de la red local. No es necesario enrutamiento o puerta de enlace.  
 
-			```
-			R1(config-if)# ip proxy-arp
-			```  
+		```
+		R1(config-if)# ip proxy-arp
+		```  
 			
-- Fallos de seguridad y posibles mitigaciones
+5. **Fallos de seguridad y posibles mitigaciones**
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/86577adc-38d3-49c2-9da9-cea347a1e2a4)
+
+### STP
+1. **Explicación general**  
+	- Protocolo de la capa de enlace de datos que gestiona la presencia de buclesen topologías de red debido a enlaces redundantes  
+	- Permite a los switches activar o desactivar automáticamente los enlaces según las necesidades de la topología  
+	- Para conseguir eliminar bucles se determina un root en función de la prioridad y 3 tipos de puerto: root, designado y alternativo  
+	- Para el intercambio de información entre los switches de la topología se utilizan tramas BPDU  
+
+2. **Algoritmo STP**  
+![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/5035b52e-95f6-42a5-8b16-7b92a22ee90e)  
+
+3. **Unidad de datos STP: BPDU**  
+	- Prioridad del puente  
+	Valor personalizable que influye en la elección del root (de 0 a 61440)  
+	- ID del sistema extendido  
+	Valor agregado al valor de la prioridad que identifica la VLAN para esta BPDU  
+	- Dirección MAC  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/954f6831-e9f8-40b0-b1f6-7ad32add6f59)  
+	
+4. **Pasos para topologías sin bucles**  
+	1. Elegir el root  
+	La elección se basa en la elección de la MAC más pequeña en caso de que la prioridad sea la misma para todos los switchs.
+	De manera administra se puede modificar la prioridad para que esta sea más baja y así poder elegir de manera manual el root.
+	3. Seleccionar los puertos root
+	Aquellos que conectan los switches con el root mediante la ruta más rápida (_corta_)  
+	4. Seleccionar los puertos designados  
+	Aquellos switches que tengan un puerto root, al otro lado siempre vamos a tener un puerto designado.  
+	Por defecto todos los puertos son designados si no existe un puerto root al otro lado.  
+	6. Seleccionar los puertos alternativos (bloqueados)  
+	Aquel que por descarte queda bloqueado, evitando los bucles.  
+
+5. **Temporizadores**  
+	1. Hello Timer  
+		- Intervalo entre BPDU  
+		- Valor predeterminado: 2 segundos  
+	2. Forward Delay Timer  
+		- Tiempo que se pasa en el estado de escucha y aprendizaje  
+		- Valor predeterminado: 15 segundos  
+	3. Max Age Timer  
+		- Duración máxima de espera antes de cambiar la topología STP  
+		- Valor predeterminado: 20 segundos  
+
+6. **Estados del puerto**
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/706346d8-70e1-46a4-82ef-efd369151961)  
+	
+7. **Versiones STP**  
+	1. PVST+  
+	Proporciona una instancia de árbol diferente por cada VLAN  
+	2. RSTP  
+	Proporciona una convergencia más veloz que STP  
+	3. PVST+ rapid  
+	Mejora de RSTP con una instancia de árbol diferente por cada VLAN  
+	4. MSTP  
+	Asigna varias VLAN en la misma instancia de árbol
+
+
+
+
+
+
+
+
+
+
+
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
