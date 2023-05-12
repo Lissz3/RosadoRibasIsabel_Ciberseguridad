@@ -1594,6 +1594,23 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 4. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/75087095-e531-4801-90c2-0617480d5679)  
 
+
+### VLAN
+1. **Descripción general**  
+Las VLAN son divisiones lógicas de la red  que nos permiten distribuirla de manera que los dispositivos no se puedan comunicar todos entre todos, si no que estará restringida entre aquellos
+que pertenezcan a una misma VLAN.  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/8ad25fd4-f90d-4eb9-99a8-aa80a3850e27)  
+
+2. **Tipos de enlace**  
+	- **Enlace de acceso**  
+		- Tráfico de una única VLAN  
+		- Conexión con los dispositivos finales  
+	- **Enlace troncal**  
+		- Tráfico de múltiples VLAN  
+		- Conexión entre switches o de un switch con la capa superior  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/1c5adef9-9ab0-4c07-a3d2-f21c52880595)
+
+
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
