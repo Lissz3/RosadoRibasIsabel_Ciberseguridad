@@ -1783,7 +1783,7 @@ La capa de red es la tercera capa del modelo OSI (Open Systems Interconnection) 
 	- Mayor complejidad de la red
 		- Solución óptima: **Transición a IPv6**  
 
-4. **NAT: Traducción dde direcciones**  
+4. **NAT: Traducción de direcciones**  
 	La traducción de direcciones de red (NAT, por sus siglas en inglés de Network Address Translation) es un proceso utilizado en redes de computadoras para permitir que los dispositivos en una **red privada** tengan **acceso a Internet** o a otra **red pública** utilizando **una única dirección IP pública**.  
 	En una red NAT, un router o dispositivo similar se utiliza como intermediario entre la red privada y la red pública, y asigna direcciones IP privadas a los dispositivos dentro de la red privada. Cuando un dispositivo en la red privada solicita acceso a Internet o a otra red pública, el router utiliza su dirección IP pública para enviar y recibir datos hacia y desde ese dispositivo.  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/b82a2340-7eb8-4397-a5c6-da82733622ce)  
@@ -1919,7 +1919,61 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 	6. **Ventajas y desventajas**  
 		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fc87aa3b-d593-4d42-9952-c1818b5cdfd9)  
 
-### RIP
+### RIP  
+1. **Descripción general**
+	- Protocolo de encaminamiento dinámico interior  
+	- Puerto 520 de UDP  
+	- Usa el número de saltos como métrica  
+	- Para determinar el camino más corto utiliza el algoritmo de Bellman Ford  
+	- Número máximo de saltos: 15  
+	- Emplea la regla de horizonte dividido y el envenenamiento de rutas  
+	- Actualmente existen 3 versiones: RIPv1, RIPv2 y RIPng (RIP para IPv6)  
+
+2. **Comparativa RIPv1 y RIPv2**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/aed9fca2-2fb3-4358-a747-827903bcf747)  
+
+3. **Modos de funcionamiento y mensajes**  
+	1. **Modos de funcionamiento de las interfaces**  
+		- **Activo**: Normalmente solo los router operan en este modo  
+		- **Pasivo**: Normalmente conecta con usuarios finales  
+	2. **Tipos de mensaje (sólo en interfaces activas)**
+		- **Request**: Solicita parte o toda la tabla de rutas  
+		- **Reply**:  
+			- Respuesta a un request  
+			- Actualización periódica  
+			- Actualización por cambio en topología  
+	3. **Tipos de temporizadores**  
+		- **Temporizador periodíco** (_update timer_): 30 segundos  
+		- **Temporizador de caducida**d (_invalid timer_): 180 segundos  
+		- **Temporizador de purga** (_flush timer_): 240 segundos  
+		- **Temporizador de retención** (_holddown timer_): 180 segundos  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/da564896-683f-4407-87d5-5f77374423d4)  
+4. **Configuración**  
+	- Configuración RIPv2
+		```
+		R1(config)# router rip
+		R1(config-router)# version 2
+		R1(config-router)# no auto-summary
+		R1(config-router)# network network-address
+		```  
+	- Redistribución de rutas predeterminadas  
+		```
+		R1(config)# ip route 0.0.0.0 0.0.0.0 [next-hop-address | exit-intf]
+		R1(config-router)# redistribute static
+		```  
+	- Interfaz pasiva (_usuario final_)  
+		`R1(config-router)# passive-interface interface-id`  
+	- Verificación de la configuración  
+		`R1# show ip route`  
+5. **Ventajas y desventajas**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/07783d95-99db-4552-ab0c-2b9defa48cf0)  
+
+6. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/5acebe50-f5f7-4faf-a801-f17ff0f58829)  
+
+### OSPF
+	
+
 		
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
