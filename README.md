@@ -1723,7 +1723,7 @@ que pertenezcan a una misma VLAN.
 
 	``` Switch(config)# show vlan name vlan-name ```  
 
-	``` Switch(config)# show vlan summary ```  
+	``` Switch(config)# show vlan **summary** ```  
 
 	- **VLAN de voz y datos**  
 
