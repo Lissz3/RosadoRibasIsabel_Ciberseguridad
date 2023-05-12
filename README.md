@@ -1760,7 +1760,8 @@ que pertenezcan a una misma VLAN.
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
-La capa de red es la tercera capa del modelo OSI (Open Systems Interconnection) y se encarga de proporcionar servicios de comunicación de extremo a extremo, permitiendo que los paquetes de datos viajen entre redes diferentes.   
+### Capa 3 - Capa de red
+La capa de red es la tercera capa del modelo OSI y se encarga de proporcionar servicios de comunicación de extremo a extremo, permitiendo que los paquetes de datos viajen entre redes diferentes.   
 	La capa de red también se encarga de fragmentar y ensamblar los paquetes de datos para permitir una transmisión eficiente y segura a través de diferentes redes, y proporciona servicios de calidad de servicio (QoS) para garantizar que los paquetes se entreguen según prioridades establecidas.  
 	En resumen, las operaciones básicas de la capa 3 son:  
 	- Direccionamiento de dispositivos finales  
@@ -2021,9 +2022,49 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 9. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/43ceb1ff-ff4e-4672-a1e2-baf0d80e6ec1)
 
-	
+### HSRP
+1. **Descripción general**  
+	- **Protocolo de capa 3 propiedad de Cisco**  
+	- **Uso de puertas de enlace redundantes** (conmutación por fallo transparente)  
+	- **Definición de MAC y dirección IP virtuales**  
+	- Se forma un grupo HSRP compuesto por un **router activo** y un **router de respaldo** (elimina SPOF)  
+	- Comunicación mediante la dirección **multicast 224.0.0.2 (versión 1) o 224.0.0.102 (versión 2) y el puerto UDP 1985**  
 
+2. **Prioridad y preferncia**  
+	- **Prioridad**  
+		- Valor entre 0 y 255. Por defecto: 100  
+		- Se elige como router activo el que tenga mayor prioridad  
+		- Si las prioridades iguales, se elige aquel con la dirección IPv4 más alta  
+	- Preferencia  
+		- Fuerza un nuevo proceso de elección de HSRP  
+		- Si se habilita, el router con la prioridad más alta asume el rol de activo  
+		- Si la prioridad es igual en los routers, no se modifica el rol de activo  
+3. **Estados** 
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/bf3d5401-eff6-46ff-97b7-82474a962093)  
 
+4. **Configuración**  
+	- **Configuración de router activo**  
+		```
+		R1(config)# interface interface-id
+		R1(config-if)# standby version 2
+		R1(config-if)# standby 1 ip virtual-ip-address
+		R1(config-if)# standby 1 priority priority-value
+		R1(config-if)# standby 1 preempt
+		```  
+	- **Configuración de router de respaldo**  
+		```
+		R2(config)# interface interface-id
+		R2(config-if)# standby version 2
+		R2(config-if)# standby 1 ip virtual-ip-address
+		```  
+	**Prioridad activo siempre mayor que prioridad de respaldo**  
+	- **Verificación de la configuración**  
+		`R1# show standby`  
+
+5. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/b2b7d460-f4ad-4207-94d5-8a11585d860e)  
+
+### Capa 7 - Capa de aplicación
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
