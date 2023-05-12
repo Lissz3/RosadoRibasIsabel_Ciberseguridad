@@ -1602,22 +1602,22 @@ que pertenezcan a una misma VLAN.
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/8ad25fd4-f90d-4eb9-99a8-aa80a3850e27)  
 
 2. **Tipos de enlace**  
-- **Enlace de acceso**  
-	- Tráfico de una única VLAN  
-	- Conexión con los dispositivos finales  
-- **Enlace troncal**  
-	- Tráfico de múltiples VLAN  
-	- Conexión entre switches o de un switch con la capa superior  
+	- **Enlace de acceso**  
+		- Tráfico de una única VLAN  
+		- Conexión con los dispositivos finales  
+	- **Enlace troncal**  
+		- Tráfico de múltiples VLAN  
+		- Conexión entre switches o de un switch con la capa superior  
 
 ![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/1c5adef9-9ab0-4c07-a3d2-f21c52880595)
 
 3. **Ventajas de un diseño con VLAN**  
-- Dominios de difusión más pequeños  
-- Seguridad mejorada  
-- Mejora la eficiencia del departamento de TI  
-- Reducción de costes  
-- Mejor rendimiento  
-- Administración más simple de proyectos y aplicaciones
+	- Dominios de difusión más pequeños  
+	- Seguridad mejorada  
+	- Mejora la eficiencia del departamento de TI  
+	- Reducción de costes  
+	- Mejor rendimiento  
+	- Administración más simple de proyectos y aplicaciones
 
 4. **Tipos de VLAN**  
 	1. **VLAN predeterminada**  
@@ -1638,14 +1638,84 @@ que pertenezcan a una misma VLAN.
 		- Todo el tráfico sin etiquetar del puerto 802.1Q se envía según el valor de PVID
 
 6. **Etiquetado VLAN de voz** 
-- **Puerto 1**  
-	Conecta teléfono IP con el switch  
-- **Puerto 2**  
-	Puerto interno
-● **Puerto 3**  
-	Conecta con el PC  
+	- **Puerto 1**  
+		Conecta teléfono IP con el switch  
+	- **Puerto 2**  
+		Puerto interno  
+	- **Puerto 3**  
+		Conecta con el PC  
 
-![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c8848afc-8fc8-4158-b305-3ff85fa3b62b)
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c8848afc-8fc8-4158-b305-3ff85fa3b62b)
+
+7. **Rango de VLAN en Switches**
+	- **Rango normal VLAN**  
+		- Redes pequeñas y medianas  
+		- VLAN ID: 1-1005  
+		- 1002-1005 reservadas  
+		- Se guardan en vlan.dat (memoria flash)
+	- **Rango extendido de VLAN**  
+		- Proveedores de servicio y empresas globales  
+		- VLAN ID: 1006-4094  
+		- Se guardan en el archivo de configuración  
+
+8. **Creación y borrado de VLAN**
+	1. **Creación VLAN en un rango normal**  
+
+	```
+	Switch# **configure terminal**
+	Switch(config)# **vlan** _vlan-id_
+	Switch(config-vlan)# name _vlan-name_
+	```  
+	
+	2. **Borrado de una VLAN de la memoria flash (permanente)**
+	
+	```
+	Switch(config)# **no vlan** _vlan-id_
+	```  
+
+	3. **Borrado de toda la configuración de VLAN de la memoria flash (permanente)**
+	
+	```
+	Switch# **delete flash:vlan.dat**
+	```  
+
+9. **Puertos de acceso**
+
+	```
+	Switch# **configure terminal**
+	Switch(config)# **interface** _interface-id_
+	Switch(config-if)# **switchport mode access**
+	Switch(config-if)# **switchport access vlan** _vlan-id_
+	```  
+
+	```
+	Switch# **configure terminal**
+	Switch(config)# **interface** _interface-id_
+	Switch(config-if)# **no switchport access vlan**
+	```  
+	
+	- **VLAN de voz y datos**
+
+		```
+		Switch# **configure terminal**
+		Switch(config)# **interface** _interface-id_
+		Switch(config-if)# **switchport mode access**
+		Switch(config-if)# **switchport access vlan** _vlan-id_
+		Switch(config-if)# **mls qos trust cos**
+		Switch(config-if)# **switchport voice vlan** _vlan-id_
+		```  
+		
+	- **Puertos troncales**
+		
+		```
+		Switch# **configure terminal**
+		Switch(config)# **interface** _interface-id_
+		Switch(config-if)# **switchport mode trunk**
+		Switch(config-if)# **switchport trunk native vlan** _vlan-id_
+		Switch(config-if)# **switchport trunk allowed vlan** _vlan-list_
+		```  
+		
+
 
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
