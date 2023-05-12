@@ -2039,7 +2039,8 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 		- Fuerza un nuevo proceso de elección de HSRP  
 		- Si se habilita, el router con la prioridad más alta asume el rol de activo  
 		- Si la prioridad es igual en los routers, no se modifica el rol de activo  
-3. **Estados** 
+
+3. **Estados**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/bf3d5401-eff6-46ff-97b7-82474a962093)  
 
 4. **Configuración**  
