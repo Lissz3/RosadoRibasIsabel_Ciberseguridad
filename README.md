@@ -1827,7 +1827,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 	Comando:  
 	`show ip route`  
 	1. **Elección de la mejor ruta según protocolo**  
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/e7c37205-4e5d-45fb-934b-25498ad2a711)  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/7f483104-8daf-4dfa-9bdd-f40eb4522df0)
 
 	2. **Principios de la tabla de routing**  
 		- Cada router toma su **decisión por si solo**  
@@ -1835,7 +1835,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 		- La información de enrutamiento **no proporciona enrutamiento de retorno** al secundario  
 
 	3. **Entradas de la tabla de routing**  
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/91fda484-665d-4b8e-aa36-3b920cc1e3b3)
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/63226983-4a39-405b-9874-cba4321efbe5)
 
 	4. **Tipos de ruta**  
 		1. **Redes conectadas directamente**  
