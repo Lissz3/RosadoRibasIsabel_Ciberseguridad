@@ -1689,7 +1689,7 @@ que pertenezcan a una misma VLAN.
 11. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/cd98cc69-e1f6-4ea9-beeb-865b5f509fbb)  
 
-### DTP
+### DTP  
 1. **Descripción general**  
 	- Protocolo de capa 2 exclusivo de Cisco que se habilita de manera automática en los switches  
 	- Maneja la negociación de enlaces troncales  
@@ -1708,8 +1708,54 @@ que pertenezcan a una misma VLAN.
 5. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/da06a93e-9651-4195-aad7-9d0b1974036b)  
 
+### VTP  
+1. **Descripción general**  
+	- Protocolo de capa 2 usado para administrar y configurar VLANs en los dispositivos Cisco  
+	- Simplifica y centraliza la administración de las VLANs de una red, reduciendo así el número de fallos de configuración  
+	- Se distinguen 3 modos de operación VTP: servidor, cliente y transparente  
+	- VTP sólo aprende VLAN de rango normal (1-1005) almacenadas en el fichero vlan.dat  
 
+2. **Modos de operacion de VTP**  
+	1. **Servidor** (modo por defecto)  
+		- Puede crear, borrar y modificar VLANs del dominio  
+		- Todas las VLANs configuradas en el servidor se anuncian  
 
+	2. **Cliente**  
+		- No puede crear, borrar ni modificar VLANs del dominio  
+		- Sincroniza su información con la que recibe de los anuncios del servidor  
+
+	3. **Transparente**  
+		- No procesa anuncios VTP, simplemente los reenvía  
+
+3. **Anuncios VTP**
+	1. **Anuncios de resumen** 
+	Sincronización de la información de las VLAN dentro del dominio  
+
+	2. **Anuncios de subconjunto**  
+	Informa de cambios en alguna VLAN
+
+	3. **Publicación de solicitud**
+	Se envía cuando un cliente necesita actualizar la configuración
+
+4. **Configuración**  
+	- Definir en el switch con rol de servidor las VLANs que se desea anunciar  
+	- Definir como troncales los puertos que conectan los switches VTP  
+		1. Versión VTP deseada  
+			`Sw(config)# vtp version {1 | 2 | 3}`  	
+		2. Modo VTP del switch
+			`Sw(config)# vtp mode {server | client | transparent}`  
+		3. Dominio VTP
+			`Sw(config)# vtp domain domain_name`  
+		4. Contraseña VTP
+			`Sw(config)# vtp password password`  
+
+5. **Verificacióin de la configuración**  
+	`Sw1(config)# do sh vtp status`  
+
+6. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/188aa5d2-630b-4df8-981a-e6193110a060)  
+
+	
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
