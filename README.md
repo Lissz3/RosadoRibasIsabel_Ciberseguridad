@@ -1853,9 +1853,73 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 		5. **Mejor ruta**  
 			- La mejor ruta se conoce también como la de coincidencia más larga  
 			![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c7c6865f-f751-436c-a6b0-dce8e66ddb5b)  
+	
+	5. **Tipos de rutas estáticas**  
+		1. **Definición de la ruta estática**  
+			- Ruta del siguiente salto (_Opción recomendada en interfaces que requieren de capa 2 - Ethernet_)  
+			- Ruta conectada directamente  
+			- Ruta completamente especificada  
+			`Router(config)# ip route network-address subnet-mask { ip-address | exit-intf [ip-address] } [distance]`  
+			```
+			Router(config)# ipv6 unicast-routing
+			Router(config)# ipv6 route ipv6-prefix/prefix-length { ipv6-address | exit-intf[ip-address] } [distance]
+			```  
+		2. **Ruta estática estándar**  
+			```
+			R1(config)# ip route 192.168.1.0 255.255.255.0 172.16.2.2
+			R1(config)# ip route 192.168.1.0 255.255.255.0 s0/1/0
+			R1(config)# ip route 192.168.1.0 255.255.255.0 s0/1/0 172.16.2.2
+			```   
+			```
+			R1(config)# ipv6 route 2001:db8:cafe:1::/64 2001:db8:acad:2::2
+			R1(config)# ipv6 route 2001:db8:cafe:1::/64 s0/1/0
+			R1(config)# ipv6 route 2001:db8:cafe:1::/64 s0/1/0 fe80::2
+			```   
+		4. **Ruta estática predeterminada**  
+			```
+			R1(config)# ip route 0.0.0.0 0.0.0.0 172.16.2.2
+			R1(config)# ip route 0.0.0.0 0.0.0.0 s0/0/0
+			R1(config)# ip route 0.0.0.0 0.0.0.0 s0/0/0 172.16.2.2
+			```   
+			```
+			R1(config)# ipv6 route ::/0 2001:db8:acad:2::2
+			R1(config)# ipv6 route ::/0 s0/0/0
+			R1(config)# ipv6 route ::/0 s0/0/0 fe80::2
+			```   
+		5. **Ruta estática flotante**  
+			Distancia administrativa por defecto:  
+				- Conectado directamente: 0  
+				- Estática: 1  
+				- BGP (externo): 20  
+				- EIGRP: 90  
+				- OSPF: 110
+				- RIP: 120  
+			```
+			R1(config)# ip route 0.0.0.0 0.0.0.0 172.16.2.2
+			R1(config)# ip route 0.0.0.0 0.0.0.0 172.16.3.2 5
+			```   
+			```
+			R1(config)# ipv6 route ::/0 2001:db8:acad:2::2
+			R1(config)# ipv6 route ::/0 2001:db8:cafe:2::2 5
+			```   
+		6. **Ruta estática resumida**  
+			```
+			R1(config)# ip route 172.20.0.0 255.255.0.0 s0/0/0
+			R1(config)# ip route 172.21.0.0 255.255.0.0 s0/0/0
+			R1(config)# ip route 172.22.0.0 255.255.0.0 s0/0/0
+			R1(config)# ip route 172.23.0.0 255.255.0.0 s0/0/0
+			```   
+			↓
+			`R1(config)# ip route 172.20.0.0 255.252.0.0 s0/0/0`  
+		7. **Verificación de las rutas estáticas**
+			`Router# show ip route static`  
+			`Router# show ip route 192.168.2.0`  
+			`Router# show running-config | section ip route`  
 
-				
+	6. **Ventajas y desventajas**
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fc87aa3b-d593-4d42-9952-c1818b5cdfd9)
 
+		
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
 ### Introducción
