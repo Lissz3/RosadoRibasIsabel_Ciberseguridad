@@ -2174,6 +2174,35 @@ En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.
 6. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/13488b45-5a87-4a79-93c5-a77c6be44c60)  
 	
+### SNMP
+1. **Descripción general**  
+	- Protocolo de la capa de aplicación que **facilita el intercambio de información de administración de los dispositivos de red**  
+	- Se encapsula sobre el **puerto 161 y el 162 (traps) de UDP**  
+	- Se distinguen **4 componentes principales**: **administrador** SNMP (NMS), **agente** SNMP, **dispositivos** y **recursos** administrados por SNMP y MIB  
+	- Arquitectura simple basada en el **modelo cliente/servidor**  
+	- Existen **3 versiones** del protocolo: **SNMPv1, SNMPv2c y SNMPv3**  
+
+2. **Tipos de mensajes SNMP**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/0b947f02-ccf7-416f-9527-8604b086b95a)  
+
+3. **Versiones**  
+	1. **SNMPv1 y v2c**  
+		Usan coincidencia de cadena de comunidad para autenticación  
+	2. **SNMPv3**  
+		- **noAuthNoPriv**: Sin autenticación (solo nombre de usuario sin contraseña) ni privacidad  
+		- **authNoPriv**: Con autenticación (contraseña con MD5 o SHA) pero sin privacidad  
+		- **authPriv**: Con autenticación (contraseña con MD5 o SHA) y privacidad (cifrado DES o AES)  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/a36888d0-af38-41ab-9b61-d15d80b37fb5)  
+
+4. **Configuración SNMPv2c**  
+	- **Cadena de comunidad de sólo lectura**  
+		No permite cambiar la configuración del dispositivo  
+		`R1(config)# snmp-server community password ro`  
+
+	- **Cadena de comunidad de lectura y escritura**  
+		Permite modificar la configuración del dispositivo  
+		`R1(config)# snmp-server community password rw`
+
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
