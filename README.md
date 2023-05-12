@@ -1888,12 +1888,12 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 			```   
 		5. **Ruta estática flotante**  
 			Distancia administrativa por defecto:  
-				- Conectado directamente: 0  
-				- Estática: 1  
-				- BGP (externo): 20  
-				- EIGRP: 90  
-				- OSPF: 110  
-				- RIP: 120  
+			- Conectado directamente: 0  
+			- Estática: 1  
+			- BGP (externo): 20  
+			- EIGRP: 90  
+			- OSPF: 110  
+			- RIP: 120  
 			```
 			R1(config)# ip route 0.0.0.0 0.0.0.0 172.16.2.2
 			R1(config)# ip route 0.0.0.0 0.0.0.0 172.16.3.2 5
@@ -1916,9 +1916,10 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 			`Router# show ip route 192.168.2.0`  
 			`Router# show running-config | section ip route`  
 
-	6. **Ventajas y desventajas**
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fc87aa3b-d593-4d42-9952-c1818b5cdfd9)
+	6. **Ventajas y desventajas**  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fc87aa3b-d593-4d42-9952-c1818b5cdfd9)  
 
+### RIP
 		
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
