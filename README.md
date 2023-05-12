@@ -1892,7 +1892,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 				- Estática: 1  
 				- BGP (externo): 20  
 				- EIGRP: 90  
-				- OSPF: 110
+				- OSPF: 110  
 				- RIP: 120  
 			```
 			R1(config)# ip route 0.0.0.0 0.0.0.0 172.16.2.2
@@ -1909,9 +1909,9 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 			R1(config)# ip route 172.22.0.0 255.255.0.0 s0/0/0
 			R1(config)# ip route 172.23.0.0 255.255.0.0 s0/0/0
 			```   
-			↓
+			↓  
 			`R1(config)# ip route 172.20.0.0 255.252.0.0 s0/0/0`  
-		7. **Verificación de las rutas estáticas**
+		7. **Verificación de las rutas estáticas**  
 			`Router# show ip route static`  
 			`Router# show ip route 192.168.2.0`  
 			`Router# show running-config | section ip route`  
