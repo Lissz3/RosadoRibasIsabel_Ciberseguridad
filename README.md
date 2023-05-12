@@ -1827,7 +1827,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 	Comando:  
 	`show ip route`  
 	1. **Elección de la mejor ruta según protocolo**  
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/7f483104-8daf-4dfa-9bdd-f40eb4522df0)
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/7f483104-8daf-4dfa-9bdd-f40eb4522df0)  
 
 	2. **Principios de la tabla de routing**  
 		- Cada router toma su **decisión por si solo**  
@@ -1835,7 +1835,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 		- La información de enrutamiento **no proporciona enrutamiento de retorno** al secundario  
 
 	3. **Entradas de la tabla de routing**  
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/63226983-4a39-405b-9874-cba4321efbe5)
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/ad984996-656f-4e46-ae70-a892945f1e13)  
 
 	4. **Tipos de ruta**  
 		1. **Redes conectadas directamente**  
@@ -1852,7 +1852,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 			- Tienen una entrada de ruta 0.0.0.0/0 (IPV4) o ::/0 (IPV6)
 		5. **Mejor ruta**  
 			- La mejor ruta se conoce también como la de coincidencia más larga  
-			![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/1b33b537-3508-4d34-8529-c6ceaabad066)
+			![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c7c6865f-f751-436c-a6b0-dce8e66ddb5b)  
 
 				
 
