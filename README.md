@@ -1446,7 +1446,7 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 	- **Proxy ARP**
 		- Un host responde a peticiones ARP destinadas a un host que se encuentra fuera de la red local. No es necesario enrutamiento o puerta de enlace.  
 
-		``` R1(config-if)# ip proxy-arp ```  
+			``` R1(config-if)# ip proxy-arp ```  
 			
 5. **Fallos de seguridad y posibles mitigaciones**
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/86577adc-38d3-49c2-9da9-cea347a1e2a4)
@@ -1518,29 +1518,29 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 2. **Configuración**
 	- Para observar que CDP está activo por defecto  
 
-	``` Router# show cdp ```  
+		``` Router# show cdp ```  
 
 	- Para desactivar CDP globalmente  
 
-	``` Router(config)# no cdp run ```  
+		``` Router(config)# no cdp run ```  
 
 	- Para activar CDP globalmente  
 
-	``` Router(config)# cdp run ```  
+		``` Router(config)# cdp run ```  
 
 	- Para activar CDP por interfaz  
 
-	``` Switch(config-if)# cdp enable ```  
+		``` Switch(config-if)# cdp enable ```  
 
 	- Para verificar la configuración  
 
-	``` Router# show cdp interface ```  
+		``` Router# show cdp interface ```  
 
 	- Detección de vecinos  
 
-	``` R1# show cdp neighbors ```  
+		``` R1# show cdp neighbors ```  
 	
-	``` R1# show cdp neighbors detail ```  
+		``` R1# show cdp neighbors detail ```  
 
 3. **LLDP**  
 	1. **Descripción**  
@@ -1549,19 +1549,19 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 
 	2. **Configuración**  
 
-	``` Switch(config)# lldp run ```  
+		``` Switch(config)# lldp run ```  
 
-	``` Switch(config-if)# lldp transmit ```  
+		``` Switch(config-if)# lldp transmit ```  
 
-	``` Switch(config-if)# lldp receive ```  
+		``` Switch(config-if)# lldp receive ```  
 
-	``` Switch# show lldp ```  
+		``` Switch# show lldp ```  
 
 	3. **Detección de vecinos**  
 
-	``` S1# show lldp neighbors ```  
+		``` S1# show lldp neighbors ```  
 
-	``` S1# show lldp neighbors detail ```  
+		``` S1# show lldp neighbors detail ```  
 
 4. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/75087095-e531-4801-90c2-0617480d5679)  
@@ -1647,14 +1647,9 @@ que pertenezcan a una misma VLAN.
 
 9. **Puertos de acceso**
 
-	``` Switch# configure terminal  
-	Switch(config)# interface interface-id  
-	Switch(config-if)# switchport mode access  
-	Switch(config-if)# switchport access vlan vlan-id ```  
+	``` Switch# configure terminal  Switch(config)# interface interface-id  Switch(config-if)# switchport mode access  Switch(config-if)# switchport access vlan vlan-id ```  
 
-	``` Switch# configure terminal  
-	Switch(config)# interface interface-id  
-	Switch(config-if)# no switchport access vlan ```  
+	``` Switch# configure terminal  Switch(config)# interface interface-id  Switch(config-if)# no switchport access vlan ```  
 	
 	- **VLAN de voz y datos**
 
