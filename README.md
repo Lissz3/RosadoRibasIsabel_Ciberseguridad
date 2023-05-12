@@ -1602,13 +1602,50 @@ que pertenezcan a una misma VLAN.
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/8ad25fd4-f90d-4eb9-99a8-aa80a3850e27)  
 
 2. **Tipos de enlace**  
-	- **Enlace de acceso**  
-		- Tráfico de una única VLAN  
-		- Conexión con los dispositivos finales  
-	- **Enlace troncal**  
-		- Tráfico de múltiples VLAN  
-		- Conexión entre switches o de un switch con la capa superior  
-	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/1c5adef9-9ab0-4c07-a3d2-f21c52880595)
+- **Enlace de acceso**  
+	- Tráfico de una única VLAN  
+	- Conexión con los dispositivos finales  
+- **Enlace troncal**  
+	- Tráfico de múltiples VLAN  
+	- Conexión entre switches o de un switch con la capa superior  
+
+![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/1c5adef9-9ab0-4c07-a3d2-f21c52880595)
+
+3. **Ventajas de un diseño con VLAN**  
+- Dominios de difusión más pequeños  
+- Seguridad mejorada  
+- Mejora la eficiencia del departamento de TI  
+- Reducción de costes  
+- Mejor rendimiento  
+- Administración más simple de proyectos y aplicaciones
+
+4. **Tipos de VLAN**  
+	1. **VLAN predeterminada**  
+		- Por defecto, VLAN 1  
+	2. **VLAN de datos**  
+	3. **VLAN nativa**  
+		- Por defecto, VLAN 1  
+		- Mismo en ambos extremos  
+	4. **VLAN de administración**  
+		- Por defecto, VLAN 1
+	5. **VLAN de voz**  
+
+5. **Etiquetado 802.1Q VLAN nativa**  
+	1. Marcos etiquetados en la VLAN nativa  
+		- Tráfico de la VLAN nativa no se debe etiquetar  
+	2. Marcos sin etiquetas en la VLAN nativa  
+		- Enlace troncal: Se asigna ID de la nativa al ID de la VLAN de puerto (PVID)  
+		- Todo el tráfico sin etiquetar del puerto 802.1Q se envía según el valor de PVID
+
+6. **Etiquetado VLAN de voz** 
+- **Puerto 1**  
+	Conecta teléfono IP con el switch  
+- **Puerto 2**  
+	Puerto interno
+● **Puerto 3**  
+	Conecta con el PC  
+
+![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c8848afc-8fc8-4158-b305-3ff85fa3b62b)
 
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
