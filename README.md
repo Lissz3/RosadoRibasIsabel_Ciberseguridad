@@ -2070,7 +2070,7 @@ La capa de aplicación es la última capa del modelo OSI y es la que está más 
 La capa de aplicación incluye una variedad de protocolos y servicios, como HTTP, SMTP, FTP y DNS.  
 Ejemplos de aplicaciones podrían ser una terminal virtual, gestión de ficheros, servicio de correo o servicio de directorio.
 
-1. **La capa de aplicación en TCP/IP**
+1. **La capa de aplicación en TCP/IP**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/9b5ca070-9246-417e-88dd-e5c8dc5f2474)
 
 2. **Modelo cliente/servidor**  
