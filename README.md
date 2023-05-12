@@ -1624,9 +1624,12 @@ que pertenezcan a una misma VLAN.
 
 8. **Creación y borrado de VLAN**
 	1. **Creación VLAN en un rango normal**  
-	`Switch# configure terminal  
-	Switch(config)# vlan vlan-id  
-	Switch(config-vlan)# name vlan-name`  
+	
+		```
+		Switch# configure terminal  
+		Switch(config)# vlan vlan-id  
+		Switch(config-vlan)# name vlan-name
+		```  
 	
 	2. **Borrado de una VLAN de la memoria flash (permanente)**
 	
