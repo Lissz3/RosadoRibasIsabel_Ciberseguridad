@@ -2066,6 +2066,48 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/b2b7d460-f4ad-4207-94d5-8a11585d860e)  
 
 ### Capa 7 - Capa de aplicación
+La capa de aplicación es la última capa del modelo OSI y es la que está más cerca del usuario final. Esta capa proporciona una interfaz entre las aplicaciones del usuario y la red subyacente, y se encarga de proporcionar servicios de red específicos de aplicación.  
+La capa de aplicación incluye una variedad de protocolos y servicios, como HTTP, SMTP, FTP y DNS.  
+Ejemplos de aplicaciones podrían ser una terminal virtual, gestión de ficheros, servicio de correo o servicio de directorio.
+
+1. **La capa de aplicación en TCP/IP**
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/9b5ca070-9246-417e-88dd-e5c8dc5f2474)
+
+2. **Modelo cliente/servidor**  
+	- **Cliente**: Solicita información  
+	- **Servidor**: Provee información  
+	- Puede **requerir autenticación**  
+	- **Red centralizada** (Servidor en el centro)  
+	- **Problema SPOF** (Single Point Of Failure)  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/15d31d66-5bd6-4c6c-bef8-2930bc2f1046)  
+
+3. **Modelo P2P (_Peer to peer_)**  
+Consta de dos partes: **Red P2P** y **Aplicaciones P2P**  
+	1. **Red P2P**  
+		- Cada PC es **servidor** y **cliente**
+		- **Compartir** recursos (conexión a Internet, juegos…)  
+	2. **Aplicación P2P**
+		- Permite que cada dispositivo actúe como cliente y servidor  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/1bdb4533-5c3b-4495-aff1-b441c690ee30)  
+	
+4. **Protocolos de la capa de aplicación**  
+	1. **Nombre de dominio**  
+		- DNS  
+	2. **Configuración de dispositivos**  
+		- DHCP  
+	3. **Email**  
+		- SMTP  
+		- POP3  
+		- IMAP  
+	4. **Transferencia de ficheros**  
+		- FTP  
+		- TFTP  
+	5. **Web**  
+		- HTTP  
+		- HTTPS  
+
+### DNS
+
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
