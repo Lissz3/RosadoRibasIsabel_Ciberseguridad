@@ -1717,22 +1717,14 @@ que pertenezcan a una misma VLAN.
 		
 10. **Verificación de la configuración**  
 		
-		```
-		Switch(config)# show vlan brief
-		```   
-a
-		```
-		Switch(config)# show vlan id vlan-id
-		```   
-a
-		```
-		Switch(config)# show vlan name vlan-name
-		```
-a
-		```   
-		Switch(config)# show vlan summary
-		```  
-a
+		```Switch(config)# show vlan brief```   
+
+		```Switch(config)# show vlan id vlan-id```   
+
+		```Switch(config)# show vlan name vlan-name```   
+		
+		```Switch(config)# show vlan summary```  
+
 	- **VLAN de voz y datos**  
 
 		```
