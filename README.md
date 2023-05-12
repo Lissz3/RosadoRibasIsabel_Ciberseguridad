@@ -1689,7 +1689,7 @@ que pertenezcan a una misma VLAN.
 	```  
 
 	```
-	Switch# **configure terminal**
+	Switch# configure terminal
 	Switch(config)# interface interface-id
 	Switch(config-if)# no switchport access vlan
 	```  
@@ -1719,8 +1719,17 @@ que pertenezcan a una misma VLAN.
 		
 		```
 		Switch(config)# show vlan brief
+		```   
+
+		```
 		Switch(config)# show vlan id vlan-id
+		```   
+
+		```
 		Switch(config)# show vlan name vlan-name
+		```
+
+		```   
 		Switch(config)# show vlan summary
 		```  
 	
