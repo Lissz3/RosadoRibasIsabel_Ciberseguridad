@@ -1789,9 +1789,9 @@ En una red NAT, un router o dispositivo similar se utiliza como intermediario en
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/b82a2340-7eb8-4397-a5c6-da82733622ce)  
 
 Rango de direcciones privadas  
-	- 10.0.0.0 - 10.255.255.255  
-	- 172.16.0.0 - 172.31.255.255  
-	- 192.168.0.0 - 192.168.255.255  
+- 10.0.0.0 - 10.255.255.255  
+- 172.16.0.0 - 172.31.255.255  
+- 192.168.0.0 - 192.168.255.255  
 
 5. **Paquete IPV6**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fc67f894-372a-4ea5-b721-fa422217cdaf)  
