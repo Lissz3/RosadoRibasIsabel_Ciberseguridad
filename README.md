@@ -1732,10 +1732,10 @@ que pertenezcan a una misma VLAN.
 	Sincronización de la información de las VLAN dentro del dominio  
 
 	2. **Anuncios de subconjunto**  
-	Informa de cambios en alguna VLAN
+	Informa de cambios en alguna VLAN  
 
-	3. **Publicación de solicitud**
-	Se envía cuando un cliente necesita actualizar la configuración
+	3. **Publicación de solicitud**  
+	Se envía cuando un cliente necesita actualizar la configuración  
 
 4. **Configuración**  
 	- Definir en el switch con rol de servidor las VLANs que se desea anunciar  
