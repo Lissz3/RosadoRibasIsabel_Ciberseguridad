@@ -1823,7 +1823,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 	3. **Algoritmo**  
 		Determina el mejor camino
 
-4. **Tabla de enrutamiento y elección de la mejor ruta**
+4. **Tabla de enrutamiento y elección de la mejor ruta**  
 	Comando:  
 	`show ip route`  
 	1. **Elección de la mejor ruta según protocolo**  
@@ -1856,9 +1856,9 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 	
 	5. **Tipos de rutas estáticas**  
 		1. **Definición de la ruta estática**  
-			- Ruta del siguiente salto (_Opción recomendada en interfaces que requieren de capa 2 - Ethernet_)  
-			- Ruta conectada directamente  
-			- Ruta completamente especificada  
+		- Ruta del siguiente salto (_Opción recomendada en interfaces que requieren de capa 2 - Ethernet_)  
+		- Ruta conectada directamente  
+		- Ruta completamente especificada  
 			`Router(config)# ip route network-address subnet-mask { ip-address | exit-intf [ip-address] } [distance]`  
 			```
 			Router(config)# ipv6 unicast-routing
