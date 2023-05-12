@@ -2155,7 +2155,7 @@ En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.
 	- **Nombre de dominio**  
 		`R1(dhcp-config)# domain-name domain`  
 
-	- **Duración de la concesión**	
+	- **Duración de la concesión**	 
 		`R1(dhcp-config)# lease { days [hours [ minutes]] | infinite }`  
 
 - **Desactivar DHCP**  
