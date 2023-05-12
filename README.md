@@ -1494,17 +1494,17 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 		- Duración máxima de espera antes de cambiar la topología STP  
 		- Valor predeterminado: 20 segundos  
 
-6. **Estados del puerto**
+6. **Estados del puerto**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/706346d8-70e1-46a4-82ef-efd369151961)  
 	
 7. **Versiones STP**  
-	1. PVST+  
+	1. **PVST+**  
 	Proporciona una instancia de árbol diferente por cada VLAN  
-	2. RSTP  
+	2. **RSTP**  
 	Proporciona una convergencia más veloz que STP  
-	3. PVST+ rapid  
+	3. **PVST+ rapid**  
 	Mejora de RSTP con una instancia de árbol diferente por cada VLAN  
-	4. MSTP  
+	4. **MSTP**  
 	Asigna varias VLAN en la misma instancia de árbol
 
 
