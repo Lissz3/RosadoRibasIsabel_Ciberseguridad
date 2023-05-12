@@ -1761,8 +1761,8 @@ que pertenezcan a una misma VLAN.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
 La capa de red es la tercera capa del modelo OSI (Open Systems Interconnection) y se encarga de proporcionar servicios de comunicación de extremo a extremo, permitiendo que los paquetes de datos viajen entre redes diferentes.   
-La capa de red también se encarga de fragmentar y ensamblar los paquetes de datos para permitir una transmisión eficiente y segura a través de diferentes redes, y proporciona servicios de calidad de servicio (QoS) para garantizar que los paquetes se entreguen según prioridades establecidas.  
-En resumen. las operaciones básicas de la capa 3 son:  
+	La capa de red también se encarga de fragmentar y ensamblar los paquetes de datos para permitir una transmisión eficiente y segura a través de diferentes redes, y proporciona servicios de calidad de servicio (QoS) para garantizar que los paquetes se entreguen según prioridades establecidas.  
+	En resumen, las operaciones básicas de la capa 3 son:  
 	- Direccionamiento de dispositivos finales  
 	- Encapsulación  
 	- Enrutamiento  
@@ -1806,12 +1806,55 @@ En resumen. las operaciones básicas de la capa 3 son:
 	3. **Traducción**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fa00882e-d8ae-4cab-817f-f6decdfdc09d)  
 
-	
+### Enrutamiento  
+El elemento principal de la capa 3 es el Router. Éste determinará qué interfaz debe usar para el reenvío eligiendo la mejor ruta.
 
+1. **Enrutamiento estático VS dinámico**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/1d972c6d-18cf-4318-8e9b-40f2ef536587)
 
+2. **Clasificación del routing dinámico**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/be6d5ee0-092d-4d8f-9658-6dd52c2ec13b)  
 
+3. **Conceptos del routing dinámico**  
+	1. **Estructura de datos**  
+		Tablas o bases de datos
+	2. **Mensajes del protocolo de routing**  
+		Intercambia información con vecinos
+	3. **Algoritmo**  
+		Determina el mejor camino
 
+4. **Tabla de enrutamiento y elección de la mejor ruta**
+	Comando:  
+	`show ip route`  
+	1. **Elección de la mejor ruta según protocolo**  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/e7c37205-4e5d-45fb-934b-25498ad2a711)  
 
+	2. **Principios de la tabla de routing**  
+		- Cada router toma su **decisión por si solo**  
+		- Las tablas de enrutamiento **no coinciden necesariamente**
+		- La información de enrutamiento **no proporciona enrutamiento de retorno** al secundario  
+
+	3. **Entradas de la tabla de routing**  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/91fda484-665d-4b8e-aa36-3b920cc1e3b3)
+
+	4. **Tipos de ruta**  
+		1. **Redes conectadas directamente**  
+			- La red se indica con una C seguido de la dirección IP y la máscara
+			- La interfaz se indica con una L y un prefijo /32 (IPv4) o /128 (IPv6)  
+		2. **Rutas estáticas**
+			- ip route 10.0.4.0 255.255.255.0 10.0.3.2
+			- ipv6 route 2001:db8:acad:4::/64 2001:db8:acad:3::2
+		3. **Rutas dinámicas**  
+			- Las redes no se configuran manualmente, se descubren a través de otros routers  
+		4. **Ruta predeterminada**
+			- Se usa en ausencia de otra posible ruta que se ajuste mejor
+			- Reduce el número de rutas de tabla
+			- Tienen una entrada de ruta 0.0.0.0/0 (IPV4) o ::/0 (IPV6)
+		5. **Mejor ruta**  
+			- La mejor ruta se conoce también como la de coincidencia más larga  
+			![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/1b33b537-3508-4d34-8529-c6ceaabad066)
+
+				
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
