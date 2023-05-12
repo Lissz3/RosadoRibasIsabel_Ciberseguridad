@@ -1637,30 +1637,38 @@ que pertenezcan a una misma VLAN.
 	`witch# delete flash:vlan.dat`  
 
 9. **Puertos de acceso**
-	`Switch# configure terminal  
+	```
+	Switch# configure terminal  
 	Switch(config)# interface interface-id  
 	Switch(config-if)# switchport mode access  
-	Switch(config-if)# switchport access vlan vlan-id`  
+	Switch(config-if)# switchport access vlan vlan-id
+	```  
 
-	`Switch# configure terminal  
+	```
+	Switch# configure terminal  
 	Switch(config)# interface interface-id  
-	Switch(config-if)# no switchport access vlan`  
+	Switch(config-if)# no switchport access vlan
+	```  
 	
 	- **VLAN de voz y datos**
-		`Switch# configure terminal  
+		```
+		Switch# configure terminal  
 		Switch(config)# interface interface-id  
 		Switch(config-if)# switchport mode access  
 		Switch(config-if)# switchport access vlan vlan-id  
 		Switch(config-if)# mls qos trust cos  
-		Switch(config-if)# switchport voice vlan vlan-id`  
+		Switch(config-if)# switchport voice vlan vlan-id
+		```  
 		
 		
 	- **Puertos troncales**
-		`Switch# configure terminal  
+		```
+		Switch# configure terminal  
 		Switch(config)# interface interface-id  
 		Switch(config-if)# switchport mode trunk  
 		Switch(config-if)# switchport trunk native vlan vlan-id  
-		Switch(config-if)# switchport trunk allowed vlan vlan-list`
+		Switch(config-if)# switchport trunk allowed vlan vlan-list
+		```
 		
 		
 10. **Verificación de la configuración**  
