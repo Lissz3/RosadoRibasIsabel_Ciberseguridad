@@ -1788,7 +1788,7 @@ La traducción de direcciones de red (NAT, por sus siglas en inglés de Network 
 En una red NAT, un router o dispositivo similar se utiliza como intermediario entre la red privada y la red pública, y asigna direcciones IP privadas a los dispositivos dentro de la red privada. Cuando un dispositivo en la red privada solicita acceso a Internet o a otra red pública, el router utiliza su dirección IP pública para enviar y recibir datos hacia y desde ese dispositivo.  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/b82a2340-7eb8-4397-a5c6-da82733622ce)  
 
-Rango de direcciones privadas
+Rango de direcciones privadas  
 	- 10.0.0.0 - 10.255.255.255  
 	- 172.16.0.0 - 172.31.255.255  
 	- 192.168.0.0 - 192.168.255.255
