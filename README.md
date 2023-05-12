@@ -1662,62 +1662,88 @@ que pertenezcan a una misma VLAN.
 	1. **Creación VLAN en un rango normal**  
 
 	```
-	Switch# **configure terminal**
-	Switch(config)# **vlan** _vlan-id_
-	Switch(config-vlan)# name _vlan-name_
+	Switch# configure terminal
+	Switch(config)# vlan vlan-id
+	Switch(config-vlan)# name vlan-name
 	```  
 	
 	2. **Borrado de una VLAN de la memoria flash (permanente)**
 	
 	```
-	Switch(config)# **no vlan** _vlan-id_
+	Switch(config)# no vlan vlan-id
 	```  
 
 	3. **Borrado de toda la configuración de VLAN de la memoria flash (permanente)**
 	
 	```
-	Switch# **delete flash:vlan.dat**
+	Switch# delete flash:vlan.dat
 	```  
 
 9. **Puertos de acceso**
 
 	```
-	Switch# **configure terminal**
-	Switch(config)# **interface** _interface-id_
-	Switch(config-if)# **switchport mode access**
-	Switch(config-if)# **switchport access vlan** _vlan-id_
+	Switch# configure terminal
+	Switch(config)# interface interface-id
+	Switch(config-if)# switchport mode access
+	Switch(config-if)# switchport access vlan vlan-id
 	```  
 
 	```
 	Switch# **configure terminal**
-	Switch(config)# **interface** _interface-id_
-	Switch(config-if)# **no switchport access vlan**
+	Switch(config)# interface interface-id
+	Switch(config-if)# no switchport access vlan
 	```  
 	
 	- **VLAN de voz y datos**
 
 		```
-		Switch# **configure terminal**
-		Switch(config)# **interface** _interface-id_
-		Switch(config-if)# **switchport mode access**
-		Switch(config-if)# **switchport access vlan** _vlan-id_
-		Switch(config-if)# **mls qos trust cos**
-		Switch(config-if)# **switchport voice vlan** _vlan-id_
+		Switch# configure terminal
+		Switch(config)# interface interface-id
+		Switch(config-if)# switchport mode access
+		Switch(config-if)# switchport access vlan vlan-id
+		Switch(config-if)# mls qos trust cos
+		Switch(config-if)# switchport voice vlan vlan-id
 		```  
 		
 	- **Puertos troncales**
 		
 		```
-		Switch# **configure terminal**
-		Switch(config)# **interface** _interface-id_
-		Switch(config-if)# **switchport mode trunk**
-		Switch(config-if)# **switchport trunk native vlan** _vlan-id_
-		Switch(config-if)# **switchport trunk allowed vlan** _vlan-list_
+		Switch# configure terminal
+		Switch(config)# interface interface-id
+		Switch(config-if)# switchport mode trunk
+		Switch(config-if)# switchport trunk native vlan vlan-id
+		Switch(config-if)# switchport trunk allowed vlan vlan-list
 		```  
 		
+10. **Verificación de la configuración**  
+		
+		```
+		Switch(config)# show vlan brief
+		```  
+		
+		```
+		Switch(config)# show vlan id vlan-id
+		```  
+		
+		```
+		Switch(config)# show vlan name vlan-name
+		```  
+		
+		```
+		Switch(config)# show vlan summary
+		```  
+	
+	- **VLAN de voz y datos**  
+
+		```
+		Switch(config)# show interface interface-id switchport
+		```  
+
+11. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/cd98cc69-e1f6-4ea9-beeb-865b5f509fbb)  
 
 
-
+	
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
