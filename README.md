@@ -1694,6 +1694,7 @@ que pertenezcan a una misma VLAN.
 	- Protocolo de capa 2 exclusivo de Cisco que se habilita de manera automática en los switches  
 	- Maneja la negociación de enlaces troncales  
 	- Una interfaz se puede establecer como troncal, de acceso o para negociar troncal con la interfaz vecina  
+	- Ayuda al administrador a acelerar el proceso de configuración de la red  
 
 2. **Modos de interfaz y configuración**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/da8f76fa-d3cd-4ac6-9994-82f409fc12e9)  
@@ -1704,8 +1705,11 @@ que pertenezcan a una misma VLAN.
 4. **Verificación de la configuración**  
 	`S1# show dtp interface fa0/1`
 
+5. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/da06a93e-9651-4195-aad7-9d0b1974036b)  
 
-● Ayuda al administrador a acelerar el proceso de configuración de la red
+
+
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
