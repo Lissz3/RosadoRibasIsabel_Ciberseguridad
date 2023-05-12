@@ -2107,7 +2107,73 @@ Consta de dos partes: **Red P2P** y **Aplicaciones P2P**
 		- HTTPS  
 
 ### DNS
+1. **Descripción general**  
+	- Sistema de nombres de dominio (DNS)  
+	- Traduce nombres de dominios web a la dirección IP del servidor en el que se aloja la página web  
+	- Se encapsula sobre el puerto 53 tanto de UDP como TCP  
+	- Sigue una arquitectura de cliente/servidor  
+	- Utiliza una base de datos distribuida y jerárquica
 
+2. **Jerarquía DNS**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/62873abb-5b71-49e5-9709-aa36ff3616c8)  
+
+3. **Funcionamiento DNS**  
+La primera consulta se hace al **servidor DNS local del sistema operativo**. Se comprueba la **memoria caché**.  
+En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.  
+
+### DCHP
+1. **Descripción general**  
+	- Protocolo de red de tipo **cliente/servidor**  
+	- Se encarga de la a**signación dinámica de direcciones IP y otros parámetros de configuración de red**  
+	- Se encapsula sobre el **puerto 67 (servidor) y 68 (cliente) de UDP**  
+	- Un servidor DHCP es **escalable** y relativamente **fácil de administrar**  
+	- Las direcciones IP se asignan un tiempo configurable (**período de concesión**)  
+	- **DHCPv6** proporciona **servicios similares** pero **sin compartir el gateway**  
+
+2. **Funcionamiento**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/4047aedb-95ae-4f9f-a332-584653355c8f)  
+
+3. **Renovar una dirección temporal**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/871071b8-c1a3-44b5-b240-1842b74df7a0)  
+
+4. **Configuración** 
+- **Exclusión de direcciones IP**  
+	`R1(config)# ip dhcp excluded-address ip-address`  
+
+- **Configuración pool DHCP**  
+	`R1(config)# ip dhcp pool pool-name`  
+
+	- **Red**  
+		`R1(dhcp-config)# network network-address mask`  
+
+	- **Puerta de enlace**  
+		`R1(dhcp-config)# default-router gateway-address`  
+
+	- **Servidor DNS**  
+		`R1(dhcp-config)# dns-server dns-server-address`  
+
+	- **Nombre de dominio**  
+		`R1(dhcp-config)# domain-name domain`  
+
+	- **Duración de la concesión**	
+		`R1(dhcp-config)# lease { days [hours [ minutes]] | infinite }`  
+
+- **Desactivar DHCP**  
+	`R1(config)# no service dhcp`  
+
+- **Activar DHCP**  
+	`R1(config)# service dhcp`  
+
+5. **Verificación de la configuración**  
+	`R1# show running-config | section dhcp`  
+	`R1# show ip dhcp binding`  
+
+	- **Verificación del cliente DHCP**  
+		`> ipconfig /all`  
+
+6. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/13488b45-5a87-4a79-93c5-a77c6be44c60)  
+	
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
