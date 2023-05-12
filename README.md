@@ -1440,11 +1440,12 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 			- Menos seguro pero más escalable
 4. **Variaciones ARP**  
 	- **Reverse ARP (RARP)**  
-		- Encuentra la dirección IP asociada a una determinada dirección MAC  
-		- Necesidad de un servidor RARP especializado  
-		- A día de hoy casi no se utiliza, reemplazandose por BOOTP y DHCP  
+	 - Encuentra la dirección IP asociada a una determinada dirección MAC  
+	 - Necesidad de un servidor RARP especializado  
+	 - A día de hoy casi no se utiliza, reemplazandose por BOOTP y DHCP  
+
 	- **Proxy ARP**
-		- Un host responde a peticiones ARP destinadas a un host que se encuentra fuera de la red local. No es necesario enrutamiento o puerta de enlace.  
+	 - Un host responde a peticiones ARP destinadas a un host que se encuentra fuera de la red local. No es necesario enrutamiento o puerta de enlace.  
 
 			`R1(config-if)# ip proxy-arp`  
 			
