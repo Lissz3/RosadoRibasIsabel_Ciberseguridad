@@ -1697,10 +1697,10 @@ que pertenezcan a una misma VLAN.
 	- Ayuda al administrador a acelerar el proceso de configuración de la red  
 
 2. **Modos de interfaz y configuración**  
-	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/da8f76fa-d3cd-4ac6-9994-82f409fc12e9)  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/b0de07f8-73fd-462b-98df-742b331e9dc1)  
 
 3. **Resultados de una configuración**  
-	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fe6f5fac-8e5c-4aba-95b7-0240ec0cf325)  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/b015e64c-1879-42cd-becd-7e67978b2c84)  
 
 4. **Verificación de la configuración**  
 	`S1# show dtp interface fa0/1`
