@@ -1720,14 +1720,17 @@ que pertenezcan a una misma VLAN.
 		```
 		Switch(config)# show vlan brief
 		```  
-		
+
+
 		```
 		Switch(config)# show vlan id vlan-id
 		```  
 		
+		
 		```
 		Switch(config)# show vlan name vlan-name
 		```  
+		
 		
 		```
 		Switch(config)# show vlan summary
