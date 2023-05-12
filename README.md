@@ -1762,12 +1762,12 @@ que pertenezcan a una misma VLAN.
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
 ### Capa 3 - Capa de red
 La capa de red es la tercera capa del modelo OSI y se encarga de proporcionar servicios de comunicación de extremo a extremo, permitiendo que los paquetes de datos viajen entre redes diferentes.   
-	La capa de red también se encarga de fragmentar y ensamblar los paquetes de datos para permitir una transmisión eficiente y segura a través de diferentes redes, y proporciona servicios de calidad de servicio (QoS) para garantizar que los paquetes se entreguen según prioridades establecidas.  
-	En resumen, las operaciones básicas de la capa 3 son:  
-	- Direccionamiento de dispositivos finales  
-	- Encapsulación  
-	- Enrutamiento  
-	- Desencapsulación  
+La capa de red también se encarga de fragmentar y ensamblar los paquetes de datos para permitir una transmisión eficiente y segura a través de diferentes redes, y proporciona servicios de calidad de servicio (QoS) para garantizar que los paquetes se entreguen según prioridades establecidas.  
+En resumen, las operaciones básicas de la capa 3 son:  
+- Direccionamiento de dispositivos finales  
+- Encapsulación  
+- Enrutamiento  
+- Desencapsulación  
 
 1. **Características de IP**  
 	- Puede haber una comunicación sin conexión (_A pesar de que no se sepa si el paquete llega, cuándo llegará o si se puede leer_)  
@@ -1984,7 +1984,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 		- Estructura de datos  
 		- Algoritmo: Dijkstra  
 
-2. **Tipos de paquetes**
+2. **Tipos de paquetes**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/4c9fb4cf-2edb-4b28-9b56-a6a31c727ff0)
 
 3. **Estructuras de datos**  
