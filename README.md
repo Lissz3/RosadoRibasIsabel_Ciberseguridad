@@ -1507,6 +1507,8 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 	4. **MSTP**  
 	Asigna varias VLAN en la misma instancia de árbol
 
+8. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/0971e4a2-58ff-4fb1-b07f-690750b958ac)
 
 
 
