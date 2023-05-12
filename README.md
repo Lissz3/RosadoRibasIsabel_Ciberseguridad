@@ -1510,15 +1510,89 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 8. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/0971e4a2-58ff-4fb1-b07f-690750b958ac)
 
+### CDP  
+1. **Explicación general**  
+	- Protocolo de capa 2 patentado por Cisco que se utiliza para obtener información de los dispositivos Cisco que comparten enlace de datos  
+	- Envía mensajes CDP (multicast) periódicos a los dispositivos conectados  
+	- Información que contienen los paquetes: nombre del dispositivo, imagen del OS, tipo y modelo, dirección IP, VLAN nativa, etc  
+	- Ayuda a tomar decisiones de diseño y solucionar problemas en la red  
 
+2. **Configuración**
+	- Para observar que CDP está activo por defecto  
 
+	```
+	Router# show cdp
+	```  
 
+	- Para desactivar CDP globalmente  
 
+	```
+	Router(config)# no cdp run
+	```  
 
+	- Para activar CDP globalmente  
 
+	```
+	Router(config)# cdp run
+	```  
 
+	- Para activar CDP por interfaz  
 
+	```
+	Switch(config-if)# cdp enable
+	```  
 
+	- Para verificar la configuración  
+
+	```
+	Router# show cdp interface
+	```  
+
+	- Detección de vecinos  
+
+	```
+	R1# show cdp neighbors
+	```  
+	
+	```
+	R1# show cdp neighbors detail
+	```  
+
+3. **LLDP**  
+	1. **Descripción**  
+	Idéntico a CDP pero no es específico únicamente de dispositivos Cisco.  
+	LLDP no depende del proveedor, por lo que es compatible con dispositivos Cisco.  
+
+	2. **Configuración**  
+
+	```
+	Switch(config)# lldp run
+	```  
+
+	```
+	Switch(config-if)# lldp transmit
+	```  
+
+	```
+	Switch(config-if)# lldp receive
+	```  
+
+	```
+	Switch# show lldp
+	```  
+
+	3. **Detección de vecinos**  
+
+	```
+	S1# show lldp neighbors
+	```  
+
+	```
+	S1# show lldp neighbors detail
+	```  
+
+4. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/75087095-e531-4801-90c2-0617480d5679)  
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
