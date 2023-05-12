@@ -1972,9 +1972,59 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/5acebe50-f5f7-4faf-a801-f17ff0f58829)  
 
 ### OSPF
+1. **Descripción general**  
+	- Protocolo de **encaminamiento dinámico interior**  
+	- Se encapsula sobre el **protocolo IP (campo protocolo: 89)**  
+	- Se tiene en **cuenta el ancho de banda para calcular la métrica**  
+	- **Protocolo de estado de enlace y el concepto de áreas**  
+	- **Existen 2 versiones**: OSPFv2 (OSPF para IPv4) y OSPFv3 (OSPF para IPv6)  
+	- **Componentes de OSPF**:
+		- Mensajes de protocolo de enrutamiento  
+		- Estructura de datos  
+		- Algoritmo: Dijkstra  
+
+2. **Tipos de paquetes**
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/4c9fb4cf-2edb-4b28-9b56-a6a31c727ff0)
+
+3. **Estructuras de datos**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/35ca4c7f-c285-46be-8a26-b37b726d4ebd)
+
+4. **Algoritmo de Dijkstra**  
+	El algoritmo de Dijkstra es un algoritmo de búsqueda de caminos mínimos utilizado para encontrar la ruta más corta entre un nodo fuente y todos los demás nodos en un grafo ponderado. Es ampliamente utilizado en redes de comunicaciones y en la optimización de rutas de transporte.  
+	Comienza desde el nodo fuente y explora de manera iterativa los nodos adyacentes, seleccionando el camino de menor peso en cada iteración, hasta que se hayan visitado todos los nodos. Durante el proceso, el algoritmo mantiene una lista de nodos visitados y sus distancias mínimas desde el nodo fuente, actualizando estas distancias a medida que se descubren rutas más cortas.  
+
+5. **Área única y multiárea**  
+	- **Area única**  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/2e946539-9f45-4d40-98fc-5325eb138f5c)  
+
+	- **Multiárea**  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/bb041fb1-2824-461a-a825-ed5ff8eb49db)  
+
+6. **Tipos de Routers**
+	- Designated Router (DR)  
+	- Backup Designated Router (BDR)
+	- Internal Router (IR)  
+	- Area Border Router (ABR)  
+	- Backbone Router (BR)  
+	- Autonomous System Boundary Router (ASBR)  
+
+7. **Funcionamiento del estado de enlace**  
+	1. Establecimiento de adyacencias de vecinos 
+	2. Intercambio de anuncios de estado de enlace  
+	3. Crear la base de datos de estados de vínculo  
+	4. Ejecutar el algoritmo SPF (Dijkstra)  
+	5. Elección de la mejor ruta
+
+8. **Tipos de estados**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/ad28b122-b453-4bbc-9d51-e81b7b6e23a2)
+
+9. **Fallos de seguridad y posibles mitigaciones**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/43ceb1ff-ff4e-4672-a1e2-baf0d80e6ec1)
+
 	
 
-		
+
+
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
 ### Introducción
