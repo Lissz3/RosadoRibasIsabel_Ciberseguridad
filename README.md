@@ -1448,7 +1448,10 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 
 			```
 			R1(config-if)# ip proxy-arp
-			```
+			```  
+			
+- Fallos de seguridad y posibles mitigaciones
+	![ARP](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/c8b4af4b-d9e7-4c80-aa83-146d9631dd8f)
 
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
