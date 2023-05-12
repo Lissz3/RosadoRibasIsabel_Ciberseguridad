@@ -1760,8 +1760,60 @@ que pertenezcan a una misma VLAN.
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
-- **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
+La capa de red es la tercera capa del modelo OSI (Open Systems Interconnection) y se encarga de proporcionar servicios de comunicación de extremo a extremo, permitiendo que los paquetes de datos viajen entre redes diferentes.   
+La capa de red también se encarga de fragmentar y ensamblar los paquetes de datos para permitir una transmisión eficiente y segura a través de diferentes redes, y proporciona servicios de calidad de servicio (QoS) para garantizar que los paquetes se entreguen según prioridades establecidas.  
+En resumen. las operaciones básicas de la capa 3 son:  
+	- Direccionamiento de dispositivos finales  
+	- Encapsulación  
+	- Enrutamiento  
+	- Desencapsulación  
 
+1. **Características de IP**  
+	- Puede haber una comunicación sin conexión (_A pesar de que no se sepa si el paquete llega, cuándo llegará o si se puede leer_)  
+	- Máximo esfuerzo (_Enrutamiento rápido de paquetes, aunque algunos se puedan perder por el camino_)  
+	- Independencia de los medios (_Inalámbrico, cobre, fibra_)  
+
+2. **Paquete IPV4**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/5934e74e-ccca-43cf-9b17-3214e6d47eee)  
+
+3. **Limitaciones IPV4**  
+	- Agotamiento de las direcciones IPv4  
+		- Solución temporal: **NAT**  
+	- Falta de conectividad de extremo a extremo  
+	- Mayor complejidad de la red
+		- Solución óptima: **Transición a IPv6**  
+
+4. **NAT: Traducción dde direcciones**
+La traducción de direcciones de red (NAT, por sus siglas en inglés de Network Address Translation) es un proceso utilizado en redes de computadoras para permitir que los dispositivos en una **red privada** tengan **acceso a Internet** o a otra **red pública** utilizando **una única dirección IP pública**.  
+En una red NAT, un router o dispositivo similar se utiliza como intermediario entre la red privada y la red pública, y asigna direcciones IP privadas a los dispositivos dentro de la red privada. Cuando un dispositivo en la red privada solicita acceso a Internet o a otra red pública, el router utiliza su dirección IP pública para enviar y recibir datos hacia y desde ese dispositivo.  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/b82a2340-7eb8-4397-a5c6-da82733622ce)  
+
+Rango de direcciones privadas
+	- 10.0.0.0 - 10.255.255.255  
+	- 172.16.0.0 - 172.31.255.255  
+	- 192.168.0.0 - 192.168.255.255
+
+5. **Paquete IPV6**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fc67f894-372a-4ea5-b721-fa422217cdaf)  
+
+6. **Modos de coexistencia de IPV4 e IPV6**  
+	1. **Dual-stack**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/bd95ce27-a9e1-4489-bb23-bae86dfa1281)  
+
+	2. **Tunnelling**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/87d36144-2f6c-45c9-b6ae-ce5a336917fe)  
+	
+	3. **Traducción**  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/fa00882e-d8ae-4cab-817f-f6decdfdc09d)  
+
+	
+
+
+
+
+
+
+- **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
 ### Introducción
 - **Test repaso** realizado: Curso de triage informático - Introducción.
