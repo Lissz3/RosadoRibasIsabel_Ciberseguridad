@@ -1418,6 +1418,38 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 	- Grupo de dispositivos como destino  
 	- MAC Dest.: 01-00-5E-XX-XX-XX  
 
+ ### ARP  
+ - Descripción general:
+ 	- Protocolo de la capa de enlace de datos responsable de encontrar la dirección MAC asociada a una determinada dirección IP  
+ 	- Mantiene una tabla de asignaciones de direcciones IPv4 a MAC  
+ 	- Esencial en la transmisión de datos en redes Ethernet  
+ 	- Existen dos tipos de paquetes: **ARP Request y ARP Reply**  
+ 		- ARP Request  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/23895822-af97-4270-9804-bdd070e3790c)  
+		- ARP Reply  
+		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/073b3456-adc1-4d45-bff5-362f60fbd9ab)
+
+ 	- Se distinguen dos modos de almacenar las relaciones: **estática o dinámica**
+		- **ARP estático**  
+			- Añadidas por el administrador (manual)  
+			- Únicamente _read-only_  
+			- Más seguro pero menos escalable  
+		- **ARP dinámico**  
+			- Se aprenden a través del protocolo ARP
+			- Tienen fecha de vencimiento
+			- Menos seguro pero más escalable
+	- Existen variaciones como:  
+		- **Reverse ARP (RARP)**  
+			- Encuentra la dirección IP asociada a una determinada dirección MAC  
+			- Necesidad de un servidor RARP especializado  
+			- A día de hoy casi no se utiliza, reemplazandose por BOOTP y DHCP  
+		- **Proxy ARP**
+			- Un host responde a peticiones ARP destinadas a un host que se encuentra fuera de la red local. No es necesario enrutamiento o puerta de enlace.  
+
+			```
+			R1(config-if)# ip proxy-arp
+			```
+
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
