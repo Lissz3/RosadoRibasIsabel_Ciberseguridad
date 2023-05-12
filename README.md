@@ -1742,11 +1742,11 @@ que pertenezcan a una misma VLAN.
 	- Definir como troncales los puertos que conectan los switches VTP  
 		1. Versión VTP deseada  
 			`Sw(config)# vtp version {1 | 2 | 3}`  	
-		2. Modo VTP del switch
+		2. Modo VTP del switch  
 			`Sw(config)# vtp mode {server | client | transparent}`  
-		3. Dominio VTP
+		3. Dominio VTP  
 			`Sw(config)# vtp domain domain_name`  
-		4. Contraseña VTP
+		4. Contraseña VTP  
 			`Sw(config)# vtp password password`  
 
 5. **Verificacióin de la configuración**  
