@@ -1630,11 +1630,11 @@ que pertenezcan a una misma VLAN.
 	
 	2. **Borrado de una VLAN de la memoria flash (permanente)**
 	
-	`Switch(config)# no vlan vlan-id`  
+		`Switch(config)# no vlan vlan-id`  
 
 	3. **Borrado de toda la configuración de VLAN de la memoria flash (permanente)**
 	
-	`witch# delete flash:vlan.dat`  
+		`witch# delete flash:vlan.dat`  
 
 9. **Puertos de acceso**
 	```
