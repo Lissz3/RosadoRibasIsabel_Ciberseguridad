@@ -2662,7 +2662,22 @@ Fases del **Secure SDLC**:
 
 	- **Configuración del sistema**  
 	Entendemos por sistema a la **máquina física** o **virtual** que contiene el software, así como todas las dependencias necesarias para que funcione correctamente.  
-	Puede ser una red de sistemas conectados (_mi_)
+	Puede ser una red de sistemas conectados (_microservicios_) o un solo sistema con varios contenedores.  
+	La manera de asegurar la configuración del sistema sería:  
+		1. Asegurarse de que todos los **servidores**, **frameworks** y **componentes** están **actualizados**, **parcheados** y en su **última versión estable**  
+		2. **Desactivar el directory listing**  
+		3. **Restringir los privilegios** al mínimo para el servidor, los procesos y las cuentas de usuario  
+		4. Cuando ocurra una excepción del sistema, debe **fallar de manera segura**  
+		5. **Eliminar** cualquier fichero o funcionalidad **innecesaria**  
+		6. **Eliminar** cualquier **código** o **comentario** no pensado para un entorno de **producción**  
+		7. **No mostrar la estructura de fichero en robots.txt**, anida todos los ficheros a ocultar bajo un directorio  
+		8. **Controlar** y **definir** los **métodos HTTP** que permites en cada página, **desactivar los innecesarios**  
+		9. **Eliminar cabeceras innecesarias** relacionadas con el sistema operativo  
+		10. Implementar un **sistema de gestión de activos** y **registra el software** y los **componentes** del sistema en él  
+		11. Implementar un **software de control de cambios** para **gestionar** y **guardar** los cambios del código en **producción** y **desarrollo**  
+		12. **Separar** y **delimitar** los entornos de **desarrollo** y **producción** y **limitae** y **controlar** el **acceso** al primero
+
+
 - **Examen** realizado: Certificado curso de desarrollo seguro.
 
 ## Introducción al Esquema Nacional de Seguridad
