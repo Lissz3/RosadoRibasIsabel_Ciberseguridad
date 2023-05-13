@@ -2806,50 +2806,49 @@ Para realizar esta sección, se puede hacer uso de la herramienta [PILAR del CCN
 Dentro de la adecuación y mantenimiento, concretamente hablaremos de la implatanción de medidas técnicas y de la redacción de procedimientos operativos. Además veremos el uso de la herramienta INES, la cual se puede implementar con PILAR.
 1. **Implantación de medidas técnicas**  
 Existen diferentes tipos de medidas técnicas, divididas en las siguientes categorías:  
-- **Prevención:** Impedir que la amenaza se materialice  
-- **Disuasión:** Informar de consecuencias  
-- **Protección:** Proteger de explotación de riesgos  
-- **Detección y reacción:** Localizar y reportar incidentes  
-- **Recuperación:** Volver al estado normal  
+	- **Prevención:** Impedir que la amenaza se materialice  
+	- **Disuasión:** Informar de consecuencias  
+	- **Protección:** Proteger de explotación de riesgos  
+	- **Detección y reacción:** Localizar y reportar incidentes  
+	- **Recuperación:** Volver al estado normal  
 Los puntos clave para las médidas técnicas sewgún las propiedades de la seguridad son:  
-- **Integridad:** Protección de la información (_firewalls, antimalware_)  
-- **Confidencialidad:** Control de acceso  
-- **Disponibilidad:** Backups, redundancia, anti-DoS  
-- **Autenticidad:** Firmas y certificados  
-- **Trazabilidad:** Logs, inventario de activos
+	- **Integridad:** Protección de la información (_firewalls, antimalware_)  
+	- **Confidencialidad:** Control de acceso  
+	- **Disponibilidad:** Backups, redundancia, anti-DoS  
+	- **Autenticidad:** Firmas y certificados  
+	- **Trazabilidad:** Logs, inventario de activos
 2. **Redacción de procedimientos operativos**  
 El ENS requiere que existan evidencias de cumplimiento para adecuarse a éste, siendo:  
-- Documentación de los procedimientos  
-- Registro de incidencias o eventos  
-- Evaluación interna y prueba de funcionamiento
-Aunque en categoría Básica los procesos pueden ser reproducibles pero no definidos, se recomienda documentar y definir como prueba innegable de cumplimiento.  
-Algunas de las recomendaciones para la redaccion de procedimientos puede ser:  
-- Agrupar controles VS Separación de documento por control  
-- No utilizar nombres propios sino cargos  
-- Detalle solo en lo necesario  
-- Procedimientos personales de la entidad  
-Aunque en categoría Básica los procesos pueden ser reproducibles pero no definidos, se recomienda documentar y definir como prueba innegable de cumplimiento.  
+	- Documentación de los procedimientos  
+	- Registro de incidencias o eventos  
+	- Evaluación interna y prueba de funcionamiento
+	Aunque en categoría Básica los procesos pueden ser reproducibles pero no definidos, se recomienda documentar y definir como prueba innegable de cumplimiento.  
+Algunas de las recomendaciones para la redaccion de procedimientos son:  
+	- Agrupar controles VS Separación de documento por control  
+	- No utilizar nombres propios sino cargos  
+	- Detalle solo en lo necesario  
+	- Procedimientos personales de la entidad  
+	Aunque en categoría Básica los procesos pueden ser reproducibles pero no definidos, se recomienda documentar y definir como prueba innegable de cumplimiento.  
 
 Otra recomendación para la redacción de procedimientos sería cumplir con los requisitos y preguntas de la auditoría, que podemos consultar en el la Guía de Seguridad de las TIC - [CCN-STIC 808 - Anexo III](https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-nacional-de-seguridad/2404-ccn-stic-808-anexo-iii-verificacion-del-cumplimiento-del-ens.html).
 
 
 3. **Herramienta INES**  
 INES es la herramienta del CCN para recogida de información y seguimiento del ENS. Dispone de las diferentes secciones:  
-1. **Identificación del organismo**: Datos de la entidad  
-2. **Categorización de los sistemas**: BÁSICA, MEDIA, ALTA → C I D A T  
-3. **Análisis y gestión de riesgos**: Información de su estado y activos  
-4. **Actividades organizativas**: Preguntas sobre roles, desarrollo de la política de seguridad y gestión de la seguridad.  
-5. **Recursos**: Equipo de seguridad, dedicación, tareas, presupuesto STIC 
-6. **Medidas de seguridad**: Controles ENS {org, op, mp}  
-7. **Medidas de interconexión**: Preguntas sobre conexión a internet y arquitectura de protección perimetral, acceso remoto y herramientas de seguridad que se disponen.  
-8. **Aplicación de la seguridad**: Preguntas sobre identificación y autenticación de usuarios internos y externos, servicios externos y subcontratados, direccionamiento IP, gestión de cambios, continuidad y formación.  
-9. **Gestión de incidentes**: Conteo de incidentes de interrupción y resto en número de días/horas y tiempo en resolverlos  
-10. **Auditorías**: Para categoría MEDIA y ALTA → superar auditoría al menos cada 2 años. Información sobre la auditoría (tipo, nº no conformidades)  
-11.** Indicadores clave de riesgo**  
-	Puntos de seguridad de importancia:  
-	- Gestión de equipos (dominio)
-	- % Equipos personales con uso laboral y de eso, los administrados por la entidad (BYOD)  
-	- Número de personas de Seguridad TIC que han causado baja  
-
+	1. **Identificación del organismo**: Datos de la entidad  
+	2. **Categorización de los sistemas**: BÁSICA, MEDIA, ALTA → C I D A T  
+	3. **Análisis y gestión de riesgos**: Información de su estado y activos  
+	4. **Actividades organizativas**: Preguntas sobre roles, desarrollo de la política de seguridad y gestión de la seguridad.  
+	5. **Recursos**: Equipo de seguridad, dedicación, tareas, presupuesto STIC 
+	6. **Medidas de seguridad**: Controles ENS {org, op, mp}  
+	7. **Medidas de interconexión**: Preguntas sobre conexión a internet y arquitectura de protección perimetral, acceso remoto y herramientas de seguridad que se disponen.  
+	8. **Aplicación de la seguridad**: Preguntas sobre identificación y autenticación de usuarios internos y externos, servicios externos y subcontratados, direccionamiento IP, gestión de cambios, continuidad y formación.  
+	9. **Gestión de incidentes**: Conteo de incidentes de interrupción y resto en número de días/horas y tiempo en resolverlos  
+	10. **Auditorías**: Para categoría MEDIA y ALTA → superar auditoría al menos cada 2 años. Información sobre la auditoría (tipo, nº no conformidades)  
+	11.** Indicadores clave de riesgo**  
+		Puntos de seguridad de importancia:  
+		- Gestión de equipos (dominio)
+		- % Equipos personales con uso laboral y de eso, los administrados por la entidad (BYOD)  
+		- Número de personas de Seguridad TIC que han causado baja  
 Como podemos observar, alguno de los pasos anteriores lo hemos realizado con la herramienta PILAR, desde la cual podremos importar los valores y añadirlos a INES.
 - **Examen** realizado: [Certificado curso de introducción al Esquema Nacional de Seguridad](Certificados/certificado_curso_de_introducción_al_esquema_nacional_de_seguridad_(ens).pdf)
