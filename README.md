@@ -2771,7 +2771,7 @@ El ENS establece los roles y responsabilidades que deben asumir las diferentes �
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/97e6134c-49d7-423a-956e-7aa6b8fcdb69)  
 ## Marco operacional  
 El marco operacional establece los elementos necesarios para la aplicación práctica de la política de seguridad definida en el marco organizativo. Entre estos elementos, destacan la planificación de la seguridad, el acceso a la información, la explotación de servicios internos y externos, y la continuidad de servicio y monitorización.  
-1. **Planificación de la seguridad**
+1. **Planificación de la seguridad**  
 	La planificación de la seguridad es el proceso que permite identificar los riesgos a los que está expuesta la información y definir las medidas necesarias para protegerla. La planificación de la seguridad debe ser basada en el análisis de riesgos, y debe incluir la definición de objetivos y la identificación de recursos necesarios para la gestión de la seguridad de la información.  
 2. **Acceso a la información**  
 	Se establecen los requisitos para el acceso a la información, que deben ser definidos en función de la naturaleza de la información y de los roles y responsabilidades de los usuarios. Entre los requisitos establecidos se encuentran la autenticación, la autorización y el control de acceso, así como la gestión de las contraseñas.  
