@@ -2373,8 +2373,8 @@ La forma de revisar los paquetes de datos o ficheros sospechosos es hacerles un 
 ## Curso de desarrollo seguro
 
 1. **Introducción**  
-> “ La protección de la información frente
-> a las distintas amenazas al objeto de
+> “ La protección de la información frente  
+> a las distintas amenazas al objeto de  
 > garantizar el buen funcionamiento. ”
 
 
