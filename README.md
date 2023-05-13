@@ -2373,10 +2373,70 @@ La forma de revisar los paquetes de datos o ficheros sospechosos es hacerles un 
 ## Curso de desarrollo seguro
 
 1. **Introducción**  
-> “ La protección de la información frente  
-> a las distintas amenazas al objeto de  
-> garantizar el buen funcionamiento. ”
+	> “ La protección de la información frente  
+	> a las distintas amenazas al objeto de  
+	> garantizar el buen funcionamiento. ”  
 
+La seguridad se basa en cuatro principios:  
+	- **Autenticidad** _qué usuario está haciendo que actividadd_  
+	- **Confidencialidad** _nadie que no deba ver una información no pueda verla_  
+	- **Integridad** _que la información sea veraz y no pueda modificarla nadie que no pueda hacerlo, y saber que no se han modificado_  
+	- **Disponibilidad** _necesitamos que los servicios y procesos estén activos_  
+
+La **información**, como el software, tiene un ciclo de vida, siendo importante la seguridad en cualquiera de sus pasos o ciclos:  
+	- Creación  
+	- Distribución  
+	- Uso  
+	- Mantenimiento  
+	- Destrucción  
+
+La seguridad, como hemos comentado anteriormente, requiere de un **mantenimiento continuado**, siendo las **personas** el **factor fundamental** (_ya que son estás, según la seguridad, la parte más peligrosa dado que no impera el sentido común_).  
+Ésta debe estar **integrada** en **todos** los **procesos** y **procedimientos**, requiriendo de la **implicación** de **todos**.  
+
+2. **Ciclo de desarrollo de software**  
+La pregunta que nos hacemos en este apartado es: _**¿Por qué desarrollar de manera segura?**_, siendo la respuesta que “_el coste de arreglar un fallo de seguridad aumenta exponencialmente con el tiempo_”.  
+Fases del **Secure SDLC**:  
+	1. **Requisitos**  
+		En la fase de análisis y requisitos se deben tener en cuenta:  
+		- Los requisitos y objetivos de la aplicación  
+		- Posibles problemas  
+		- Tecnología  
+		- Frameworks  
+		- Lenguajes  
+		- Funcionales y no funcionales (_definen el funcionamiento de la aplicación_)  
+		Tener en cuenta la seguiridad desde esta primera fase es vital para ahorrar en el futuro.  
+		Algunos de los consejos que podemos tomar para llevar esto adelante son:  
+		- Solventar vulnerabilidades conocidas  
+		- Realizar un análisis de riesgos 
+		- Usar tecnologías con mantenimiento y actualizaciones y mantenerlas actualizadas  
+		- Usar frameworks extendidos y respaldados por la comunidad o alguna empresa  
+	2. **Arquitectura y diseño**  
+		En la fase de arquitectura y diseño se deben tener en cuenta: 
+		- Definición de servicios  
+		- Interfaces  
+		- Protocolos  
+		- Sistemas  
+		- Redes  
+		- Flujo de datos  
+		Para tener en cuenta la seguridad en la arquitecturea y el diseño hay que tener en cuenta, al menos, los siguientes puntos:  
+		- Identificar las vulnerabilidades en las tecnologías escogidas y protegerlas  
+		- Asegurar los recursos de datos  
+		- Emplear protocolos de comunicación seguros  
+		- Estudiar estándares y arquitecturas típicas  
+		Todas las preguntas que debemos hacernos para una arquitectura segura la podemos encontrar en las _cheat sheets_ de [Owasp](https://cheatsheetseries.owasp.org/index.html).  
+	3. **Implementación**  
+		En la fase de implementación, que será la fase de desarrollo de la aplicación deberemos tener en cuenta:  
+		- Seguir buenas prácticas  
+		- Evitar el uso de funciones _deprecated_  
+		- Controlar errores  
+		- Controlar flujos de datos  
+		- Mantener los procesos lo más simples posibles  
+		Una de las frases más usadas para esta fase es: **_“Piensa mal y acertarás”_**
+	4. **Testeo**  
+	5. **Despliegue**  
+	6. **Mantenimiento**  
+
+3. ****
 
 - **Examen** realizado: Certificado curso de desarrollo seguro.
 
