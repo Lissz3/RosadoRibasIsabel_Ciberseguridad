@@ -2675,8 +2675,57 @@ Fases del **Secure SDLC**:
 		9. **Eliminar cabeceras innecesarias** relacionadas con el sistema operativo  
 		10. Implementar un **sistema de gestión de activos** y **registra el software** y los **componentes** del sistema en él  
 		11. Implementar un **software de control de cambios** para **gestionar** y **guardar** los cambios del código en **producción** y **desarrollo**  
-		12. **Separar** y **delimitar** los entornos de **desarrollo** y **producción** y **limitae** y **controlar** el **acceso** al primero
+		12. **Separar** y **delimitar** los entornos de **desarrollo** y **producción** y **limitae** y **controlar** el **acceso** al primero  
 
+	- **Seguridad en bases de datos**  
+	Las bases de datos son parte fundamental de casi cualquier software actual. Existen muchas y de diversos tipos, pero todas basan su funcionamiento en los métodos CRUD.  
+	La información es parte fundamental de cualquier software, así que hay que **salvaguardar su identidad**.  
+	Las mejores maneras de asegurar las bases de datos serían:  
+		1. Usar **queries fuertemente parametrizadas**  
+		2. **Validar** las entradas y **codificar** las salidas  
+		3. Darle a la aplicación los **mínimos privilegios** posibles cuando acceda a la BBDD  
+		4. Usar **contraseñas seguras**  
+		5. La configuración de la conexión con las BBDD no debe estar _hardcodeada_, debe estar en un **fichero de configuración** o en un **sistema de confianza** y **cifrada**
+		6. **Cerrar la conexión** lo antes posible  
+		7. **Eliminar** y **modificar** cualquier contraseña o configuraicón **por defecto** de la base de datos que pudiera exponerla  
+		8. **Desactivar** cualquier **funcionalidad innecesaria** de la BBDD
+		9. **Eliminar** cualquier **contenido** que viniera **por defecto**  
+		10. **Eliminar** cualquier **cuenta** que viniera **por defecto**  
+	
+	- **Seguridad al manerjar y tratar ficheros**  
+	Hay que tener en cuentra que el software no es más que un montón de código guardado en ficheros. Por esta razón, las aplicaciones pueden requerir que los usuarios puedan subir ficheros de diversa índole.  
+	Aunque así sea, un fichero puede ser inofesivo o altamente peligroso, así que no se debe confiar en la buena fe del usuario o en el origen de su fichero, así que hay que tener en cuenta ciertos motivos a la hora de que esto ocurra:  
+		1. **No** se debe **entregar información** dada por el usuario **directamente a una función**  
+		2. **Requerir autenticación** antes de subir cualquier fichero  
+		3. **Limitar** y **validar** los tipos de los fichero subidos (_extensión y cabecera_)  
+		4. **No guardar** ficheros en el **mismo contexto** de la aplicación, deben ir a la **BBDD** o a **otro servidor**  
+		5. **No permitir subir** ningún **fichero** que pueda **interpretar un servidor web**  
+		6. **Desactivar la ejecución de ficheros en cualquier directorio que no lo requiera**  
+		7. **Crear una lista blanca** de tipos de ficheros subidos y nombres que tienen permiso para ser leídos o ejecutados  
+		8. **No enviar** o **mostrar** nunca **rutas absolutas** al usuario  
+		9. Asegurarse de que los **recursos** y **ficheros** de la aplicación son de **sólo lectura**  
+		10. **Escanear** los fichero subidos en **busca** de **malware**  
+	
+	- **Manejo de memoria**  
+	La memoria de un ordenador nos permite ejecutar los procesos de nuestro software, almacenar informacion en caché de rápido acceso y almacenar información a largo plazo, por lo que es **fundamental** cuidar la memoria de nuestros sistemas para un buen funcionamiento.  
+	El cloud computing ha incrementado la preocupación por el buen uso de la memoria, ya que ésta cuesta dinero.  
+	Para cuidar la memoria de nuestros equipos, los factores a tener en cuenta serían:  
+		1. Emplear **controles** de **entrada** y **salida** para datos no confiables  
+		2. Revisar que los **buffer** son tan **grandes** como deben ser  
+		3. Cuidar que el **buffer** de **destino** tenga la **misma longitud** que el **origen** en los casos específicos (_funciones como strncpy()_)  
+		4. **Truncar** las cadenas de entrada antes de pasarlas a funciones de copia o concatenación  
+		5. **Liberar la memoria** cuando se complete una función o proceso  
+		6. **Evitar el uso de funciones vulnerable**s (_printf, strcpy..._)
+
+5. **Resumen**  
+De todo lo aprendido anteriormente, podemos resumirlo en:  
+	- **KISS** _Keep it simple and stupid_
+	- **Mínimos privilegios**  
+	- Ninguna configuración **por defecto**  
+	- Todo **actualizado**  
+	- **Revisar** siempre la **seguridad** en **sistemas de confianza** 
+	- **Desconfianza total en el usuario**  
+	- Conocer la **tecnología**, **lenguaje** o **framework** que se vaya a utilizar
 
 - **Examen** realizado: Certificado curso de desarrollo seguro.
 
