@@ -2406,10 +2406,10 @@ Fases del **Secure SDLC**:
 		- Funcionales y no funcionales (_definen el funcionamiento de la aplicación_)  
 		**Tener en cuenta la seguiridad desde esta primera fase es vital para ahorrar en el futuro.**  
 		Algunos de los consejos que podemos tomar para llevar esto adelante son:  
-		- Solventar vulnerabilidades conocidas  
-		- Realizar un análisis de riesgos 
-		- Usar tecnologías con mantenimiento y actualizaciones y mantenerlas actualizadas  
-		- Usar frameworks extendidos y respaldados por la comunidad o alguna empresa  
+			- Solventar vulnerabilidades conocidas  
+			- Realizar un análisis de riesgos 
+			- Usar tecnologías con mantenimiento y actualizaciones y mantenerlas actualizadas  
+			- Usar frameworks extendidos y respaldados por la comunidad o alguna empresa  
 	2. **Arquitectura y diseño**  
 		En la fase de arquitectura y diseño se deben tener en cuenta: 
 		- Definición de servicios  
@@ -2419,10 +2419,10 @@ Fases del **Secure SDLC**:
 		- Redes  
 		- Flujo de datos  
 		Para tener en cuenta la seguridad en la arquitecturea y el diseño hay que tener en cuenta, al menos, los siguientes puntos:  
-		- Identificar las vulnerabilidades en las tecnologías escogidas y protegerlas  
-		- Asegurar los recursos de datos  
-		- Emplear protocolos de comunicación seguros  
-		- Estudiar estándares y arquitecturas típicas  
+			- Identificar las vulnerabilidades en las tecnologías escogidas y protegerlas  
+			- Asegurar los recursos de datos  
+			- Emplear protocolos de comunicación seguros  
+			- Estudiar estándares y arquitecturas típicas  
 		Todas las preguntas que debemos hacernos para una arquitectura segura la podemos encontrar en las _cheat sheets_ de [Owasp](https://cheatsheetseries.owasp.org/index.html).  
 	3. **Implementación**  
 		En la fase de implementación, que será la fase de **desarrollo de la aplicación** debemos tener en cuenta:  
@@ -2441,11 +2441,11 @@ Fases del **Secure SDLC**:
 		- Automatización de tests  
 		- Revisión de tests  
 		Para añadir seguridad en la fase de testeo, se tendrá en cuenta:  
-		- Testear las vulnerabilidades conocidas para asegurarnos de que están protegidas  
-		- Fuzz testing  
-		_Técnica de prueba de software que se utiliza para encontrar errores y vulnerabilidades en un programa mediante la entrada de datos aleatorios o inesperados en el programa. El objetivo del fuzz testing es descubrir errores y fallas que puedan ser explotados por atacantes malintencionados o que puedan afectar la estabilidad y funcionalidad del programa en situaciones inesperadas._  
-		- Pentesting básico  
-		_El objetivo del pentesting es simular un ataque informático para descubrir y explotar vulnerabilidades y brechas de seguridad que puedan ser utilizadas por un atacante malintencionado._  
+			- Testear las vulnerabilidades conocidas para asegurarnos de que están protegidas  
+			- Fuzz testing  
+			_Técnica de prueba de software que se utiliza para encontrar errores y vulnerabilidades en un programa mediante la entrada de datos aleatorios o inesperados en el programa. El objetivo del fuzz testing es descubrir errores y fallas que puedan ser explotados por atacantes malintencionados o que puedan afectar la estabilidad y funcionalidad del programa en situaciones inesperadas._  
+			- Pentesting básico  
+			_El objetivo del pentesting es simular un ataque informático para descubrir y explotar vulnerabilidades y brechas de seguridad que puedan ser utilizadas por un atacante malintencionado._  
 	5. **Despliegue**  
 		En esta fase los pasos a tener en cuenta quedarían de la siguiente manera:  
 		- Preparación del entorno de producción  
@@ -2455,19 +2455,19 @@ Fases del **Secure SDLC**:
 		- Gestion de operaciones  
 		**Es importante recordar que el enotrno de testing es distinto del mundo del mundo real.**  
 		Para aplicar seguridad en esta fase, tendremos en cuenta:  
-		- Configuración segura de cada servicio
-		- Configuración segura de cada sistema  
-		- Gestión segura de los peermisos y operaciones  
+			- Configuración segura de cada servicio
+			- Configuración segura de cada sistema  
+			- Gestión segura de los peermisos y operaciones  
 	6. **Mantenimiento**  
 		A tener en cuenta:  
 		- Revisión de bugs  
 		- Nuevas funcionalidades  
 		- Optimización de código  
 		Para mantener la seguridad en el apartado de mantenimiento:  
-		- Versión actualizadas de cada framework o librería  
-		- Actualizar tecnologías  
-		- Actualizar procedimientos  
-		- Revisión de logs  
+			- Versión actualizadas de cada framework o librería  
+			- Actualizar tecnologías  
+			- Actualizar procedimientos  
+			- Revisión de logs  
 		
 
 3. ****
