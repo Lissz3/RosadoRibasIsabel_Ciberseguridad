@@ -2579,26 +2579,26 @@ Fases del **Secure SDLC**:
 		- Un correcto manejo de errores mejora la experiencia de usuario en una aplicación  
 
 	¿Cómo podemos asegurar esto?  
-		- No desvelar información relevante en los errores (detalles del sistema, información de cuentas o ids de sesión)  
-		- No mostrar mensajes de debug  
-		- Implementar mensajes de error genéricos  
-		- Liberar la memoria en uso cuando ocurra un error  
-		- Todos los sistemas de log deben implementarse en un sistema de confianza  
-		- Asgurarse de que los mensajes de error que incluyan código no se ejecuten como tal en ninguna UI  
-		- Restringir el acceso a los logs  
-		- No almacenar información relevante en los logs (detalles del sistema, ids de sesión o contraseñas)  
-		- Validar la integridad de los logs usando hashes  
+			- No desvelar información relevante en los errores (detalles del sistema, información de cuentas o ids de sesión)  
+			- No mostrar mensajes de debug  
+			- Implementar mensajes de error genéricos  
+			- Liberar la memoria en uso cuando ocurra un error  
+			- Todos los sistemas de log deben implementarse en un sistema de confianza  
+			- Asgurarse de que los mensajes de error que incluyan código no se ejecuten como tal en ninguna UI  
+			- Restringir el acceso a los logs  
+			- No almacenar información relevante en los logs (detalles del sistema, ids de sesión o contraseñas)  
+			- Validar la integridad de los logs usando hashes  
 
 	¿Qué guardar en los logs?  
-		- Fallos de validación de entrada  
-		- Intentos de autenticación  
-		- Fallos de acceso de control  
-		- Eventos de manipulación de datos  
-		- Intentos de login con tokens expirados o inválidos  
-		- Excepciones del sistema  
-		- Funciones de administración, incluyendo cambios en la configuración de seguridad  
-		- Fallos en conexiones TLS  
-		- Fallos criptográficos  
+			- Fallos de validación de entrada  
+			- Intentos de autenticación  
+			- Fallos de acceso de control  
+			- Eventos de manipulación de datos  
+			- Intentos de login con tokens expirados o inválidos  
+			- Excepciones del sistema  
+			- Funciones de administración, incluyendo cambios en la configuración de seguridad  
+			- Fallos en conexiones TLS  
+			- Fallos criptográficos  
 
 9. **Seguridad en la configuración del entorno**  
 
