@@ -1,7 +1,7 @@
 ## Onboarding Becas Openwebinars
 Curso de introducción a la plataforma y a términos básicos dentro del mundo IT.
 
-- **Examen** realizado: Certificado curso de onboarding becas.
+- **Examen** realizado: [Certificado curso de onboarding becas](Certificados/certificado_curso_de_onboarding_becas_openwebinars.pdf)
 
 ## Onboarding en Ciberseguridad
 ### Introducción y terminología
@@ -307,7 +307,7 @@ Que se ha aprendido:
 - Uso correcto del correo electrónico
 - Actualización continua de los sistemas y aplicacion
 
-- **Examen** realizado: Certificado curso de Onboarding en Ciberseguridad : Bienvenid@ a bordo.  
+- **Examen** realizado: [Certificado curso de Onboarding en Ciberseguridad : Bienvenid@ a bordo](Certificados/certificado_curso_de_onboarding_en_ciberseguridad__bienvenid@_a_bordo.pdf)  
 
 ----------
 
@@ -1295,7 +1295,7 @@ En resumen, las herramientas GRC son una solución integral para la gestión del
 - **Test autoevaluación** realizado: Monitorización del riesgo
 ![image](https://user-images.githubusercontent.com/93931447/234886061-b51edc4f-d393-44f3-a3a1-85e27cfe1c55.png)
 
-- **Examen** realizado: Certificado curso de análisis y gestión del riesgo.
+- **Examen** realizado: [Certificado curso de análisis y gestión del riesgo](Certificados/certificado_curso_de_análisis_y_gestión_del_riesgo.pdf)
 
 ## OSINT para fuga de datos empresariales
 
@@ -1757,7 +1757,7 @@ que pertenezcan a una misma VLAN.
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/188aa5d2-630b-4df8-981a-e6193110a060)  
 
 	
-- **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI.
+- **Examen** realizado: [Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI](Certificados/certificado_curso_de_seguridad_de_red_en_el_ámbito_corporativo__capa_2_del_modelo_osi.pdf)
 
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
 ### Capa 3 - Capa de red
@@ -2207,7 +2207,8 @@ En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/937b6ef9-94c7-4585-90a9-2d5456990d25)  
 
 
-- **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
+- **Examen** realizado: [Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI](Certificados/certificado_curso_de_seguridad_de_red_en_el_ámbito_corporativo__capas_3_y_7_del_modelo_osi.pdf)
+
 ## Curso de triage informático
 ### Introducción
 
@@ -2368,7 +2369,7 @@ La forma de revisar los paquetes de datos o ficheros sospechosos es hacerles un 
 - **Test repaso** realizado: Curso de triage informático - Emails y pishing.
 ![image](https://user-images.githubusercontent.com/93931447/236934611-7db27513-741e-4d17-be59-994b7de35bae.png)
 
-- **Examen** realizado: Certificado curso de triage informático.
+- **Examen** realizado: [Certificado curso de triage informático](Certificados/certificado_curso_de_triage_informático.pdf)
 
 ## Curso de desarrollo seguro
 
