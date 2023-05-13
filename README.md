@@ -1564,7 +1564,7 @@ La dirección MAC (Media Access Control) es una dirección **única y permanente
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/75087095-e531-4801-90c2-0617480d5679)  
 
 
-### VLAN
+### [VLAN](CiscoPacketTracer/ConfigVLAN.pkt)
 1. **Descripción general**  
 Las VLAN son divisiones lógicas de la red  que nos permiten distribuirla de manera que los dispositivos no se puedan comunicar todos entre todos, si no que estará restringida entre aquellos
 que pertenezcan a una misma VLAN.  
@@ -1713,7 +1713,7 @@ que pertenezcan a una misma VLAN.
 5. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/da06a93e-9651-4195-aad7-9d0b1974036b)  
 
-### VTP  
+### [VTP](CiscoPacketTracer/ConfigVTP.pkt)  
 1. **Descripción general**  
 	- Protocolo de capa 2 usado para administrar y configurar VLANs en los dispositivos Cisco  
 	- Simplifica y centraliza la administración de las VLANs de una red, reduciendo así el número de fallos de configuración  
@@ -1848,7 +1848,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 		1. **Redes conectadas directamente**  
 			- La red se indica con una C seguido de la dirección IP y la máscara
 			- La interfaz se indica con una L y un prefijo /32 (IPv4) o /128 (IPv6)  
-		2. **Rutas estáticas**
+		2. **[Rutas estáticas](CiscoPacketTracer/ConfigStaticRoutes.pkt)**
 			- ip route 10.0.4.0 255.255.255.0 10.0.3.2
 			- ipv6 route 2001:db8:acad:4::/64 2001:db8:acad:3::2
 		3. **Rutas dinámicas**  
@@ -2028,7 +2028,7 @@ El elemento principal de la capa 3 es el Router. Éste determinará qué interfa
 9. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/43ceb1ff-ff4e-4672-a1e2-baf0d80e6ec1)
 
-### HSRP
+### [HSRP](CiscoPacketTracer/ConfigHSRP.pkt)
 1. **Descripción general**  
 	- **Protocolo de capa 3 propiedad de Cisco**  
 	- **Uso de puertas de enlace redundantes** (conmutación por fallo transparente)  
@@ -2127,7 +2127,7 @@ Consta de dos partes: **Red P2P** y **Aplicaciones P2P**
 La primera consulta se hace al **servidor DNS local del sistema operativo**. Se comprueba la **memoria caché**.  
 En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.  
 
-### DCHP
+### [DCHP](CiscoPacketTracer/ConfigDHCP.pkt)
 1. **Descripción general**  
 	- Protocolo de red de tipo **cliente/servidor**  
 	- Se encarga de la a**signación dinámica de direcciones IP y otros parámetros de configuración de red**  
@@ -2180,7 +2180,7 @@ En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.
 6. **Fallos de seguridad y posibles mitigaciones**  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/13488b45-5a87-4a79-93c5-a77c6be44c60)  
 	
-### SNMP
+### [SNMP](CiscoPacketTracer/ConfigSNMP.pkt)
 1. **Descripción general**  
 	- Protocolo de la capa de aplicación que **facilita el intercambio de información de administración de los dispositivos de red**  
 	- Se encapsula sobre el **puerto 161 y el 162 (traps) de UDP**  
