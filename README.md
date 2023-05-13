@@ -2577,7 +2577,8 @@ Fases del **Secure SDLC**:
 		- Un log **guarda** la **traza** de **cualquier operación** que se realice en nuestra aplicación  
 		- **La integridad del log es vital para la detección de ataques, malas prácticas o acciones no permitidas**  
 		- Un correcto manejo de errores **mejora** la experiencia de usuario en una aplicación  
-	2. ¿Cómo podemos asegurar esto?  
+
+	2. **¿Cómo podemos asegurar esto?**  
 		- **No desvelar información relevante** en los errores (detalles del sistema, información de cuentas o ids de sesión)  
 		- **No mostrar mensajes de debug**  
 		- Implementar mensajes de error **genéricos**  
@@ -2587,7 +2588,8 @@ Fases del **Secure SDLC**:
 		- **Restringir el acceso** a los logs  
 		- **No almacenar información relevante en los logs** (detalles del sistema, ids de sesión o contraseñas)  
 		- **Validar** la **integridad** de los logs usando **hashes**  
-	3. ¿Qué guardar en los logs?  
+
+	3. **¿Qué guardar en los logs?**  
 		- **Fallos** de **validación** de **entrada**  
 		- **Intentos** de **autenticación**  
 		- **Fallos** de acceso de **control**  
@@ -2598,11 +2600,69 @@ Fases del **Secure SDLC**:
 		- **Fallos** en** conexiones TLS**  
 		- **Fallos criptográficos**  
 
-9. **Seguridad en la configuración del entorno**  
+4. **Seguridad en la configuración del entorno**  
+	- **Control de accesos**  
+	El control de acceso es importante para evitar que cualquier usuario no vea nada que no deba ver en el software.  
+	De esta manera:  
+		1. Se persevera la confidencialidad de los datos  
+		2. Se protege la información de los usuarios  
+		3. Se protegen los recursos de nuestro software que solo deben ser accionados o usados por algunos roles o usuarios específicos  
 
+	- **Cómo controlar los accesos**  
+		1. Emplear únicamente objetos de sistemas de confianza para tomar decisiones de autorización de accesos  
+		2. Emplear un único componente en tu software que revise la autorización de accesos  
+		3. Los controles de accesos deben **fallar de manera segura**  
+		4. **Rechazar** cualquier acceso **ante cualquier caída o error** en la información de configuración de la seguridad  
+		5. **Forzar la autenticación** para cualquier petición (aunque proceda del propio servidor)  
+		6. Si deben almacenarse datos sobre el estado en el cliente, **usar encriptación** y **chequear la integridad en el servidor**  
+		7. **Limitar el número de transacciones** en el tiempo por usuario  
+		8. **Desactivar** las cuentas **sin uso**  
+		9. **Minimizar los privilegios** que se otorgan a cualquier usuario al mínimo posible  
+		10. Crear una **política** de control de accesos  
 
-10. 
+	- **Es importante restringir los accesos a:**  
+		1. Ficheros o otros recursos  
+		2. URLs protegidas  
+		3. Funciones protegidas  
+		4. Referencias directas a objetos  
+		5. Servicios protegidos  
+		6. Datos de aplicación  
+		7. Atributos de usuarios y datos y políticas empleadas por los controles de acceso  
+		8. Información de configuración de seguridad
 
+	- **Protección de datos**  
+		- **Acerca de la información**  
+			1. Son el **oro del siglo XXI**  
+			2. En ellos reside el **verdadero valor** de nuestro software  
+			3. Las **leyes** exigen una **alta protección** para según qué tipo de datos  
+			4. Los usuarios **demandan seguridad** en sus datos y **les preocupa** de cara a usar una aplicación o no  
+		- **Cómo proteger los datos:**  
+			1.  Usar el principio de **mínimos privilegios**  
+			2.  **Proteger** cualquier **copia en caché** o de seguridad de datos sensibles y **eliminar** las copias temporales  
+			3.  **Encriptar** la información secreta almacenada por el software  
+			4.  **Proteger el código fuente**  
+			5.  **Eliminar comentarios del código** visible para el usuario para evitar mostrar información del backend  
+			6.  **Eliminar y restringir** el **acceso** a **documentación** innecesaria de la aplicación  
+			7.  **No incluir** información sensible en los parámetros de las peticiones **GET**  
+			8.  **No autocompletar** formularios sensibles _como las contraseñas_  
+			9.  **No guardar** en memoria **caché** la información de páginas con **datos sensibles** (_Cache-Control:no-store_)  
+			10.  La aplicación debe **soportar** la **eliminación** de datos sensibles cuando estos no sean necesarios  
+			11.  **Implementar un control de accesos seguro**, con una **política robusta** y una buena configuracion de ésta  
+
+	- **Seguridad de las comunicaciones**  
+	La comunicación se define como una **conexión funcional** entre dos sistemas, programas, dispositivos o componentes de cualquier tipo que permite el **intercambio de información**  
+		- **Cómo proteger las comunicaciones**  
+			1. Implementa el cifrado para la transmisión de cualquier información sensible  
+			2. Emplea TLS siempre o algún cifrado discreto cuando no sea posible  
+			3. El certificado TLS debe ser válido, no estar expirado y tener el nombre de dominio bien  
+			4. Una conexión TLS fallida no debe abrir una conexión insegura  
+			5. Emplea TLS para todas las conexiones que requieran autenticación  
+			6. Emplea TLS para conexiones a sistemas externos que impliquen el uso de información sensible  
+			7. Emplea una única implementación estándar TLS que esté bien configurada  
+
+	- **Configuración del sistema**  
+	Entendemos por sistema a la **máquina física** o **virtual** que contiene el software, así como todas las dependencias necesarias para que funcione correctamente.  
+	Puede ser una red de sistemas conectados (_mi_)
 - **Examen** realizado: Certificado curso de desarrollo seguro.
 
 ## Introducción al Esquema Nacional de Seguridad
