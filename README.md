@@ -2318,8 +2318,27 @@ Por defecto, en Windows 10 las aplicaciones instaladas las podemos encontrar baj
 
 4. **Uso de recursos**  
 Un recurso del sistema es cualquier componente físico o virtual de disponibilidad limitada dentro de un sistema informático. Cada dispositivo conectado en un sistema informatico es un recurso, asi como cada componente interno del sistema también es un recurso. Los recursos del sistema virtual incluyen archivos, conexiones de red y áreas de memoria.  
-La gestión de reecursos incluye tanto la prevención de fugas de recursos (_no liberar un recurso cuando u nproceso ha terminado de utilizarlo_) como el tratamiento de la contención de recursos (_cuando varios procesos desean acceder a un recurso limitado_).
+La gestión de reecursos incluye tanto la prevención de fugas de recursos (_no liberar un recurso cuando u nproceso ha terminado de utilizarlo_) como el tratamiento de la contención de recursos (_cuando varios procesos desean acceder a un recurso limitado_).  
+Por ejemplo, recursos informáticos (_de capacidad_) pueden ser: **memoria**, capacidad de **almacenamiento** o la **CPU**.  
+Un recurso libre es la capacidad de un recurso con la que cuenta un ordenador en un determinado momento. Por ejemplo, el recurso de memoria RAM libre en un determinado momento puede ser 450 MB de un total de memoria de 1 GB.  
+Un recurso también puede ser un dispositivo; por ejemplo, un ordenador que cuenta con una impresora, cuenta con dicho recurso.
 
+5. **Establecimiento de conexiones**  
+En informática, una **conexión** puede refererirse a:  
+	1. El punto exacto donde se realiza un enlace entre dispositivos o sistemas.  
+	También puede hacer referencia al enlace completo establecido, no sóilo el punto específico. En algunos contextos, conexión puede ser sinónimo de acceso. Puede ser una conexión digital o analógica.
+	2. **Conexión cableada**  
+	3. **Conexión inalámbrica**  
+	4. **Conexión a una red**, con el objetivo de transferir datos usualmente en ambos sentidos  
+		- Conexión a internet 
+		- Conexión punto a punto
+		- Conexión dial-up
+	5. **Conexión a una base de datos**  
+	6. **Conexión virtual o VPN**  
+	7. **Conexión de un dispositivo a un ordenador**  
+	8. **Conexión a un servicio online**, siendo sinónimo de _iniciar sesión_  
+	9. **Conexión por acceso remoto**  
+	
 - **Test repaso** realizado: Curso de triage informático - Análisis de archivos ejecutables.
 ![image](https://user-images.githubusercontent.com/93931447/236928529-f4a53b20-dfa0-4442-95bd-22bdfc6e22ef.png)
 
