@@ -158,7 +158,7 @@ Ayuda con las cookies "maliciosas" y protegen la identidad.
 Que la web esté aplicando https no implica 100% seguridad dentro de ella.  
 Una dirección https puede ser segura en la comunicación (es decir, que nuestra información no pueda ser interceptada por terceros) pero que la página web realice guardados de nuestra información sensible para usarla en su beneficio.  
 
-Hay páginas web como **VirusTotal** que hacen un checkeo sobre URLS para comprobar que no son maliciosas.  
+Hay páginas web como [**_VirusTotal_**](https://www.virustotal.com/gui/home/upload) que hacen un checkeo sobre URLS para comprobar que no son maliciosas.  
 
 - Codigos QR  
 	1. Evolución de código de barras que almacena información
