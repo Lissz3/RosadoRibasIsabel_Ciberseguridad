@@ -2525,8 +2525,33 @@ En cuanto a la criptografía:
 	- Debe establecerse una política y un proceso para la gestión de claves criptográficas  
 	
 6. **Buffer overflow**  
+El buffer overflow es el excesivo relleno de una variable o recurso que resulta en un problema con el manejo de memoria, pudiendo incurrir en modificaciones de memoria, manipulación y acceso a direcciones de memoria y crasheos de programas.  
+Para evitar este tipo de problemas las opciones que tenemos son:  
+	- Auditar el código  
+	- Conocer la documentación del lenguaje y sus vulnerabilidades conocidas: Estándares de desarrollo, funciones inseguras, etc.  
+	- Usar herramientas de compilación específicas: StackShield, StackGuard, etc.  
 
-7. 
+7. **Autenticación y manejo de contraseñas**  
+Como hemos visto anteriormente, uno de los principios de las seguridad es la propia **autenticación**.  
+La funcionalidad básica para asignar permisos de acceso a determinados recursos, según roles, grupos, dueños, etc.  
+Un fallo de autenticación podría ocasionar graves daños, alguien podría hacerse pasar por un usuario que no es.  
+Cómo asegurar la autenticación:  
+	1. **Existen multiples ataques posibles**  
+	2. Deben usarse soluciones **testadas** y **extendidas** para cada lenguaje que **simplifiquen** este proceso y que cuenten con **actualizaciones periódicas**  
+	3. Debemos **realizar** todas **comprobaciones** en un sistema de **confianza**  
+	4. **Centraliza** todos los servicios de autenticación del software  
+	5. Todos los controles de autenticación deben **fallar de manera segura**  
+	6. **Almacena las contraseñas hasheadas** (no MD5) **con sal** y asegurate de que **solo** la **aplicación** puede **escribir** en esa tabla/colección  
+	7. **No mostrar** qué parte de la autenticación ha fallado: usuario o contraseña  
+	8. **Utiliza** el método **HTTP POST** para autenticar en caso de aplicación web  
+	9. **Obliga** a los usuarios a emplear **contraseñas complejas** que incluyan números, letras minúsculas, mayúsculas y símbolos y tengan cuantos más caracteres mejor  
+	10. **No muestres la contraseña en la pantalla** del usuario cuando la introduzca  
+	11. **Limita** el número de **intentos** de **login fallidos** y **bloquea** la cuenta si se sobrepasa  
+	12. **Notifica** a los usuarios cuando ocurra un reseteo de sus contraseñas y **asegura** este proceso tanto o más como la propia creación de usuarios  
+	13. **No usar** ningún **mail** de usuario para notificar que no estuviera **previamente registrado**  
+	14. Si es necesario, **obliga a los usuarios a cambiar la contraseña cada cierto tiempo**  
+	15. **Cambia** todas las contraseñas **por defecto**  
+	16. **Usa doble factor de autenticación** para recursos e información muy sensible
 
 - **Examen** realizado: Certificado curso de desarrollo seguro.
 
