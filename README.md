@@ -2293,7 +2293,7 @@ Hay dos tipos de herramientas que podemos tener:
 	- **Local**  
 	Software instalado en nuestro ordenador para su protección (_por ej, anitivirus_)
 	- **Online**  
-	Aplicación web que nos permite revisar arhivos sin ejecutarlos en nuestro ordeador o que se remiten a una web para su escaneo (_por ej, VirusTotal_)
+	Aplicación web que nos permite revisar arhivos sin ejecutarlos en nuestro ordeador o que se remiten a una web para su escaneo (_por ej, [VirusTotal](https://www.virustotal.com/gui/home/upload)_)
 
 - **Test repaso** realizado: Curso de triage informático - Búsqueda de malware.
 ![image](https://user-images.githubusercontent.com/93931447/236868772-6ccbce95-63e7-473d-9536-6bc48bf42893.png)
