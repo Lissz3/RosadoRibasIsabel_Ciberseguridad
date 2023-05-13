@@ -2717,7 +2717,7 @@ Fases del **Secure SDLC**:
 		5. **Liberar la memoria** cuando se complete una función o proceso  
 		6. **Evitar el uso de funciones vulnerable**s (_printf, strcpy..._)
 
-5. **Resumen**  
+5. **Resumen y aportaciones**  
 De todo lo aprendido anteriormente, podemos resumirlo en:  
 	- **KISS** _Keep it simple and stupid_
 	- **Mínimos privilegios**  
@@ -2726,6 +2726,8 @@ De todo lo aprendido anteriormente, podemos resumirlo en:
 	- **Revisar** siempre la **seguridad** en **sistemas de confianza** 
 	- **Desconfianza total en el usuario**  
 	- Conocer la **tecnología**, **lenguaje** o **framework** que se vaya a utilizar
+
+También, de este curso es relevante comentar que todas las prácticas se han realizado en una máquina virtual ([_VirtualBox_])(https://www.virtualbox.org/), en la cual vamos a tener una máquina vulnerable que obtendremos gracias a OWASP llamada ["Broken Web Applications Project"](https://sourceforge.net/projects/owaspbwa/) ofreciendo a nuestra disposición con una serie de aplicaciones web inseguras y rotas para poder hacer pruebas. Con un contenedor Docker de [Kali](https://www.kali.org/) Linux para usar las herramientas de seguridad junto a [Burp](https://portswigger.net/burp).
 
 - **Examen** realizado: Certificado curso de desarrollo seguro.
 
