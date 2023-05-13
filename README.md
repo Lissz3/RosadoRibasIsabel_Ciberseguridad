@@ -2469,8 +2469,64 @@ Fases del **Secure SDLC**:
 			- Actualizar procedimientos  
 			- Revisión de logs  
 		
+3. **Validación de entradas**  
+Cualquier dato introducido por un usuario **es susceptible de ocasionar errores**, por tanto, es **imprescindible** controlar la inserción de datos a nuestro software.  
+Para entender la importancia de la validación de entradas se explicará el ejemplo de SQLi - inyección de código SQL:  
+	- Es un ataque de inyección de código  
+	- Permite a un atacante ejecutar código SQL sobre nuestra base de datos  
+Con una simple sentencia como: 
+`SELECT * FROM users WHERE username=’blabla’ or ‘1’=‘1’;`  
+sin un correcto control le daría al atacante todas las entradas de nuestra base de datos dado que la condición `‘1’=‘1’` siempre se cumpliría en la sentencia.  
+	1. **Validación de ficheros subidos**  
+		- Si nuestro software o aplicación permite subir ficheros a un determinado servidor, debemos cuidar la seguridad de esta funcionalidad.  
+		- Un atacante podría tomar el control de nuestra máquina mediante este tipo de ataques.  
+	2. **Valicadión de entradas**  
+		- Realizar todas las validaciones en un sistema de confianza  
+		- Especificar la codificación de caracteres para todas las entradas (UTF-8...)  
+		- Identifica todas las entradas de datos y clasifícalas en confiables y no confiables. Valida las no confiables.  
+		- Crea una rutina centralizada de validación de entradas para tu aplicación  
+		- Canonicaliza los datos antes de validarlos (codifica todos igual)  
+		- Cualquier fallo de validación debe incurrir en el rechazo de la entrada  
+		- Valida todos los datos que provenga del cliente  
+		- Valida rangos de datos, tamaño de datos y tipos de datos  
+		- Si es posible, valida los datos empleando una lista blanca  
+		- Si es necesario para tu aplicación utilizar caracteres raros, asegurate de implementar controles de entrada y salida específicos para estos  
+4. **Codificación de salidas**  
+¿Por qué es necesaria la validación de entradas?  
+	- Las entradas de datos pueden ser imprescindibles, haciendo imposible la validación de la entrada perfecta
+	- Debido al funcionamiento de la aplicación, puede ser necesario admitir caracteres _raros_  
+	- Los datos recibidos pueden ser empleados en muchos contextos (_JS, CSS, HTML..._)  
+Estas tres razones hacen necesario emplear la codificación de salidas.  
+Uno de los ejemplos que podemos tener en cuenta  es el XSS (_Cross site scripting_).  
+	- Es un ataque de inyección de código
+	- Permite a un atacante ejecutar código javascript malicioso  
+La codificación de salidas es, en resumen:  
+	- El mejor método para prevenir XSS y SQLi  
+	- El objetivo principal es convertir entradas de datos no confiables en datos seguros que mostrar  
+Como cliente se puede enviar `<script>alert(1)</script>`, pero como servidor devolveriamos algo parecido a `&ltscript&gtalert(1)&lt&#x2Fscript&gt`, haciendo el posible código ejecutable inofensivo.  
+La codificación de salidas se deberían hacer siguiendo los siguientes consejos:  
+	- La codificación debe ser hecha en un sistema de confianza  
+	- Utilizar una rutina testeada y estándar para la codificación de cada tipo de datos  
+	- Codificar todos los caracteres a menos que sean seguros para el intérprete previsto  
+	- Sanitizar todas las salidas de datos no confiables destinadas a comandos o consultas: OS, SQL, XML o LDAP  
+	
+5. **Criptografía**  
+¿Por qué cifrar la información?
+	- Una de las máximas de la seguridad informática es la **confidencialidad**  
+	- En el siglo XXI el valor está en los datos  
+	- No queremos revelar información relevante de nuestro negocio ni de nuestros usuarios  
+	- Para seguir la LOPD (Ley de protección de datos)  
+En cuanto a la criptografía:  
+	- Todas las funciones criptográficas empleadas deben implementarse en un sistema de confianza  
+	- Proteger los “secretos maestros” de accesos no autorizados  
+	- Manejar el sistema ante errores de los módulos criptográficos  
+	- Todos los números, nombres de archivo, GUIDs y cadenas que deban ser aleatorios/as y no adivinables, serán generados con un módulo testeado y aprobado que cumpla con ese requisito  
+	- Los módulos criptográficos utilizados deben ser compatibles con FIPS 140-2 o algún estándar similar  
+	- Debe establecerse una política y un proceso para la gestión de claves criptográficas  
+	
+6. **Buffer overflow**  
 
-3. ****
+7. 
 
 - **Examen** realizado: Certificado curso de desarrollo seguro.
 
