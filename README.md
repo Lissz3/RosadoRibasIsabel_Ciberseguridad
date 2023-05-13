@@ -2371,6 +2371,13 @@ La forma de revisar los paquetes de datos o ficheros sospechosos es hacerles un 
 - **Examen** realizado: Certificado curso de triage informático.
 
 ## Curso de desarrollo seguro
+
+1. **Introducción**  
+> “ La protección de la información frente
+> a las distintas amenazas al objeto de
+> garantizar el buen funcionamiento. ”
+
+
 - **Examen** realizado: Certificado curso de desarrollo seguro.
 
 ## Introducción al Esquema Nacional de Seguridad
