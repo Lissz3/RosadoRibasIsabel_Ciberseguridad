@@ -2211,11 +2211,11 @@ En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.
 ## Curso de triage informático
 ### Introducción
 
-1. **Definición de malware**.
+1. **Definición de malware**  
 Acrónimo del inglés “Malicious Software”, traducido como código malicioso.  
 Se puede definir como el código o programa informático que esta específicamente diseñado para provocar un daño, una mal función, un bloqueo, una extracción de información o un acceso no autorizado a una plataforma tecnológica.  
 
-2. **Características del malware**
+2. **Características del malware**  
 	- **Persistencia**  
 		Capacidad para permanecer en el sistema  
 	- **Ofuscación**  
@@ -2225,7 +2225,7 @@ Se puede definir como el código o programa informático que esta específicamen
 	- **FUD**  
 		Full Undetectable
 
-2. **Tipos de malware**
+2. **Tipos de malware**  
 	- **Adware** (_genera publicidad_)  
 	- **Clickers** (**Redirige y hace click en sitios especificos**)  
 	- **Ramsonware** / **Lockers** (_Bloquea o encripta datos_)  
