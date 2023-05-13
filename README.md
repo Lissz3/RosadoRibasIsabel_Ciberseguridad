@@ -2554,7 +2554,7 @@ Un fallo de autenticación podría ocasionar graves daños, alguien podría hace
 		14. Si es necesario, **obliga a los usuarios a cambiar la contraseña cada cierto tiempo**  
 		15. **Cambia** todas las contraseñas **por defecto**  
 		16. **Usa doble factor de autenticación** para recursos e información muy sensible  
-	1. **Manejo de sesiones**  
+	2. **Manejo de sesiones**  
 	El resumen de la importancia de las sesiones sería:  
 		- Permiten guardar información relativa de cada usuario que opera usando nuestro software  
 		- Debemos intentar registrar todas las operaciones que se realicen, así como el actor que la ejecuta  
@@ -2568,8 +2568,33 @@ Un fallo de autenticación podría ocasionar graves daños, alguien podría hace
 		- Tras cada re-autenticación debe **crearse una nueva sesión**, no mantener la antigua  
 		- Los id de sesión **solo deben estar presentes en la cookie**  
 		- **Reciclar** los id de sesión periódicamente  
-		- Configurar el **atributo** `secure` para las cookies
-
+		- Configurar el **atributo** `secure` para las cookies  
+	3. **Manejo de errors y logs**  
+	La importancia del manejo de errores y logs se debe a:  
+		- Un error puede desvelar información sensible  
+		- Un log guarda la traza de cualquier operación que se realice en nuestra aplicación  
+		- La integridad del log es vital para la detección de ataques, malas prácticas o acciones no permitidas  
+		- Un correcto manejo de errores mejora la experiencia de usuario en una aplicación  
+	¿Cómo podemos asegurar esto?  
+		- No desvelar información relevante en los errores (detalles del sistema, información de cuentas o ids de sesión)  
+		- No mostrar mensajes de debug  
+		- Implementar mensajes de error genéricos  
+		- Liberar la memoria en uso cuando ocurra un error  
+		- Todos los sistemas de log deben implementarse en un sistema de confianza  
+		- Asgurarse de que los mensajes de error que incluyan código no se ejecuten como tal en ninguna UI  
+		- Restringir el acceso a los logs  
+		- No almacenar información relevante en los logs (detalles del sistema, ids de sesión o contraseñas)  
+		- Validar la integridad de los logs usando hashes  
+	¿Qué guardar en los logs?  
+		- Fallos de validación de entrada  
+		- Intentos de autenticación  
+		- Fallos de acceso de control  
+		- Eventos de manipulación de datos  
+		- Intentos de login con tokens expirados o inválidos  
+		- Excepciones del sistema  
+		- Funciones de administración, incluyendo cambios en la configuración de seguridad  
+		- Fallos en conexiones TLS  
+		- Fallos criptográficos
 9. **Seguridad en la configuración del entorno**  
 
 
