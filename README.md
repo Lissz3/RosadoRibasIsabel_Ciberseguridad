@@ -2755,29 +2755,29 @@ Es decir, el Esquema Nacional de Seguridad tiene como objetivo establecer un **m
 
 ## Marco organizativo  
 El marco organizativo del ENS establece los **elementos necesarios** para garantizar la seguridad de la información en el ámbito de la administración pública. Entre estos elementos, destacan la política de seguridad, el comité de seguridad y los roles y responsabilidades.  
-	1. **Política de seguridad**  
-	Es el conjunto de directrices plasmadas en un document oescrito que rigen la forma en que una organización gestiona y protege la información y los servicios que considera críticos.  
-	Los apartados recomendados en ésta son los siguientes:
-		- Misión u objetivo del organismo  
-		- Marco normativo  
-		- Orgnización de seguridad  
-		- Concienciación y formación  
-		- Postura para la gestión de riesgos  
-		- Proceso de revisión de la Política  
-	2. **Comité de seguridad**  
-	El comité de seguridad es un órgano de dirección encargado de garantizar la aplicación de la política de seguridad. Este comité debe estar integrado por representantes de la dirección y de las áreas responsables de la gestión de la seguridad de la información. Entre sus funciones, se encuentran la definición de la estrategia de seguridad, la identificación de los riesgos y la supervisión de la aplicación de las medidas de seguridad.  
-	3. **Roles y responsabilidades**  
-	El ENS establece los roles y responsabilidades que deben asumir las diferentes áreas de una organización en la gestión de la seguridad de la información. En el siguiente gráfico se muestra el resumen de los mismos:  
-		![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/97e6134c-49d7-423a-956e-7aa6b8fcdb69)  
+1. **Política de seguridad**  
+Es el conjunto de directrices plasmadas en un document oescrito que rigen la forma en que una organización gestiona y protege la información y los servicios que considera críticos.  
+Los apartados recomendados en ésta son los siguientes:
+	- Misión u objetivo del organismo  
+	- Marco normativo  
+	- Orgnización de seguridad  
+	- Concienciación y formación  
+	- Postura para la gestión de riesgos  
+	- Proceso de revisión de la Política  
+2. **Comité de seguridad**  
+El comité de seguridad es un órgano de dirección encargado de garantizar la aplicación de la política de seguridad. Este comité debe estar integrado por representantes de la dirección y de las áreas responsables de la gestión de la seguridad de la información. Entre sus funciones, se encuentran la definición de la estrategia de seguridad, la identificación de los riesgos y la supervisión de la aplicación de las medidas de seguridad.  
+3. **Roles y responsabilidades**  
+El ENS establece los roles y responsabilidades que deben asumir las diferentes áreas de una organización en la gestión de la seguridad de la información. En el siguiente gráfico se muestra el resumen de los mismos:  
+	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/97e6134c-49d7-423a-956e-7aa6b8fcdb69)  
 ## Marco operacional  
 El marco operacional establece los elementos necesarios para la aplicación práctica de la política de seguridad definida en el marco organizativo. Entre estos elementos, destacan la planificación de la seguridad, el acceso a la información, la explotación de servicios internos y externos, y la continuidad de servicio y monitorización.  
-	1. **Planificación de la seguridad**
+1. **Planificación de la seguridad**
 	La planificación de la seguridad es el proceso que permite identificar los riesgos a los que está expuesta la información y definir las medidas necesarias para protegerla. La planificación de la seguridad debe ser basada en el análisis de riesgos, y debe incluir la definición de objetivos y la identificación de recursos necesarios para la gestión de la seguridad de la información.  
-	2. **Acceso a la información**  
+2. **Acceso a la información**  
 	Se establecen los requisitos para el acceso a la información, que deben ser definidos en función de la naturaleza de la información y de los roles y responsabilidades de los usuarios. Entre los requisitos establecidos se encuentran la autenticación, la autorización y el control de acceso, así como la gestión de las contraseñas.  
-	3. **Explotación de servicios internos y externos**  
+3. **Explotación de servicios internos y externos**  
 	Requisitos para la explotación de servicios internos y externos, incluyendo la selección de proveedores de servicios en función de su capacidad para garantizar la seguridad de la información, ya que la entidad también es responsable de los riesgos de estos servicios. También se establecen requisitos para la gestión de contratos, la gestión de incidentes y la auditoría de los servicios.  
-	4. **Continuidad de servicio y monitorización**  
+4. **Continuidad de servicio y monitorización**  
 	El ENS establece los requisitos para garantizar la continuidad de servicio en caso de interrupciones o incidentes,además de los requisitos para la monitorización de los sistemas y la gestión de incidentes de seguridad, incluyendo la notificación de incidentes a las autoridades competentes.
 
 
