@@ -2274,15 +2274,52 @@ Según la tabla de asignación de puertos determinados, son los más importantes
 Hoy en día, la RAE ha modificado la definición de **hacker**, aceptando además de: “pirata informático” a incluir en segunda opción: “la persona experta en el manejo de computadoras, que se ocupa de la seguridad de los sistemas y de desarrollar técnicas de mejora”.  
 Sin embargo, la RAE mantiene en esta definición, la que correspondería a la de un **cracker**, quien realmente es la persona que usa el conocimiento informático para actividades ilegales.
 
-
 - **Test repaso** realizado: Curso de triage informático - Introducción.
 ![image](https://user-images.githubusercontent.com/93931447/236833696-13b3f21e-3ada-45a1-aafe-367fb3473aab.png)
 
 ### Búsqueda de malware
+1. **Metadatos**  
+Conjunto estructurado ed datos que describen a otros ddaots, a su estructura interna y a sus servicios, cuyo propósito es incrementar la identificación y la individualidad de cada archivo o paquete de datos.  
+Es decir, aunque una persona cree un documento en Word y lo copie varias veces, aunque en su forma y contenido sea idéntico, sus metadatos proporcionarán información que harán de que cada uno de ellos sea un elemento único y diferente.
+2. **Firma y descripción**
+En el momento de verificar un software o proceso en el ordenaor, observaremos que existen nombres de fabricantes en cada de uno de ellos, así como una descripción del producto o el software asociado a cada proceso.  
+A esta traza o secuencia que se obtiene al ejecutar un código se le denomina firma, siendo este casi siempre identificado por un **hash**.
+El hash es el algoritmo matemático que transforma cualquier bloque arbitrario de datos en una nueva serie de caracteres con una longitud fija.  
+4. **Análisis heurístico**  
+La heurística es un conjunto de **técnicas y procedimientos** para determinar según la cantidad de puntos a favot o en contra, la condición o característica de un software o proceso.  
+Utilizar el análisis heruístico sería, en este caso, analizar qué es lo que pretende realizar el ejecutable y al detectar de qué se trata, bloquearlo instantaneamente si se trata de una acción maliciosa.
+5. **Herramientas**  
+Hay dos tipos de herramientas que podemos tener:  
+	- **Local**  
+	Software instalado en nuestro ordenador para su protección (_por ej, anitivirus_)
+	- **Online**  
+	Aplicación web que nos permite revisar arhivos sin ejecutarlos en nuestro ordeador o que se remiten a una web para su escaneo (_por ej, VirusTotal_)
+
 - **Test repaso** realizado: Curso de triage informático - Búsqueda de malware.
 ![image](https://user-images.githubusercontent.com/93931447/236868772-6ccbce95-63e7-473d-9536-6bc48bf42893.png)
 
 ### Análisis de archivos ejecutables
+1. **Paquete**  
+Serie de programas que se distribuyen conjuntamente de forma que cada uno de ellos complemente o necesita de los otros.  
+También se puede definir como una colección de arhivos de código fuente o binarios con un de archivos de instrucciones que especifican qué hacer con cada uno de ellos. Todos los archivos van comprimidos según un formato especial que depende de la distribución.  
+Se debe tener en cuenta que descomprimir y desempaquetar no significa lo mismo.
+Estos paquetes contienen:  
+	- **Datos**  
+		Conjunto de archivos que serán instalados y/o manipulados. Son los archivos del programa, bibliotecas, etc.  
+	- **Cabecera**  
+		Instrucciones para el proceso de instalación y configuración, además de información como: datos técnicos del mismo paquete, dependencias, incompatibilidades, descripción, datos del responsable del paquete y archivos con instrucciones para comprobar dependencias, preparación del sistema, etc.  
+
+2. **Ruta de instalación**  
+Ubicación designada por el sistema para realizar la instalación de un software. La ruta puede ser modificada por el usuario mediante instalaciones personalizadas.  
+
+3. **Ruta de ejecución**  
+Toda aplicación tiene un fichero .exe que es el ejecutable de la misma, por lo tanto, basta con ahcer click sobre este  archivo para que la aplicación se lance automáticamente.  
+Por defecto, en Windows 10 las aplicaciones instaladas las podemos encontrar bajo la ruta `C:\Arhivos de programa` o `C:\Archivos de programa (x86)`, siendo `C:` la unidad principal donde tendremos instalado el sistema operativo de Windows. Esto está definido por las instrucciones predefinidas en el código y no es modificable por el usuario.  
+
+4. **Uso de recursos**  
+Un recurso del sistema es cualquier componente físico o virtual de disponibilidad limitada dentro de un sistema informático. Cada dispositivo conectado en un sistema informatico es un recurso, asi como cada componente interno del sistema también es un recurso. Los recursos del sistema virtual incluyen archivos, conexiones de red y áreas de memoria.  
+La gestión de reecursos incluye tanto la prevención de fugas de recursos (_no liberar un recurso cuando u nproceso ha terminado de utilizarlo_) como el tratamiento de la contención de recursos (_cuando varios procesos desean acceder a un recurso limitado_).
+
 - **Test repaso** realizado: Curso de triage informático - Análisis de archivos ejecutables.
 ![image](https://user-images.githubusercontent.com/93931447/236928529-f4a53b20-dfa0-4442-95bd-22bdfc6e22ef.png)
 
