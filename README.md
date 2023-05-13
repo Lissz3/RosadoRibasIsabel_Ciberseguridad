@@ -2577,7 +2577,7 @@ Fases del **Secure SDLC**:
 		- Un log guarda la traza de cualquier operación que se realice en nuestra aplicación  
 		- La integridad del log es vital para la detección de ataques, malas prácticas o acciones no permitidas  
 		- Un correcto manejo de errores mejora la experiencia de usuario en una aplicación  
-	¿Cómo podemos asegurar esto?  
+¿Cómo podemos asegurar esto?  
 		- No desvelar información relevante en los errores (detalles del sistema, información de cuentas o ids de sesión)  
 		- No mostrar mensajes de debug  
 		- Implementar mensajes de error genéricos  
@@ -2587,7 +2587,7 @@ Fases del **Secure SDLC**:
 		- Restringir el acceso a los logs  
 		- No almacenar información relevante en los logs (detalles del sistema, ids de sesión o contraseñas)  
 		- Validar la integridad de los logs usando hashes  
-	¿Qué guardar en los logs?  
+¿Qué guardar en los logs?  
 		- Fallos de validación de entrada  
 		- Intentos de autenticación  
 		- Fallos de acceso de control  
