@@ -2210,6 +2210,71 @@ En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.
 - **Examen** realizado: Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI.
 ## Curso de triage informático
 ### Introducción
+
+1. **Definición de malware**.
+Acrónimo del inglés “Malicious Software”, traducido como código malicioso.  
+Se puede definir como el código o programa informático que esta específicamente diseñado para provocar un daño, una mal función, un bloqueo, una extracción de información o un acceso no autorizado a una plataforma tecnológica.  
+
+2. **Características del malware**
+	- **Persistencia**  
+		Capacidad para permanecer en el sistema  
+	- **Ofuscación**  
+		Condición de ser confuso y dificultar la identificación del mismo  
+	- **Backdoor**  
+		Posibilidad de establecer conexiones remotas con un operador humano o con C&C (_Command and control_)  
+	- **FUD**  
+		Full Undetectable
+
+2. **Tipos de malware**
+	- **Adware** (_genera publicidad_)  
+	- **Clickers** (**Redirige y hace click en sitios especificos**)  
+	- **Ramsonware** / **Lockers** (_Bloquea o encripta datos_)  
+	- **Spyware** (_Extrae información_)  
+	- **Worm** (_Aquel capaz de extenderse a otros dispositivos por la red_)  
+	- **Phishing** (_Señuelo para solicitar datos, claves, y cualquier otra información_)  
+	- **Troyano** (_Malware encapsulado en un software_)  
+	- **Keylogger** (_Registrador de pulsaciones en teclado_)  
+	- **RAT** (_Administración remota_)  
+	- **RootKit** (_Kit de herramientas de explotación_)  
+
+3. **Procesos**  
+Toda actividad realizada en un ordenador genera uno o más procesos para ofrecer al usuario el resultado deseado.  
+Un programa, por ejemplo, es un cúmulo de instrucciones ordenadas en un paquete para la obtención de resultados determinados, siendo los procesos las ejecuciones individuales de cada una de las instrucciones.  
+
+4. **Conexiones, puertos y protocolos**  
+Un puerto es una interfaz a través de la cual se pueden enviar y recibir diferentes tipos de datos. Existen los puertos lógicos (_software_) y los puertos físicos (_hardware_).
+Los puertos se dividen según su utilidad y función:  
+	- **Puertos de red**  
+		Ofrecen capacidad de interconexión con otros dispositivos a nivel de red (Internet / Ethernet)  
+	- **Puertos inalámbricos**  
+		Conectividad Bluetooth, Wireless, infrarrojo, Wi-Fi
+	- **Puertos para unidades de almacenamiento**  
+		IDE, SATA, SCSI, SAS, USB
+	- **Pueros de alimentación de eneergía**  
+		Conector IEC, Enchufe, USB  
+Los puertos lógicos llevan una numeración aprobada internacionalmente por la IANA (_Internet Assigned Numbers Authority_) para determinar qué tipo de datos o portocolo de comunicación aplica a los puertos preesstablecidos.
+Según la tabla de asignación de puertos determinados, son los más importantes:  
+	- 20 y 21 FTP  
+	- 22 SSH  
+	- 23, 95 y 107 Telnet  
+	- 25 SMTP (email)  
+	-66 Oracle SQLnet  
+	- 67 y 68 DHCP  
+	- 80 HTTP  
+	- 110 POP3 (email)  
+	- 143, 220, 993 IMAP (email)  
+	- 443 HTTPS  
+	- 465 SMTPS (email seguridad)  
+	- 1433 SQL Server  
+	- 1521 Oracle Listener  
+	- 3306 MySQL  
+	- 6881 y 6969 BitTorrent  
+	
+5. **Diferenciación entre Hacker y Cracker**  
+Hoy en día, la RAE ha modificado la definición de **hacker**, aceptando además de: “pirata informático” a incluir en segunda opción: “la persona experta en el manejo de computadoras, que se ocupa de la seguridad de los sistemas y de desarrollar técnicas de mejora”.  
+Sin embargo, la RAE mantiene en esta definición, la que correspondería a la de un **cracker**, quien realmente es la persona que usa el conocimiento informático para actividades ilegales.
+
+
 - **Test repaso** realizado: Curso de triage informático - Introducción.
 ![image](https://user-images.githubusercontent.com/93931447/236833696-13b3f21e-3ada-45a1-aafe-367fb3473aab.png)
 
