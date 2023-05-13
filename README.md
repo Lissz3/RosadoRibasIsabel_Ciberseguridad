@@ -2746,4 +2746,11 @@ También, de este curso es relevante comentar que todas las prácticas se han re
 
 ## Introducción al Esquema Nacional de Seguridad
 
-- **Examen** realizado: Certificado curso de introducción al Esquema Nacional de Seguridad
+### El Esquema Nacional de Seguridad
+El Esquema Nacional de Seguridad (ENS) es una normativa española que establece los **principios** y **requisitos** que deben cumplir las **administraciones públicas** en **materia** de **seguridad de la información**.
+Su enfoque principal es garantizar la protección adecuada de la información que se maneja en el ámbito de la administración pública, incluyendo la clasificación, el acceso, el tratamiento, la conservación y la destrucción de la información.
+El alcance del ENS abarca todas las administraciones públicas españolas, incluyendo las entidades del sector público local, autonómico y estatal. También se aplica a aquellas empresas que prestan servicios a las administraciones públicas y que manejan información clasificada o sensible.  
+La aplicabilidad del ENS es obligatoria para todas las entidades mencionadas anteriormente, debiendo cumplir los requisitos establecidos en la normativa para garantizar la seguridad de la información. Entre los requisitos establecidos se encuentran la identificación y análisis de riesgos, la elaboración de políticas y procedimientos de seguridad, la formación de los empleados y la gestión de incidentes de seguridad.  
+Es decir, el Esquema Nacional de Seguridad tiene como objetivo establecer un marco de referencia común para garantizar la seguridad de la información en el ámbito de la administración pública, siendo su aplicación obligatoria para todas las administraciones públicas y empresas mencionadas anteriormente.
+
+- **Examen** realizado: [Certificado curso de introducción al Esquema Nacional de Seguridad](Certificados/certificado_curso_de_introducción_al_esquema_nacional_de_seguridad_(ens).pdf)
