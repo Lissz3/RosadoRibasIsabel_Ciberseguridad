@@ -2753,7 +2753,7 @@ El alcance del ENS **abarca todas las administraciones públicas españolas**, i
 Entre los requisitos establecidos se encuentran la **identificación y análisis de riesgos**, la **elaboración de políticas y procedimientos de seguridad**, la **formación de los empleados** y la **gestión de incidentes de seguridad**.  
 Es decir, el Esquema Nacional de Seguridad tiene como objetivo establecer un **marco de referencia común para garantizar la seguridad de la información** en el ámbito de la administración pública, siendo su aplicación obligatoria para todas las administraciones públicas y empresas que presten servicio a éstas.
 
-## Marco organizativo  
+### Marco organizativo  
 El marco organizativo del ENS establece los **elementos necesarios** para garantizar la seguridad de la información en el ámbito de la administración pública. Entre estos elementos, destacan la política de seguridad, el comité de seguridad y los roles y responsabilidades.  
 1. **Política de seguridad**  
 Es el conjunto de directrices plasmadas en un document oescrito que rigen la forma en que una organización gestiona y protege la información y los servicios que considera críticos.  
@@ -2769,7 +2769,7 @@ El comité de seguridad es un órgano de dirección encargado de garantizar la a
 3. **Roles y responsabilidades**  
 El ENS establece los roles y responsabilidades que deben asumir las diferentes áreas de una organización en la gestión de la seguridad de la información. En el siguiente gráfico se muestra el resumen de los mismos:  
 	![image](https://github.com/Lissz3/RosadoRibasIsabel_Ciberseguridad/assets/93931447/97e6134c-49d7-423a-956e-7aa6b8fcdb69)  
-## Marco operacional  
+### Marco operacional  
 El marco operacional establece los elementos necesarios para la aplicación práctica de la política de seguridad definida en el marco organizativo. Entre estos elementos, destacan la planificación de la seguridad, el acceso a la información, la explotación de servicios internos y externos, y la continuidad de servicio y monitorización.  
 1. **Planificación de la seguridad**  
 	La planificación de la seguridad es el proceso que permite identificar los riesgos a los que está expuesta la información y definir las medidas necesarias para protegerla. La planificación de la seguridad debe ser basada en el análisis de riesgos, y debe incluir la definición de objetivos y la identificación de recursos necesarios para la gestión de la seguridad de la información.  
@@ -2778,7 +2778,28 @@ El marco operacional establece los elementos necesarios para la aplicación prá
 3. **Explotación de servicios internos y externos**  
 	Requisitos para la explotación de servicios internos y externos, incluyendo la selección de proveedores de servicios en función de su capacidad para garantizar la seguridad de la información, ya que la entidad también es responsable de los riesgos de estos servicios. También se establecen requisitos para la gestión de contratos, la gestión de incidentes y la auditoría de los servicios.  
 4. **Continuidad de servicio y monitorización**  
-	El ENS establece los requisitos para garantizar la continuidad de servicio en caso de interrupciones o incidentes,además de los requisitos para la monitorización de los sistemas y la gestión de incidentes de seguridad, incluyendo la notificación de incidentes a las autoridades competentes.
+	El ENS establece los requisitos para garantizar la continuidad de servicio en caso de interrupciones o incidentes,además de los requisitos para la monitorización de los sistemas y la gestión de incidentes de seguridad, incluyendo la notificación de incidentes a las autoridades competentes.  
+### Medidas de protección
+Anteriormente se ha comentado como el ENS busca establecer un marco de referencia común para garantizar la seguridad de la información. De la misma manera que establece directrices sobre el marco organizativo o el marco operacional también establece unas medidas de protección necesarias entre las que se encuentran:  
+1. Protección de instalaciones  
+2. Gestión del personal  
+3. Protección de equipos  
+4. Protección de las comunicaciones  
+5. Protección de soportes  
+6. Desarrollo seguro  
+7. Protección de la información  
+8. Protección de los servicios  
 
+### Análisis de riesgos
+El análisis de riesgos es un proceso fundamental en la gestión de la seguridad de la información, y una parte esencial del ENS. El objetivo del análisis de riesgos es identificar los posibles riesgos a la seguridad de la información, evaluar su impacto y probabilidad, y determinar las medidas necesarias para reducir o mitigar los riesgos identificados.  
+Dentro de éste análisis haremos hincapié en:  
+1. **Identificación de activos y amenazas**  
+Esta fase consiste en identificar los activos de información y los recursos asociados que se deben proteger, y las amenazas que pueden afectarlos. Se debe considerar tanto las amenazas internas como las externas, incluyendo las amenazas físicas, lógicas y humanas.  
+2. **Análisis de riesgos**  
+En esta fase se evalúa la probabilidad e impacto de las amenazas identificadas en la fase anterior. Se debe evaluar la vulnerabilidad de los activos de información, la probabilidad de que se produzca una amenaza, y el impacto que tendría si se produjera. A partir de esta evaluación se determinan los niveles de riesgo asociados a cada amenaza.  
+
+Como ya habíamos comentado anteriormente, el cálculo de la evaluación del riesgo es el siguiente: **RIESGO = PROBABILIDAD X IMPACTO**.
+	
+Para realizar esta sección, se puede hacer uso de la herramienta [Pilar del CCN](https://pilar.ccn-cert.cni.es/index.php), la cual nos ayudará a realizar una evaluación y la identificación de las debilidades y vulnerabilidad, proporcionando una evaluación objetiva y estandarizada que nos ayudará a comprender mejor el cumplimiento normativo del ENS.
 
 - **Examen** realizado: [Certificado curso de introducción al Esquema Nacional de Seguridad](Certificados/certificado_curso_de_introducción_al_esquema_nacional_de_seguridad_(ens).pdf)
