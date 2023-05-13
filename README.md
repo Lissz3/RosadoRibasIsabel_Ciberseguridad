@@ -2404,7 +2404,7 @@ Fases del **Secure SDLC**:
 		- Frameworks  
 		- Lenguajes  
 		- Funcionales y no funcionales (_definen el funcionamiento de la aplicación_)  
-		Tener en cuenta la seguiridad desde esta primera fase es vital para ahorrar en el futuro.  
+		**Tener en cuenta la seguiridad desde esta primera fase es vital para ahorrar en el futuro.**  
 		Algunos de los consejos que podemos tomar para llevar esto adelante son:  
 		- Solventar vulnerabilidades conocidas  
 		- Realizar un análisis de riesgos 
@@ -2425,7 +2425,7 @@ Fases del **Secure SDLC**:
 		- Estudiar estándares y arquitecturas típicas  
 		Todas las preguntas que debemos hacernos para una arquitectura segura la podemos encontrar en las _cheat sheets_ de [Owasp](https://cheatsheetseries.owasp.org/index.html).  
 	3. **Implementación**  
-		En la fase de implementación, que será la fase de desarrollo de la aplicación deberemos tener en cuenta:  
+		En la fase de implementación, que será la fase de **desarrollo de la aplicación** debemos tener en cuenta:  
 		- Seguir buenas prácticas  
 		- Evitar el uso de funciones _deprecated_  
 		- Controlar errores  
@@ -2433,8 +2433,42 @@ Fases del **Secure SDLC**:
 		- Mantener los procesos lo más simples posibles  
 		Una de las frases más usadas para esta fase es: **_“Piensa mal y acertarás”_**
 	4. **Testeo**  
+		La fase de testeo se compone de:  
+		- Plan de pruebas  
+		- Tests unitarios  
+		- Tests de integración  
+		- Tests de los sistemas  
+		- Automatización de tests  
+		- Revisión de tests  
+		Para añadir seguridad en la fase de testeo, se tendrá en cuenta:  
+		- Testear las vulnerabilidades conocidas para asegurarnos de que están protegidas  
+		- Fuzz testing  
+		_Técnica de prueba de software que se utiliza para encontrar errores y vulnerabilidades en un programa mediante la entrada de datos aleatorios o inesperados en el programa. El objetivo del fuzz testing es descubrir errores y fallas que puedan ser explotados por atacantes malintencionados o que puedan afectar la estabilidad y funcionalidad del programa en situaciones inesperadas._  
+		- Pentesting básico  
+		_El objetivo del pentesting es simular un ataque informático para descubrir y explotar vulnerabilidades y brechas de seguridad que puedan ser utilizadas por un atacante malintencionado._  
 	5. **Despliegue**  
+		En esta fase los pasos a tener en cuenta quedarían de la siguiente manera:  
+		- Preparación del entorno de producción  
+		- Configuración de servicios  
+		- Configuración de sistemas  
+		- Gestión de usuarios  
+		- Gestion de operaciones  
+		**Es importante recordar que el enotrno de testing es distinto del mundo del mundo real.**  
+		Para aplicar seguridad en esta fase, tendremos en cuenta:  
+		- Configuración segura de cada servicio
+		- Configuración segura de cada sistema  
+		- Gestión segura de los peermisos y operaciones  
 	6. **Mantenimiento**  
+		A tener en cuenta:  
+		- Revisión de bugs  
+		- Nuevas funcionalidades  
+		- Optimización de código  
+		Para mantener la seguridad en el apartado de mantenimiento:  
+		- Versión actualizadas de cada framework o librería  
+		- Actualizar tecnologías  
+		- Actualizar procedimientos  
+		- Revisión de logs  
+		
 
 3. ****
 
