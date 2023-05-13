@@ -1297,6 +1297,8 @@ En resumen, las herramientas GRC son una solución integral para la gestión del
 
 - **Examen** realizado: [Certificado curso de análisis y gestión del riesgo](Certificados/certificado_curso_de_análisis_y_gestión_del_riesgo.pdf)
 
+----------
+
 ## OSINT para fuga de datos empresariales
 
 La herramienta OSINT (Open-Source Intelligence) de Kali es una colección de herramientas de inteligencia de fuentes abiertas que pueden ser utilizadas para recopilar información de fuentes públicas en línea.  
@@ -1304,6 +1306,8 @@ Estas herramientas pueden ayudar en la recopilación de información sobre perso
 La herramienta OSINT de Kali también puede ser útil para los profesionales de seguridad en la identificación de vulnerabilidades y en la preparación de pruebas de penetración. Algunas de las herramientas incluidas en la herramienta OSINT de Kali son Maltego, theHarvester, Recon-ng y Metagoofil.  
 Estos datos pueden ser sacados, remarcando que siempre es de forma legal, de plataformas como LinkedIn, QDQ, librebor, infobel, twago, indeed, Páginas Amarillas, invenes, hunter.io, boletines del BOE, páginas del Gobierno, y redes sociales en general.  
 Como herramientas de búsqueda se pueden utilizar Google, Yahoo, Bing o Yandex.
+
+----------
 
 ## Criptografía Simétrica y Asimétrica
 
@@ -1759,6 +1763,8 @@ que pertenezcan a una misma VLAN.
 	
 - **Examen** realizado: [Certificado curso de seguridad de red en el ámbito corporativo - Capa 2 del modelo OSI](Certificados/certificado_curso_de_seguridad_de_red_en_el_ámbito_corporativo__capa_2_del_modelo_osi.pdf)
 
+----------
+
 ## Seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI
 ### Capa 3 - Capa de red
 La capa de red es la tercera capa del modelo OSI y se encarga de proporcionar servicios de comunicación de extremo a extremo, permitiendo que los paquetes de datos viajen entre redes diferentes.   
@@ -2209,6 +2215,8 @@ En caso de no encontrarse, la consulta se envía al servidor **DNS del ISP**.
 
 - **Examen** realizado: [Certificado curso de seguridad de red en el ámbito corporativo: Capas 3 y 7 del modelo OSI](Certificados/certificado_curso_de_seguridad_de_red_en_el_ámbito_corporativo__capas_3_y_7_del_modelo_osi.pdf)
 
+----------
+
 ## Curso de triage informático
 ### Introducción
 
@@ -2370,6 +2378,8 @@ La forma de revisar los paquetes de datos o ficheros sospechosos es hacerles un 
 ![image](https://user-images.githubusercontent.com/93931447/236934611-7db27513-741e-4d17-be59-994b7de35bae.png)
 
 - **Examen** realizado: [Certificado curso de triage informático](Certificados/certificado_curso_de_triage_informático.pdf)
+
+----------
 
 ## Curso de desarrollo seguro
 
@@ -2731,6 +2741,8 @@ De todo lo aprendido anteriormente, podemos resumirlo en:
 También, de este curso es relevante comentar que todas las prácticas se han realizado en una máquina virtual, siendo en este caso [VirtualBox](https://www.virtualbox.org/), en la cual vamos a tener una máquina vulnerable que obtendremos gracias a OWASP llamada [Broken Web Applications Project](https://sourceforge.net/projects/owaspbwa/) ofreciendo a nuestra disposición con una serie de aplicaciones web inseguras y rotas para poder hacer pruebas. Esto lo complementaremos con un contenedor Docker de [Kali  Linux](https://www.kali.org/), lo que junto a [Burp](https://portswigger.net/burp) nos dará todas las herramientas necesarias para realizar todas las pruebas de seguridad que deseemos.
 
 - **Examen** realizado: [Certificado curso de desarrollo seguro](Certificados/certificado_curso_de_desarrollo_seguro.pdf).
+
+----------
 
 ## Introducción al Esquema Nacional de Seguridad
 
