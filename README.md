@@ -2378,17 +2378,17 @@ La forma de revisar los paquetes de datos o ficheros sospechosos es hacerles un 
 	> garantizar el buen funcionamiento. ”  
 
 La seguridad se basa en cuatro principios:  
-	- **Autenticidad** _qué usuario está haciendo que actividadd_  
-	- **Confidencialidad** _nadie que no deba ver una información no pueda verla_  
-	- **Integridad** _que la información sea veraz y no pueda modificarla nadie que no pueda hacerlo, y saber que no se han modificado_  
-	- **Disponibilidad** _necesitamos que los servicios y procesos estén activos_  
+- **Autenticidad** - _qué usuario está haciendo que actividadd_  
+- **Confidencialidad** - _nadie que no deba ver una información no pueda verla_  
+- **Integridad** - _que la información sea veraz y no pueda modificarla nadie que no pueda hacerlo, y saber que no se han modificado_  
+- **Disponibilidad** - _necesitamos que los servicios y procesos estén activos_  
 
 La **información**, como el software, tiene un ciclo de vida, siendo importante la seguridad en cualquiera de sus pasos o ciclos:  
-	- Creación  
-	- Distribución  
-	- Uso  
-	- Mantenimiento  
-	- Destrucción  
+- Creación  
+- Distribución  
+- Uso  
+- Mantenimiento  
+- Destrucción  
 
 La seguridad, como hemos comentado anteriormente, requiere de un **mantenimiento continuado**, siendo las **personas** el **factor fundamental** (_ya que son estás, según la seguridad, la parte más peligrosa dado que no impera el sentido común_).  
 Ésta debe estar **integrada** en **todos** los **procesos** y **procedimientos**, requiriendo de la **implicación** de **todos**.  
