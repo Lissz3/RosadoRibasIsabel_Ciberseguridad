@@ -2342,7 +2342,29 @@ En informática, una **conexión** puede refererirse a:
 - **Test repaso** realizado: Curso de triage informático - Análisis de archivos ejecutables.
 ![image](https://user-images.githubusercontent.com/93931447/236928529-f4a53b20-dfa0-4442-95bd-22bdfc6e22ef.png)
 
-### Emails y pishing
+### Emails y pishing  
+1. **Emails sospechosos y archivos infectados**  
+Existen varias maneras de detectar un correo electrónico falso y evitar caer en cualquier estafa de pishing.  
+Algunas de las maneras de identificarlos son:  
+- El **dominio** de la dirección email **no coincide** con el de la empresa  
+- **Faltas de ortografía** o de **concordancia**  
+- El correo **solicita información personal**  
+- El **asunto** del correo es de **"máxima alerta"**  
+- Generalmente incluyen **archivos adjuntos** 
+ 
+2. **Como comprobar el auténtico remitente de un correo**  
+Aprender a identficar el auténtico remitente de un correo electrónico puede ser útil cuando se sospecha que un mensaje que ha llegado a nuestro buzón puede ser pishing, es decir, parecido a un correo de spam.  
+Además de hablar directamente con esa persona para avisarle de un posible virus en su equipo, podemos asegurarnos identificando la dirección IP del servidor o del equipo desde el que se ha enviado el mensaje.  
+
+A continuación, como ejemplo, veremos como se hace desde **Gmail**:  
+	- Clickar en la flecha situada a la derecha del asunto y entrar en _"Mostrar original"_  
+Al revisar el contenido, podemos observar la IP desde donde se ha mandado el correo.  
+Además, en la ID del mensaje (_Message-ID_) veremos de qué servidor viene el correo.  
+El código de Received viene a decir que se ha enviado desde una IP concreta, a través de qué web, y la hora concreta del servidor.
+		
+3. **Archivos infectados**  
+La mayoria de los incidentes de seguridad se inician al hacer **click** en algún enlace de una p**ágina web comprometida** o en un **archivo recibido y no verificado** por un antivirus o pos nosotros mismos.  
+La forma de revisar los paquetes de datos o ficheros sospechosos es hacerles un **scan** con el **antivirus** instalado en local o subiéndolo a páginas especializadas como [_VirusTotal_](https://www.virustotal.com/gui/home/upload), entre otras.
 - **Test repaso** realizado: Curso de triage informático - Emails y pishing.
 ![image](https://user-images.githubusercontent.com/93931447/236934611-7db27513-741e-4d17-be59-994b7de35bae.png)
 
