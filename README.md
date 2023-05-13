@@ -2537,66 +2537,68 @@ Fases del **Secure SDLC**:
 	Como hemos visto anteriormente, uno de los principios de las seguridad es la propia **autenticación**.  
 	La funcionalidad básica para asignar permisos de acceso a determinados recursos, según roles, grupos, dueños, etc.  
 	Un fallo de autenticación podría ocasionar graves daños, alguien podría hacerse pasar por un usuario que no es.  
-		1. **Cómo asegurar la autenticación**:  
-			1. **Existen multiples ataques posibles**  
-			2. Deben usarse soluciones **testadas** y **extendidas** para cada lenguaje que **simplifiquen** este proceso y que cuenten con **actualizaciones periódicas**  
-			3. Debemos **realizar** todas **comprobaciones** en un sistema de **confianza**  
-			4. **Centraliza** todos los servicios de autenticación del software  
-			5. Todos los controles de autenticación deben **fallar de manera segura**  
-			6. **Almacena las contraseñas hasheadas** (no MD5) **con sal** y asegurate de que **solo** la **aplicación** puede **escribir** en esa tabla/colección  
-			7. **No mostrar** qué parte de la autenticación ha fallado: usuario o contraseña  
-			8. **Utiliza** el método **HTTP POST** para autenticar en caso de aplicación web  
-			9. **Obliga** a los usuarios a emplear **contraseñas complejas** que incluyan números, letras minúsculas, mayúsculas y símbolos y tengan cuantos más caracteres mejor  
-			10. **No muestres la contraseña en la pantalla** del usuario cuando la introduzca  
-			11. **Limita** el número de **intentos** de **login fallidos** y **bloquea** la cuenta si se sobrepasa  
-			12. **Notifica** a los usuarios cuando ocurra un reseteo de sus contraseñas y **asegura** este proceso tanto o más como la propia creación de usuarios  
-			13. **No usar** ningún **mail** de usuario para notificar que no estuviera **previamente registrado**  
-			14. Si es necesario, **obliga a los usuarios a cambiar la contraseña cada cierto tiempo**  
-			15. **Cambia** todas las contraseñas **por defecto**  
-			16. **Usa doble factor de autenticación** para recursos e información muy sensible  
-		2. **Manejo de sesiones**  
-		El resumen de la importancia de las sesiones sería:  
-			- Permiten guardar información relativa de cada usuario que opera usando nuestro software  
-			- Debemos intentar registrar todas las operaciones que se realicen, así como el actor que la ejecuta  
-			- Puede servir para trazar errores, mejorar la interfaz de usuario o comprobar un funnel de ventas  
-			- Contienen demasiada información relevante para no cuidarla  
-		De esta manera, deberíamos tener claro que es algo a proteger, lo cual podemos hacer de la siguiente manera:  
-			- Usar los **controles de manejo de sesión** que implemente el servidor o framework e **identificar** estas sesiones como las **únicas válidas**  
-			- Los **identificadores de sesión** deben **generarse** en un **sistema de confianza** y de **manera aleatoria**  
-			- Las **funciones de logout** deben **eliminar** la conexión de una sesión **por completo** y estar disponibles en todas las pantallas de la aplicación  
-			- **Terminar las sesiones periódicamente**, incluso aunque la sesión esté activa  
-			- Tras cada re-autenticación debe **crearse una nueva sesión**, no mantener la antigua  
-			- Los id de sesión **solo deben estar presentes en la cookie**  
-			- **Reciclar** los id de sesión periódicamente  
-			- Configurar el **atributo** `secure` para las cookies  
-		3. **Manejo de errors y logs**  
-		La importancia del manejo de errores y logs se debe a:  
-			- Un error puede desvelar información sensible  
-			- Un log guarda la traza de cualquier operación que se realice en nuestra aplicación  
-			- La integridad del log es vital para la detección de ataques, malas prácticas o acciones no permitidas  
-			- Un correcto manejo de errores mejora la experiencia de usuario en una aplicación  
-	
-		¿Cómo podemos asegurar esto?  
-			- No desvelar información relevante en los errores (detalles del sistema, información de cuentas o ids de sesión)  
-			- No mostrar mensajes de debug  
-			- Implementar mensajes de error genéricos  
-			- Liberar la memoria en uso cuando ocurra un error  
-			- Todos los sistemas de log deben implementarse en un sistema de confianza  
-			- Asgurarse de que los mensajes de error que incluyan código no se ejecuten como tal en ninguna UI  
-			- Restringir el acceso a los logs  
-			- No almacenar información relevante en los logs (detalles del sistema, ids de sesión o contraseñas)  
-			- Validar la integridad de los logs usando hashes  
+	- **Cómo asegurar la autenticación**:  
+		1. **Existen multiples ataques posibles**  
+		2. Deben usarse soluciones **testadas** y **extendidas** para cada lenguaje que **simplifiquen** este proceso y que cuenten con **actualizaciones periódicas**  
+		3. Debemos **realizar** todas **comprobaciones** en un sistema de **confianza**  
+		4. **Centraliza** todos los servicios de autenticación del software  
+		5. Todos los controles de autenticación deben **fallar de manera segura**  
+		6. **Almacena las contraseñas hasheadas** (no MD5) **con sal** y asegurate de que **solo** la **aplicación** puede **escribir** en esa tabla/colección  
+		7. **No mostrar** qué parte de la autenticación ha fallado: usuario o contraseña  
+		8. **Utiliza** el método **HTTP POST** para autenticar en caso de aplicación web  
+		9. **Obliga** a los usuarios a emplear **contraseñas complejas** que incluyan números, letras minúsculas, mayúsculas y símbolos y tengan cuantos más caracteres mejor  
+		10. **No muestres la contraseña en la pantalla** del usuario cuando la introduzca  
+		11. **Limita** el número de **intentos** de **login fallidos** y **bloquea** la cuenta si se sobrepasa  
+		12. **Notifica** a los usuarios cuando ocurra un reseteo de sus contraseñas y **asegura** este proceso tanto o más como la propia creación de usuarios  
+		13. **No usar** ningún **mail** de usuario para notificar que no estuviera **previamente registrado**  
+		14. Si es necesario, **obliga a los usuarios a cambiar la contraseña cada cierto tiempo**  
+		15. **Cambia** todas las contraseñas **por defecto**  
+		16. **Usa doble factor de autenticación** para recursos e información muy sensible  
 
-		¿Qué guardar en los logs?  
-			- Fallos de validación de entrada  
-			- Intentos de autenticación  
-			- Fallos de acceso de control  
-			- Eventos de manipulación de datos  
-			- Intentos de login con tokens expirados o inválidos  
-			- Excepciones del sistema  
-			- Funciones de administración, incluyendo cambios en la configuración de seguridad  
-			- Fallos en conexiones TLS  
-			- Fallos criptográficos  
+	- **Manejo de sesiones**  
+	El resumen de la importancia de las sesiones sería:  
+		- Permiten guardar información relativa de cada usuario que opera usando nuestro software  
+		- Debemos intentar registrar todas las operaciones que se realicen, así como el actor que la ejecuta  
+		- Puede servir para trazar errores, mejorar la interfaz de usuario o comprobar un funnel de ventas  
+		- Contienen demasiada información relevante para no cuidarla  
+	De esta manera, deberíamos tener claro que es algo a proteger, lo cual podemos hacer de la siguiente manera:  
+		- Usar los **controles de manejo de sesión** que implemente el servidor o framework e **identificar** estas sesiones como las **únicas válidas**  
+		- Los **identificadores de sesión** deben **generarse** en un **sistema de confianza** y de **manera aleatoria**  
+		- Las **funciones de logout** deben **eliminar** la conexión de una sesión **por completo** y estar disponibles en todas las pantallas de la aplicación  
+		- **Terminar las sesiones periódicamente**, incluso aunque la sesión esté activa  
+		- Tras cada re-autenticación debe **crearse una nueva sesión**, no mantener la antigua  
+		- Los id de sesión **solo deben estar presentes en la cookie**  
+		- **Reciclar** los id de sesión periódicamente  
+		- Configurar el **atributo** `secure` para las cookies  
+			
+	- **Manejo de errors y logs**  
+	La importancia del manejo de errores y logs se debe a:  
+		- Un error puede desvelar información sensible  
+		- Un log guarda la traza de cualquier operación que se realice en nuestra aplicación  
+		- La integridad del log es vital para la detección de ataques, malas prácticas o acciones no permitidas  
+		- Un correcto manejo de errores mejora la experiencia de usuario en una aplicación  
+	
+	¿Cómo podemos asegurar esto?  
+		- No desvelar información relevante en los errores (detalles del sistema, información de cuentas o ids de sesión)  
+		- No mostrar mensajes de debug  
+		- Implementar mensajes de error genéricos  
+		- Liberar la memoria en uso cuando ocurra un error  
+		- Todos los sistemas de log deben implementarse en un sistema de confianza  
+		- Asgurarse de que los mensajes de error que incluyan código no se ejecuten como tal en ninguna UI  
+		- Restringir el acceso a los logs  
+		- No almacenar información relevante en los logs (detalles del sistema, ids de sesión o contraseñas)  
+		- Validar la integridad de los logs usando hashes  
+
+	¿Qué guardar en los logs?  
+		- Fallos de validación de entrada  
+		- Intentos de autenticación  
+		- Fallos de acceso de control  
+		- Eventos de manipulación de datos  
+		- Intentos de login con tokens expirados o inválidos  
+		- Excepciones del sistema  
+		- Funciones de administración, incluyendo cambios en la configuración de seguridad  
+		- Fallos en conexiones TLS  
+		- Fallos criptográficos  
 
 9. **Seguridad en la configuración del entorno**  
 
